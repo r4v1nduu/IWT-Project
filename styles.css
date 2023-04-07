@@ -1,0 +1,194 @@
+@charset "UTF-8";
+
+body {
+    background-color: #242424;
+}
+.navbar {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #111111;
+    height:70px;
+    justify-content: space-between;
+}
+.logo {
+    margin-left: 15px;
+}
+.login {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    top: 70px;
+    left: 0;
+    background-color: black;
+    height: 40px;
+    justify-content: space-between;
+}
+.logintext {
+    color: #a1a09f;
+    font-family: monospace;
+    font-size: 12px;
+    text-indent: 20px;
+}
+
+.button1 {
+    display: block;
+    height: 35px;
+    width: 80px;
+    border: none;
+    border-radius: 25px;
+    margin-top: 17px;
+    margin-left: 15px;
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: 800;
+    background-color: #111111;
+    color: #e5dd94;
+}
+.button1:hover {
+    background-color: #212121;
+    box-shadow: 0 0 12px #62f5ff;
+}
+.button1:last-of-type {
+    width: 130px;
+    margin-right: 15px;
+}
+
+.button2 {
+    height: 26px;
+    width: 70px;
+    margin-right: 15px;
+    margin-top: 7px;
+    border: none;
+    background-color: #212121;
+    color: #bdbdbd;
+    border-radius: 5px;
+    font-family: monospace;
+}
+.button2:hover {
+    background-color: #333333;
+    color: #e0dede;
+}
+.button2:last-of-type {
+    margin-right: 20px;
+}
+
+.buttonset1, .buttonset2 {
+    display: flex;
+}
+footer {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #111111;
+    text-align: center;
+    height: 60px;
+}
+.socials {
+    height: 35px;
+    margin-top: 12px;
+    margin-right: 20px;
+}
+.copyright {
+    color: white;
+    font-family: monospace;
+    font-size: 13px;
+    padding: 11px 20px;
+}
+
+
+.loginbox {
+    display: block;
+    height: 470px;
+    width: 400px;
+    background-color: #111111;
+    margin: 120px auto;
+    border-radius: 10px;
+}
+.login1 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: #faf6d4;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+input:focus{
+    outline: none;
+}
+.detail1 {
+    display: block;
+    color: #8a8888;
+    font-family: sans-serif;
+    text-indent: 40px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.detail2 {
+    display: block;
+    width: 340px;
+    height: 40px;
+    margin: auto;
+    margin-top: 6px;
+    margin-bottom: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    text-indent: 10px;
+    font-size: 18px;
+}
+.detail2:hover {
+    background-color: #050505;
+}
+.forgotpw {
+    display: block;
+    margin-top: -10px;
+    color:#8a8888;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+.forgotpw:visited {
+    color:#8a8888;
+}
+.loginbutton {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    background-color: #e5dd94;
+    color: #302e1e;
+}
+.loginbutton:hover {
+    background-color: #62f5ff;
+    color: #163b3d;
+    box-shadow: 0 0 12px #647375;
+}
+.logregister1 {
+    display: block;
+    color:#8a8888;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 60px;
+    font-size: 14px;
+}
+.logregister2 {
+    color:#c2c2c2;
+}
+.logregister2:visited {
+    color:#c2c2c2;
+}
