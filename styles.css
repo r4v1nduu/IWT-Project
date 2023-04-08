@@ -192,3 +192,77 @@ input:focus{
 .logregister2:visited {
     color:#c2c2c2;
 }
+
+.signupbox {
+    display: flex;
+    height: 470px;
+    width: 800px;
+    background-color: #111111;
+    margin: 120px auto;
+    border-radius: 10px;
+}
+.signupnote {
+    display: block;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 160px 30px;
+    color: #c2c2c2;
+    border-right: 2px solid #8a8888;
+}
+.brand1 {color: #62f5ff;}
+.brand2 {color: #e5dd94}
+
+.signupdetail {
+    display: block;
+    margin: 65px 30px;
+}
+.detail3 {
+    display: block;
+    color: #8a8888;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-indent: 10px;
+}
+.detail4 {
+    display: block;
+    width: 340px;
+    height: 40px;
+    margin: auto;
+    margin-top: 6px;
+    margin-bottom: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    text-indent: 10px;
+    font-size: 18px;
+}
+.detail4:hover {
+    background-color: #050505;
+}
+.signupbuttondiv {
+    display: block;
+    padding: 180px 40px;
+    border-left: 2px solid #8a8888;
+    margin: 20px 0;
+}
+.signupbutton {
+    display: block;
+    width: 130px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    background-color: #e5dd94;
+    color: #302e1e;
+}
+.signupbutton:hover {
+    background-color: #62f5ff;
+    color: #163b3d;
+    box-shadow: 0 0 12px #647375;
+}
