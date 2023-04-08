@@ -3,6 +3,10 @@
 body {
     background-color: #242424;
 }
+
+
+/* Navigation Bar Styles */
+
 .navbar {
     display: flex;
     position: fixed;
@@ -16,23 +20,6 @@ body {
 .logo {
     margin-left: 15px;
 }
-.login {
-    display: flex;
-    position: fixed;
-    width: 100%;
-    top: 70px;
-    left: 0;
-    background-color: black;
-    height: 40px;
-    justify-content: space-between;
-}
-.logintext {
-    color: #a1a09f;
-    font-family: monospace;
-    font-size: 12px;
-    text-indent: 20px;
-}
-
 .button1 {
     display: block;
     height: 35px;
@@ -56,6 +43,25 @@ body {
     margin-right: 15px;
 }
 
+
+/* Login Prompt Message Styles */
+
+.login {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    top: 70px;
+    left: 0;
+    background-color: black;
+    height: 40px;
+    justify-content: space-between;
+}
+.logintext {
+    color: #a1a09f;
+    font-family: monospace;
+    font-size: 12px;
+    text-indent: 20px;
+}
 .button2 {
     height: 26px;
     width: 70px;
@@ -75,9 +81,12 @@ body {
     margin-right: 20px;
 }
 
-.buttonset1, .buttonset2 {
-    display: flex;
-}
+/* NavBar and Login Prompt Button Setting */
+.buttonset1, .buttonset2 { display: flex; }
+
+
+/* Footer Styles */
+
 footer {
     display: flex;
     position: fixed;
@@ -102,6 +111,12 @@ footer {
 }
 
 
+/* Reomve Focus Outline for Input Boxes */
+input:focus{outline: none;}
+
+
+/* Login Page Styles */
+
 .loginbox {
     display: block;
     height: 470px;
@@ -118,9 +133,6 @@ footer {
     font-family: sans-serif;
     font-weight: 600;
     font-size: 24px;
-}
-input:focus{
-    outline: none;
 }
 .detail1 {
     display: block;
@@ -192,6 +204,10 @@ input:focus{
 .logregister2:visited {
     color:#c2c2c2;
 }
+
+
+
+/* SignUp Page Styles */
 
 .signupbox {
     display: flex;
@@ -266,3 +282,7 @@ input:focus{
     color: #163b3d;
     box-shadow: 0 0 12px #647375;
 }
+
+
+
+/*  */
