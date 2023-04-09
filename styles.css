@@ -223,16 +223,16 @@ input:focus{outline: none;}
     font-family: sans-serif;
     font-weight: 600;
     font-size: 20px;
-    padding: 160px 30px;
+    padding: 180px 30px;
     color: #c2c2c2;
-    border-right: 2px solid #8a8888;
+    border-right: 2px solid #363636;
 }
 .brand1 {color: #62f5ff;}
 .brand2 {color: #e5dd94}
 
 .signupdetail {
     display: block;
-    margin: 65px 30px;
+    margin: 70px 30px;
 }
 .detail3 {
     display: block;
@@ -261,8 +261,8 @@ input:focus{outline: none;}
 }
 .signupbuttondiv {
     display: block;
-    padding: 180px 40px;
-    border-left: 2px solid #8a8888;
+    padding: 195px 40px;
+    border-left: 2px solid #363636;
     margin: 20px 0;
 }
 .signupbutton {
