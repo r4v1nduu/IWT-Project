@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-    background-color: #242424;
+    background-color: #292929;
 }
 
 
@@ -13,7 +13,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #111111;
+    background-color: #141414;
     height:70px;
     justify-content: space-between;
 }
@@ -31,15 +31,16 @@ body {
     font-family: monospace;
     font-size: 18px;
     font-weight: 800;
-    background-color: #111111;
+    background-color: #141414;
     color: #e5dd94;
 }
 .button1:hover {
-    background-color: #212121;
+    background-color: #1F1F1F;
     box-shadow: 0 0 12px #62f5ff;
+    transition: 0.3s;
 }
 .button1:last-of-type {
-    width: 130px;
+    width: 120px;
     margin-right: 15px;
 }
 
@@ -52,12 +53,12 @@ body {
     width: 100%;
     top: 70px;
     left: 0;
-    background-color: black;
+    background-color: #0A0A0A;
     height: 40px;
     justify-content: space-between;
 }
 .logintext {
-    color: #a1a09f;
+    color: #CCCCCC;
     font-family: monospace;
     font-size: 12px;
     text-indent: 20px;
@@ -68,14 +69,14 @@ body {
     margin-right: 15px;
     margin-top: 7px;
     border: none;
-    background-color: #212121;
-    color: #bdbdbd;
+    background-color: #1F1F1F;
+    color: #C2C2C2;
     border-radius: 5px;
     font-family: monospace;
 }
 .button2:hover {
     background-color: #333333;
-    color: #e0dede;
+    color: #E0E0E0;
 }
 .button2:last-of-type {
     margin-right: 20px;
@@ -94,7 +95,7 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #111111;
+    background-color: #141414;
     text-align: center;
     height: 60px;
 }
@@ -104,7 +105,7 @@ footer {
     margin-right: 20px;
 }
 .copyright {
-    color: white;
+    color: #FFFFFF;
     font-family: monospace;
     font-size: 13px;
     padding: 11px 20px;
@@ -121,7 +122,7 @@ input:focus{outline: none;}
     display: block;
     height: 470px;
     width: 400px;
-    background-color: #111111;
+    background-color: #181818;
     margin: 120px auto;
     border-radius: 10px;
 }
@@ -136,7 +137,7 @@ input:focus{outline: none;}
 }
 .detail1 {
     display: block;
-    color: #8a8888;
+    color: #999999;
     font-family: sans-serif;
     text-indent: 40px;
     font-size: 14px;
@@ -149,27 +150,27 @@ input:focus{outline: none;}
     margin: auto;
     margin-top: 6px;
     margin-bottom: 20px;
-    background-color: black;
-    color: white;
+    background-color: #0A0A0A;
+    color: #FFFFFF;
     border: none;
     border-radius: 10px;
     text-indent: 10px;
     font-size: 18px;
 }
 .detail2:hover {
-    background-color: #050505;
+    background-color: #000000;
 }
 .forgotpw {
     display: block;
     margin-top: -10px;
-    color:#8a8888;
+    color:#999999;
     font-family: sans-serif;
     text-align: center;
     font-size: 14px;
     font-weight: 400;
 }
 .forgotpw:visited {
-    color:#8a8888;
+    color:#999999;
 }
 .loginbutton {
     display: block;
@@ -192,17 +193,17 @@ input:focus{outline: none;}
 }
 .logregister1 {
     display: block;
-    color:#8a8888;
+    color:#999999;
     font-family: sans-serif;
     text-align: center;
     margin-top: 60px;
     font-size: 14px;
 }
 .logregister2 {
-    color:#c2c2c2;
+    color:#C2C2C2;
 }
 .logregister2:visited {
-    color:#c2c2c2;
+    color:#C2C2C2;
 }
 
 
@@ -213,7 +214,7 @@ input:focus{outline: none;}
     display: flex;
     height: 470px;
     width: 800px;
-    background-color: #111111;
+    background-color: #181818;
     margin: 120px auto;
     border-radius: 10px;
 }
