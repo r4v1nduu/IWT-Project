@@ -19,6 +19,7 @@ body {
 }
 .logo {
     margin-left: 15px;
+    padding: 12px;
 }
 .button1 {
     display: block;
@@ -32,11 +33,12 @@ body {
     font-size: 18px;
     font-weight: 800;
     background-color: #111111;
-    color: #e5dd94;
+    color: #B0E090;
 }
 .button1:hover {
     background-color: #212121;
-    box-shadow: 0 0 12px #62f5ff;
+    box-shadow: 0 0 12px #72ABC0;
+    transition: 0.3s;
 }
 .button1:last-of-type {
     width: 130px;
@@ -129,7 +131,7 @@ input:focus{outline: none;}
     text-align: center;
     padding-top: 30px;
     padding-bottom: 20px;
-    color: #faf6d4;
+    color: #ABCCD8;
     font-family: sans-serif;
     font-weight: 600;
     font-size: 24px;
@@ -182,8 +184,8 @@ input:focus{outline: none;}
     font-family: sans-serif;
     font-size: 18px;
     font-weight: 800;
-    background-color: #e5dd94;
-    color: #302e1e;
+    background-color: #B0E090;
+    color: #244012;
 }
 .loginbutton:hover {
     background-color: #62f5ff;
