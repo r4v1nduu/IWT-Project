@@ -2,6 +2,7 @@
 
 body {
     background-color: #292929;
+    margin: 0;
 }
 
 
@@ -10,8 +11,6 @@ body {
 .navbar {
     display: flex;
     position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
     background-color: #141414;
     height:70px;
@@ -33,11 +32,12 @@ body {
     font-size: 18px;
     font-weight: 800;
     background-color: #141414;
-    color: #e5dd94;
+    color: #B0E090;
 }
 .button1:hover {
     background-color: #1F1F1F;
-    box-shadow: 0 0 12px #62f5ff;
+    box-shadow: 0 0 12px #8EBCCC;
+    transition: 0.3s;
 }
 .button1:last-of-type {
     width: 120px;
@@ -52,7 +52,6 @@ body {
     position: fixed;
     width: 100%;
     top: 70px;
-    left: 0;
     background-color: #0A0A0A;
     height: 40px;
     justify-content: space-between;
@@ -88,12 +87,18 @@ body {
 
 /* Footer Styles */
 
-footer {
+.fixedfooter {
     display: flex;
     position: fixed;
     justify-content: space-between;
-    left: 0;
-    bottom: 0;
+    width: 100%;
+    background-color: #141414;
+    text-align: center;
+    height: 60px;
+}
+.nonfixedfooter {
+    display: flex;
+    justify-content: space-between;
     width: 100%;
     background-color: #141414;
     text-align: center;
@@ -130,7 +135,7 @@ input:focus{outline: none;}
     text-align: center;
     padding-top: 30px;
     padding-bottom: 20px;
-    color: #ABCCD8;
+    color: #E0E0E0;
     font-family: sans-serif;
     font-weight: 600;
     font-size: 24px;
@@ -187,9 +192,10 @@ input:focus{outline: none;}
     color: #244012;
 }
 .loginbutton:hover {
-    background-color: #62f5ff;
-    color: #163b3d;
-    box-shadow: 0 0 12px #647375;
+    background-color: #ABCCD8;
+    color: #1A3038;
+    box-shadow: 0 0 12px #3A6C7E;
+    transition: 0.3s;
 }
 .logregister1 {
     display: block;
@@ -228,8 +234,8 @@ input:focus{outline: none;}
     color: #c2c2c2;
     border-right: 2px solid #363636;
 }
-.brand1 {color: #62f5ff;}
-.brand2 {color: #e5dd94}
+.brand1 {color: #80B3C6;}
+.brand2 {color: #B0E090;}
 
 .signupdetail {
     display: block;
@@ -275,13 +281,14 @@ input:focus{outline: none;}
     font-family: sans-serif;
     font-size: 18px;
     font-weight: 800;
-    background-color: #e5dd94;
-    color: #302e1e;
+    background-color: #B0E090;
+    color: #244012;
 }
 .signupbutton:hover {
-    background-color: #62f5ff;
-    color: #163b3d;
-    box-shadow: 0 0 12px #647375;
+    background-color: #ABCCD8;
+    color: #1A3038;
+    box-shadow: 0 0 12px #3A6C7E;
+    transition: 0.3s;
 }
 
 
