@@ -4,6 +4,9 @@ body {
     background-color: #141414;
     margin: 0;
 }
+a {
+    text-decoration: none;
+}
 
 
 /* Navigation Bar Styles */
@@ -209,6 +212,7 @@ input:focus{outline: none;}
 }
 .logregister2 {
     color:#C2C2C2;
+    text-decoration: underline;
 }
 .logregister2:visited {
     color:#C2C2C2;
