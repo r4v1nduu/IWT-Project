@@ -41,6 +41,7 @@ a {
 .button1:hover {
     background-color: #323232;
     box-shadow: 0 0 12px #8EBCCC;
+    cursor: pointer;
     transition: 0.3s;
 }
 .button1:last-of-type {
@@ -80,6 +81,7 @@ a {
 .button2:hover {
     background-color: #333333;
     color: #E0E0E0;
+    cursor: pointer;
 }
 .button2:last-of-type {
     margin-right: 20px;
@@ -113,6 +115,7 @@ a {
     height: 35px;
     margin-top: 12px;
     margin-right: 20px;
+    cursor: pointer;
 }
 .copyright {
     color: #FFFFFF;
@@ -201,6 +204,7 @@ input:focus{outline: none;}
     background-color: #ABCCD8;
     color: #1A3038;
     box-shadow: 0 0 12px #3A6C7E;
+    cursor: pointer;
     transition: 0.3s;
 }
 .logregister1 {
@@ -295,6 +299,7 @@ input:focus{outline: none;}
     background-color: #ABCCD8;
     color: #1A3038;
     box-shadow: 0 0 12px #3A6C7E;
+    cursor: pointer;
     transition: 0.3s;
 }
 
@@ -302,17 +307,20 @@ input:focus{outline: none;}
 
 /*  */
 
-
-
-.US {
+.bottomcards {
     display: flex;
-    height: 120px;
-    margin: 30px;
-    margin-left: 50px;
-    border-radius: 20px;
     
 }
-.US:hover {
+.cards {
+    height: 150px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    border-radius: 20px;
+    border: 4px solid #282828;
+}
+.cards:hover {
     transform: scale(1.1);
     transition: 0.3s;
+    box-shadow: 0 0 12px #D05739;
+    cursor: pointer;
 }
