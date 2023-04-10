@@ -296,3 +296,18 @@ input:focus{outline: none;}
 
 
 /*  */
+
+
+
+.US {
+    display: flex;
+    height: 120px;
+    margin: 30px;
+    margin-left: 50px;
+    border-radius: 20px;
+    
+}
+.US:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
