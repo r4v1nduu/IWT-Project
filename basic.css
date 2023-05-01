@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 @font-face {font-family: OutfitEB; src: url('SRC/Outfit/Outfit-ExtraBold.ttf');}
+@font-face {font-family: OutfitB; src: url('SRC/Outfit/Outfit-Bold.ttf');}
 @font-face {font-family: OutfitL; src: url('SRC/Outfit/Outfit-Light.ttf');}
 
 body {
@@ -23,7 +24,7 @@ a {
     justify-content: space-between;
 }
 .logo {
-    margin-left: 15px;
+    margin-left: 60px;
     padding: 12px;
 }
 .button1 {
@@ -32,16 +33,19 @@ a {
     width: auto;
     border: none;
     margin-top: 17px;
-    margin-left: 30px;
+    margin-left: -25px;
     font-family: 'OutfitEB';
     font-size: 20px;
     font-weight: 800;
     background-color: transparent;
 }
 .button1:hover {
-    color: rgb(50, 218, 20);
+    color: #FF6D28;
     cursor: pointer;
     transition: 0.3s;
+}
+.button1:last-of-type {
+    margin-right: 60px;
 }
 
 /* Main Image */
@@ -52,12 +56,22 @@ a {
     margin-top: 70px;
 }
 
+.mainimagetext {
+    display: block;
+    color: rgba(231, 231, 231, 0.8);
+    font-size: 120px;
+    font-family: 'OutfitEB';
+    margin-top: -280px;
+    text-align: center;
+}
+
 /* Login Prompt Message Styles */
 
 .login {
     display: flex;
     position: fixed;
-    width: 98%;
+    width: 100%;
+    right: 80px;
     top: 70px;
     background-color: transparent;
     height: 40px;
@@ -72,10 +86,11 @@ a {
     font-family: 'OutfitL';
 }
 .button2:hover {
-    background-color: #333333;
+    background-color: #4700D8;
     color: #FFFFFF;
     cursor: pointer;
 }
+
 
 /* NavBar and Login Prompt Button Setting */
 .buttonset1 { display: flex; }
@@ -112,6 +127,35 @@ a {
     font-size: 13px;
     padding: 11px 20px;
 }
+
+
+.chat {
+    width: 300px;
+    height: 400px;
+    position: fixed;
+    bottom: 40px;
+    margin-left: 60px;
+    border-radius: 10px;
+    background-color: #535353;
+    display: block;
+}
+
+.chatbox {
+    cursor: pointer;
+    width: 300px;
+    padding: 5px 40px;
+    background-color: #FF6D28;
+    border: none;
+    text-align: left;
+    border-radius: 10px 10px 0 0;
+    margin-left: 60px;
+    font-family: 'OutfitL';
+    font-size: 16px;
+    color: #FFFFFF;
+    bottom: 0;
+    position: fixed;
+}
+
 
 
 /* Reomve Focus Outline for Input Boxes */

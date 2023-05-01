@@ -4,23 +4,22 @@
     display: block;
     height: 470px;
     width: 400px;
-    background-color: #282828;
-    margin: 120px auto;
+    background-color: rgb(231, 231, 231);
+    position: absolute;
+    top:0; bottom: 0; left: 0; right: 0; 
+    margin: auto;
     border-radius: 10px;
 }
 .login1 {
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 20px;
-    color: #EBEBEB;
-    font-family: sans-serif;
+    padding: 20px 0;
+    font-family: 'OutfitEB';
     font-weight: 600;
     font-size: 24px;
 }
 .detail1 {
     display: block;
-    color: #D6D6D6;
-    font-family: sans-serif;
+    font-family: 'OutfitB';
     text-indent: 40px;
     font-size: 14px;
     font-weight: 600;
@@ -32,20 +31,15 @@
     margin: auto;
     margin-top: 6px;
     margin-bottom: 20px;
-    background-color: #141414;
-    color: #FFFFFF;
     border: none;
     border-radius: 10px;
     text-indent: 10px;
     font-size: 18px;
 }
-.detail2:hover {
-    background-color: #0A0A0A;
-}
 .forgotpw {
     display: block;
     margin-top: -10px;
-    color:#D6D6D6;
+    color: #000000;
     font-family: sans-serif;
     text-align: center;
     font-size: 14px;
@@ -53,7 +47,7 @@
     text-decoration: underline;
 }
 .forgotpw:visited {
-    color:#D6D6D6;
+    color:#000000;
 }
 .loginbutton {
     display: block;
@@ -66,28 +60,26 @@
     font-family: sans-serif;
     font-size: 18px;
     font-weight: 800;
-    background-color: #B0E090;
-    color: #244012;
+    background-color: #FF6D28;
+    color: #FFFFFF;
 }
 .loginbutton:hover {
-    background-color: #ABCCD8;
-    color: #1A3038;
-    box-shadow: 0 0 12px #3A6C7E;
+    background-color: #4700D8;
+    color: #FFFFFF;
     cursor: pointer;
     transition: 0.3s;
 }
 .logregister1 {
     display: block;
-    color:#D6D6D6;
     font-family: sans-serif;
     text-align: center;
-    margin-top: 60px;
+    margin-top: 50px;
     font-size: 14px;
 }
 .logregister2 {
-    color:#F5F5F5;
+    color:#413955;
     text-decoration: underline;
 }
 .logregister2:visited {
-    color:#F5F5F5;
+    color:#413955;
 }

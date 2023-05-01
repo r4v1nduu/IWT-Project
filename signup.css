@@ -1,37 +1,32 @@
 @charset "UTF-8";
 
 .signupbox {
-    display: flex;
-    height: 470px;
-    width: 800px;
-    background-color: #282828;
-    margin: 120px auto;
+    display: block;
+    height: 560px;
+    width: 400px;
+    background-color: rgb(231, 231, 231);
+    position: absolute;
+    top:0; bottom: 0; left: 0; right: 0; 
+    margin: auto;
     border-radius: 10px;
 }
 .signupnote {
     display: block;
     text-align: center;
-    font-family: sans-serif;
+    padding: 20px 0;
+    font-family: 'OutfitEB';
     font-weight: 600;
     font-size: 20px;
-    padding: 180px 30px;
-    color: #EBEBEB;
-    border-right: 2px solid #363636;
 }
-.brand1 {color: #80B3C6;}
-.brand2 {color: #B0E090;}
+.brand1 {color: #FF6D28;}
+.brand2 {color: #4700D8;}
 
-.signupdetail {
-    display: block;
-    margin: 70px 30px;
-}
 .detail3 {
     display: block;
-    color: #D6D6D6;
-    font-family: sans-serif;
+    font-family: 'OutfitB';
+    text-indent: 40px;
     font-size: 14px;
     font-weight: 600;
-    text-indent: 10px;
 }
 .detail4 {
     display: block;
@@ -40,24 +35,15 @@
     margin: auto;
     margin-top: 6px;
     margin-bottom: 20px;
-    background-color: #141414;
-    color: white;
     border: none;
     border-radius: 10px;
     text-indent: 10px;
     font-size: 18px;
 }
-.detail4:hover {
-    background-color: #0A0A0A;
-}
-.signupbuttondiv {
-    display: block;
-    padding: 195px 40px;
-    border-left: 2px solid #363636;
-    margin: 20px 0;
-}
+
 .signupbutton {
     display: block;
+    margin: 40px auto;
     width: 130px;
     height: 40px;
     border: none;
@@ -65,13 +51,12 @@
     font-family: sans-serif;
     font-size: 18px;
     font-weight: 800;
-    background-color: #B0E090;
-    color: #244012;
+    background-color: #FF6D28;
+    color: #FFFFFF;
 }
 .signupbutton:hover {
-    background-color: #ABCCD8;
-    color: #1A3038;
-    box-shadow: 0 0 12px #3A6C7E;
+    background-color: #4700D8;
+    color: #FFFFFF;
     cursor: pointer;
     transition: 0.3s;
 }
