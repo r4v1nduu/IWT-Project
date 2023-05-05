@@ -1,3 +1,7 @@
+function chatfix() {
+    document.getElementById('chat').style.display = "none";
+}
+
 function chat() {
     
     var check1 = document.getElementById('chat');
