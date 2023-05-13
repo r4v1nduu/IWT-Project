@@ -1,0 +1,177 @@
+@charset "UTF-8";
+
+form {
+    display: block;
+    margin: 160px 300px;
+}
+
+
+.formmain {
+    margin-top: 60px;
+    font-family: 'OutfitSB';
+    font-size: 20px;
+    text-indent: 20px;
+}
+.formitems {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.routeitem {
+    background-color: #C3CDDF;
+    display: block;
+    width: 280px;
+    padding: 5px 5px;
+    padding-bottom: 20px;
+    border-radius: 12px;
+    text-align: center;
+    border: none;
+}
+.routeitem:hover {
+    transform: scale(1.05);
+    transition: 0.2s;
+    cursor: pointer;
+}
+.routeitem input {
+    height: 20px;
+    width: 20px;
+}
+.routenum {
+    font-family: 'OutfitB';
+    font-size: 18px;
+}
+.routeitem img {
+    width: 240px;
+    border-radius: 8px;
+}
+.routedesc {
+    font-family: 'OutfitR';
+    line-height: 22px;
+}
+
+
+.boattypes {
+    background-color: #C3CDDF;
+    display: flex;
+    width: 200px;
+    padding: 12px;
+    border-radius: 12px;
+}
+.boattypes:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+    cursor: pointer;
+}
+.boattypes img {
+    width: 70px;
+    margin-right: 16px;
+}
+.boattypes input {
+    width: 16px;
+    height: 16px;
+    margin-top: 21px;
+    margin-left: 20px;
+}
+
+
+.seatcount, .enterdate {
+    width: 100%;
+}
+.seatcount input {
+    background-color: #E0EAFC;
+    width: 99.5%;
+    height: 32px;
+    text-indent: 10px;
+    font-family: 'OutfitR';
+    border-radius: 8px;
+    border: 1px solid #717E97;
+}
+
+
+.enterdate input {
+    background-color: #E0EAFC;
+    width: 96%;
+    height: 32px;
+    text-indent: 6px;
+    font-family: 'OutfitR';
+    border-radius: 8px;
+    border: 1px solid #717E97;
+}
+.formitems button {
+    width: 240px;
+    border: none;
+    border-radius: 8px;
+    font-family: 'OutfitB';
+    font-size: 16px;
+    background-color: #4C5A72;
+    color: #FFFFFF;
+}
+.formitems button:hover {
+    background-color: #2C384D;
+    cursor: pointer;
+}
+
+.terms {
+    display: block;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    font-family: 'OutfitR';
+    font-size: 18px;
+}
+
+
+.buttonset {
+    text-align: center;
+}
+.calc, .disc {
+    font-family: 'OutfitB';
+    font-size: 18px;
+    height: 40px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+}
+.calc {background-color: #98D8AA;
+        color: #005017;}
+.calc:hover {background-color: #58B372;
+        color: #003A10;}
+.disc {background-color: #b3b3b3;
+        color: #3D3D3D;}
+.disc:hover {background-color: #707070;
+        color: #303030;}
+
+
+
+#price {
+    display: block;
+    margin: 30px auto;
+    width: 300px;
+    height: 60px;
+    border: 2px solid #444444;
+    border-radius: 16px;
+    /* Horizontal, Vertical Text Align */
+    /* Font Size & Font Family */
+}
+
+
+
+.submitbutton {
+    display: block;
+    margin: auto;
+    margin-bottom: -50px;
+    font-family: 'OutfitEB';
+    font-size: 20px;
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 12px;
+    background-color: #FFA771;
+    color: #612500;
+}
+.submitbutton:hover {
+    background-color: #ff721a;
+    color: #411900;
+}

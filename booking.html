@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Booking Page</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="booking.css">
+    </head>
+
+    <body>
+        <div class="navbar">
+            <img class="logo" src="SRC/AquaSwiftLogo.png" alt="Business Logo">
+            <div class="buttonset1">
+                <a href="index.html"><button>Home</button></a>
+                <a href="booking.html"><button>Book Ticket</button></a>
+                <a href="#"><button>Gallery</button></a>
+                <a href="#"><button>About Us</button></a>
+                <a href="account.css"><img src="SRC/dp.png" alt="Profile"></a>
+            </div>
+        </div>
+
+        <div class="login">
+            <a href="login.html"><button>Login</button></a>
+            <a href="signup.html"><button>Sign Up</button></a>
+        </div>
+
+        <form method="get">
+
+            <p class="formmain">Select Safari Route</p>
+            <div class="formitems">
+
+                <label class="routeitem">
+                    <p class="routenum">Route 01</p>
+                    <img src="SRC/Maps/map1.png" alt="Map01">
+                    <p class="routedesc">
+                        Length : 2 KM<br>
+                        Travel Time : 30 Minutes
+                    </p>
+                    <input type="radio" name="rnumber" value="01">
+                </label>
+
+                <label class="routeitem">
+                    <p class="routenum">Route 02</p>
+                    <img src="SRC/Maps/map2.png" alt="Map02"><p class="routedesc">
+                        Length : 4 KM<br>
+                        Travel Time : 60 Minutes
+                    </p>
+                    <input type="radio" name="rnumber" value="02">
+                    
+                </label>
+
+                <label class="routeitem">
+                    <p class="routenum">Route 03</p>
+                    <img src="SRC/Maps/map3.png" alt="Map03">
+                    <p class="routedesc">
+                        Length : 6 KM<br>
+                        Travel Time : 90 Minutes
+                    </p>
+                    <input type="radio" name="rnumber" value="03">
+                </label>
+
+                <label class="routeitem">
+                    <p class="routenum">Route 04</p>
+                    <img src="SRC/Maps/map4.png" alt="Map04">
+                    <p class="routedesc">
+                        Length : 12 KM<br>
+                        Travel Time : 160 Minutes
+                    </p>
+                    <input type="radio" name="rnumber" value="04">
+                </label>
+
+            </div>
+
+            <p class="formmain">Select Safari Route</p>
+            <div class="formitems">
+
+                <label class="boattypes">
+                    <img src="SRC/Boats/type1.png" alt="Boat01">
+                    <p class="routenum">Boat 01</p>
+                    <input type="radio" name="bnumber" value="01">
+                </label>
+
+                <label class="boattypes">
+                    <img src="SRC/Boats/type2.png" alt="Boat02">
+                    <p class="routenum">Boat 02</p>
+                    <input type="radio" name="bnumber" value="02">
+                </label>
+
+                <label class="boattypes">
+                    <img src="SRC/Boats/type3.png" alt="Boat03">
+                    <p class="routenum">Boat 03</p>
+                    <input type="radio" name="bnumber" value="03">
+                </label>
+
+                <label class="boattypes">
+                    <img src="SRC/Boats/type4.png" alt="Boat04">
+                    <p class="routenum">Boat 04</p>
+                    <input type="radio" name="bnumber" value="04">
+                </label>
+
+                <label class="boattypes">
+                    <img src="SRC/Boats/type5.png" alt="Boat05">
+                    <p class="routenum">Boat 05</p>
+                    <input type="radio" name="bnumber" value="05">
+                </label>
+
+            </div>
+
+            <p class="formmain">Enter Seat Count</p>
+            <label class="seatcount">
+                <input type="number" name="scount" placeholder="Max Seat Count : 20" min="0" max="20">
+            </label>
+
+            <p class="formmain">Select a Date</p>
+            <div class="formitems">
+                <label class="enterdate">
+                    <input type="date" min='2023-05-13' max='2023-12-31'>
+                </label>
+                <button>View Schedule</button>
+            </div>
+
+            <label class="terms"><input type="checkbox">  Accept Terms & Conditions</label>
+
+            <div class="buttonset">
+                <button class="calc">Calculate Price</button>
+                <button class="disc">Get Discounts</button>
+            </div>
+
+            <p id="price"></p>
+            
+           <button type="submit" class="submitbutton">Pay & Book</button>
+
+        </form>
+    </body>
+
+    <footer>
+        <div class="topfooter">
+
+            <div class="bottomnavbar">
+                <a href="index.html"><button>Home</button></a>
+                <a href="booking.html"><button>Book Ticket</button></a>
+                <a href="#"><button>Gallery</button></a>
+                <a href="#"><button>About Us</button></a>
+            </div>
+
+            <div class="devider"></div>
+
+            <div class="payoptions">
+                <p>Pay securely with</p>
+                <div class="payments">
+                    <img src="SRC/Payment/amex.png" alt="Amex">
+                    <img src="SRC/Payment/visa.png" alt="Visa">
+                    <img src="SRC/Payment/master.png" alt="Master">
+                    <img src="SRC/Payment/maestro.png" alt="Maestro">
+                    <img src="SRC/Payment/generic.png" alt="Generic">
+                    <img src="SRC/Payment/google.png" alt="Google">
+                    <img src="SRC/Payment/apple.png" alt="Apple">
+                    <img src="SRC/Payment/paypal.png" alt="Paypal">
+                </div>
+            </div>
+
+            <div class="devider"></div>
+
+            <div class="footerdesc">
+                Aqua Swift is your one-stop destination for unforgettable boat safaris. 
+                Our knowledgeable guides will take you on an adventure of a lifetime, 
+                providing you with an up-close encounter with exotic wildlife and breathtaking scenery. 
+                Book your safari today and experience the magic of Aqua Swift!
+            </div>
+
+            <div class="devider"></div>
+
+            <div class="contacts">
+                <p>Contact Us</p>
+                Tel: +94 77 123 4567<br>
+                Fax: +94 33 222 3456<br>
+                Email: aquaswift@outlook.com
+            </div>
+
+            <div class="devider"></div>
+
+            <div class="socialscontainer">
+                <a href="#"><img src="SRC/Facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="SRC/Instagram.png" alt="Instagram"></a>
+                <a href="#"><img src="SRC/Twitter.png" alt="Twitter"></a>
+                <a href="#"><img src="SRC/Whatsapp.png" alt="Whatsapp"></a>
+            </div>
+            
+        </div>
+
+        <p class="copyright">Copyright 2023 © AquaSwift. All Rights Reserved.</p>
+        <a href="#"><button class="contactus">
+            Send Message
+        </button></a>
+    </footer>
+</html>

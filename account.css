@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+.summery {
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+    width: 440px;
+    margin-top: 120px;
+    margin-left: 200px;
+}
+.bigdp {
+    width: 120px;
+    border-radius: 50%;
+}
+.devider {
+    background-color: black;
+    height: 120px;
+    width: 3px;
+}
+
+#username {
+    font-family: 'OutfitB';
+    font-size: 22px;
+}
+#email {
+    font-family: 'OutfitL';
+    font-size: 18px;
+}
+#usertype {
+    background-color: rgb(226, 168, 43);
+    font-family: 'OutfitR';
+    font-size: 14px;
+    padding: 5px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.detail {
+    display: block;
+    height: 500px;
+    width: 1200px;
+    background-color: rgb(231, 231, 231);
+    position: absolute;
+    top: 120px; bottom: 0; left: 0; right: 0; 
+    margin: auto;
+    border-radius: 10px;
+}
+.mail p, .name p, .bookings p {
+    font-family: 'OutfitR';
+    background-color: rgb(34, 34, 34);
+    color: #FFFFFF;
+    padding: 10px 0;
+    width: 120px;
+    text-align: center;
+    border-radius: 12px;
+}
+.mail input, .name input {
+    font-family: 'OutfitR';
+    font-size: 16px;
+    text-indent: 10px;
+    border: none;
+    border-radius: 12px;
+    height: 40px;
+    margin: auto;
+    width: 400px;
+}
+.name {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+    padding-left: 40px;
+    margin-top: 30px;
+}
+.name p:last-of-type{
+    margin-left: 40px;
+}
+.mail {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 30px;
+}
+.mail input {
+    width: 980px;
+}
+
+.save {
+    display: block;
+    position: absolute;
+    right: 80px;
+    margin-top: 20px;
+    width: 140px;
+    height: 35px;
+    font-family: 'OutfitB';
+    font-size: 16px;
+    border: none;
+    border-radius: 12px;
+    background-color: rgb(255, 147, 147);
+    color: #FFFFFF;
+}
+.save:hover {
+    background-color: rgb(255, 75, 75);
+    cursor: pointer;
+}
+
+.bookings {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 30px;
+}
+.bookings input {
+    width: 980px;
+}
+
+.history {
+    display: block;
+    background-color: #FFFFFF;
+    width: 980px;
+    font-family: 'OutfitEL';
+    font-size: 16px;
+    text-indent: 14px;
+    border: none;
+    border-radius: 12px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.extras {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 750px;
+    margin: auto;
+    margin-top: 50px;
+}
+.extras a {
+    width: 200px;
+    font-family: 'OutfitB';
+    font-size: 18px;
+    text-align: center;
+    padding-top: 12px;
+    border: none;
+    border-radius: 12px;
+    background-color: rgb(100, 100, 100);
+    color: #FFFFFF;
+}
+.extras a:hover {
+    background-color: rgb(53, 53, 53);
+    cursor: pointer;
+}
+
+.delete {
+    display: block;
+    position: absolute;
+    right: 440px;
+    top: 800px;
+    width: 140px;
+    height: 35px;
+    font-family: 'OutfitB';
+    font-size: 16px;
+    border: none;
+    border-radius: 12px;
+    background-color: rgb(255, 147, 147);
+    color: #FFFFFF;
+}
+.delete:hover {
+    background-color: rgb(255, 75, 75);
+    cursor: pointer;
+}
