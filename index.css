@@ -24,6 +24,8 @@ input:focus {
 
 body {
     margin: 0;
+    background-color: #121212;
+    color: #FFFFFF;
 }
 a {
     text-decoration: none;
@@ -37,7 +39,7 @@ a {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: rgba(231, 231, 231, 0.9);
+    background-color: rgba(61, 61, 61, 0.9);
     height: 70px;
     justify-content: space-between;
 }
@@ -57,6 +59,7 @@ a {
     font-family: 'OutfitEB';
     font-size: 20px;
     font-weight: 800;
+    color: #FFFFFF;
     background-color: transparent;
 }
 .buttonset1 button:hover {
@@ -98,7 +101,7 @@ a {
     width: 70px;
     margin-top: 7px;
     border: none;
-    background-color: #e9e9e9;
+    background-color: #8a8a8a;
     font-family: 'OutfitL';
 }
 .login button:hover {
@@ -148,14 +151,15 @@ a {
 .contactus {
     display: block;
     position: fixed;
-    width: 140px;
-    height: 36px;
+    width: 86px;
+    height: 46px;
     right: 145px;
-    bottom: 20px;
+    bottom: 12px;
     font-family: 'OutfitEB';
     font-size: 15px;
+    line-height: 14px;
     border: none;
-    border-radius: 18px;
+    border-radius: 16px;
     background-color: #fdbd9f;
     color: #862b00;
 }
@@ -174,19 +178,19 @@ a {
 footer {
     display: inline-block;
     width: 100%;
-    background-color: #292929;
+    background-color: #242424;
     text-align: center;
 }
 
 .topfooter {
     display: flex;
     justify-content: space-between;
-    background-color: #aaaaaa;
+    background-color: rgb(62, 62, 62);
     height: 100px;
     padding: 20px;
 }
 .devider {
-    background-color: #292929;
+    background-color: #c5c5c5;
     width: 1px;
 }
 
@@ -203,11 +207,12 @@ footer {
     margin-top: 8px;
     font-family: 'OutfitR';
     font-size: 14px;
+    color: #FFFFFF;
     border: none;
     background-color: transparent;
 }
 .bottomnavbar button:hover {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #FFFFFF;
     cursor: pointer;
 }
 
@@ -255,13 +260,26 @@ footer {
 
 
 .socialscontainer {
+    display: inline-block;
     margin-right: 100px;
+    width: 100px;
 }
 .socialscontainer img {
     height: 35px;
-    margin-right: 20px;
+    margin: 5px;
     cursor: pointer;
 }
+
+.qr {
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin-left: -120px;
+    margin-right: 142px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
 .copyright {
     font-family: 'OutfitL';
     font-size: 13px;

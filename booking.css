@@ -19,7 +19,7 @@ form {
 
 
 .routeitem {
-    background-color: #C3CDDF;
+    background-color: #363636;
     display: block;
     width: 280px;
     padding: 5px 5px;
@@ -52,7 +52,7 @@ form {
 
 
 .boattypes {
-    background-color: #C3CDDF;
+    background-color: #363636;
     display: flex;
     width: 200px;
     padding: 12px;
@@ -79,24 +79,26 @@ form {
     width: 100%;
 }
 .seatcount input {
-    background-color: #E0EAFC;
+    background-color: #363636;
     width: 99.5%;
     height: 32px;
     text-indent: 10px;
     font-family: 'OutfitR';
+    color: #FFFFFF;
     border-radius: 8px;
-    border: 1px solid #717E97;
+    border: 1px solid #242424;
 }
 
 
 .enterdate input {
-    background-color: #E0EAFC;
+    background-color: #363636;
     width: 96%;
     height: 32px;
     text-indent: 6px;
     font-family: 'OutfitR';
+    color: #FFFFFF;
     border-radius: 8px;
-    border: 1px solid #717E97;
+    border: 1px solid #242424;
 }
 .formitems button {
     width: 240px;
