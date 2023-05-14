@@ -4,7 +4,7 @@
     display: block;
     height: 660px;
     width: 400px;
-    background-color: rgb(231, 231, 231);
+    background-color: #27241D;
     position: absolute;
     top:0; bottom: 0; left: 0; right: 0; 
     margin: auto;
@@ -35,7 +35,7 @@
     margin-bottom: 40px;
 }
 .brand1 {color: #FF6D28;}
-.brand2 {color: #4700D8;}
+.brand2 {color: #009FBD;}
 
 .detail3 {
     display: block;
@@ -45,6 +45,8 @@
     font-weight: 600;
 }
 .detail4 {
+    background-color: #423D33;
+    color: #FFFFFF;
     display: block;
     width: 340px;
     height: 40px;
@@ -71,7 +73,7 @@
     color: #FFFFFF;
 }
 .signupbutton:hover {
-    background-color: #4700D8;
+    background-color: #009FBD;
     color: #FFFFFF;
     cursor: pointer;
     transition: 0.3s;
