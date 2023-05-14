@@ -19,11 +19,12 @@
     margin: 10px;
     border-radius: 50%;
     border: none;
-    background-color: rgb(250, 138, 138);
+    background-color: #D94545;
     color: #FFFFFF;
 }
 .back:hover {
-    background-color: rgb(255, 54, 54);
+    background-color: #981F1F;
+    cursor: pointer;
 }
 .signupnote {
     display: block;

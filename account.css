@@ -27,7 +27,7 @@
     font-size: 18px;
 }
 #usertype {
-    background-color: rgb(226, 168, 43);
+    background-color: #F5A300;
     color: #000000;
     font-family: 'OutfitR';
     font-size: 14px;
@@ -40,7 +40,7 @@
     display: block;
     height: 500px;
     width: 1200px;
-    background-color: rgb(61, 61, 61);
+    background-color: #27241D;
     position: absolute;
     top: 120px; bottom: 0; left: 0; right: 0; 
     margin: auto;
@@ -48,7 +48,8 @@
 }
 .mail p, .name p, .bookings p {
     font-family: 'OutfitR';
-    background-color: rgb(34, 34, 34);
+    font-size: 16px;
+    background-color: #3E4C59;
     color: #FFFFFF;
     padding: 10px 0;
     width: 120px;
@@ -56,7 +57,7 @@
     border-radius: 12px;
 }
 .mail input, .name input {
-    background-color: rgb(201, 201, 201);
+    background-color: #9AA5B1;
     font-family: 'OutfitR';
     font-size: 16px;
     text-indent: 10px;
@@ -97,11 +98,11 @@
     font-size: 16px;
     border: none;
     border-radius: 12px;
-    background-color: rgb(255, 147, 147);
+    background-color: #00897B;
     color: #FFFFFF;
 }
 .save:hover {
-    background-color: rgb(255, 75, 75);
+    background-color: #005249;
     cursor: pointer;
 }
 
@@ -118,10 +119,10 @@
 
 .history {
     display: block;
-    background-color: rgb(201, 201, 201);
+    background-color: #9AA5B1;
     color: #000000;
     width: 980px;
-    font-family: 'OutfitEL';
+    font-family: 'OutfitL';
     font-size: 16px;
     text-indent: 14px;
     border: none;
@@ -147,11 +148,11 @@
     padding-top: 12px;
     border: none;
     border-radius: 12px;
-    background-color: rgb(100, 100, 100);
+    background-color: #504A40;
     color: #FFFFFF;
 }
 .extras a:hover {
-    background-color: rgb(53, 53, 53);
+    background-color: #3E4C59;
     cursor: pointer;
 }
 
@@ -166,10 +167,10 @@
     font-size: 16px;
     border: none;
     border-radius: 12px;
-    background-color: rgb(255, 147, 147);
+    background-color: #D53434;
     color: #FFFFFF;
 }
 .delete:hover {
-    background-color: rgb(255, 75, 75);
+    background-color: #981F1F;
     cursor: pointer;
 }

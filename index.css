@@ -11,12 +11,14 @@
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button,
 input::-webkit-calendar-picker-indicator {
-  margin-right: 10px;
+  margin-right: 12px;
+  border-radius: 4px;
+  background-color: #CBD2D9;
 }
 
 /* Reomve Focus Outline for Input Boxes */
 input:focus {
-    outline-color: #686868;
+    outline-color: #504A40;
     outline-style: groove;
 }
 
@@ -39,7 +41,7 @@ a {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: rgba(61, 61, 61, 0.9);
+    background-color: rgba(39, 36, 29, 0.9);
     height: 70px;
     justify-content: space-between;
 }
@@ -101,11 +103,11 @@ a {
     width: 70px;
     margin-top: 7px;
     border: none;
-    background-color: #8a8a8a;
-    font-family: 'OutfitL';
+    background-color: #A39E93;
+    font-family: 'OutfitR';
 }
 .login button:hover {
-    background-color: #4700D8;
+    background-color: #303F9F;
     color: #FFFFFF;
     cursor: pointer;
 }
@@ -160,12 +162,10 @@ a {
     line-height: 14px;
     border: none;
     border-radius: 16px;
-    background-color: #fdbd9f;
-    color: #862b00;
+    background-color: #FFE380;
 }
 .contactus:hover {
-    background-color: #fc9768;
-    color: #421500;
+    background-color: #FFAB00;
     cursor: pointer;
     transition: 0.2s;
 }
@@ -178,14 +178,14 @@ a {
 footer {
     display: inline-block;
     width: 100%;
-    background-color: #242424;
+    background-color: #27241D;
     text-align: center;
 }
 
 .topfooter {
     display: flex;
     justify-content: space-between;
-    background-color: rgb(62, 62, 62);
+    background-color: #423D33;
     height: 100px;
     padding: 20px;
 }
