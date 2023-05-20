@@ -26,7 +26,9 @@ input:focus {
 
 body {
     margin: 0;
-    background-image: url("SRC/patternpad.svg");
+    background-color: #121212;
+/*    background-image: url("SRC/patternpad.svg");
+*/
     color: #FFFFFF;
 }
 a {

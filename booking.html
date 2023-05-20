@@ -5,6 +5,7 @@
         <title>Booking Page</title>
         <link rel="stylesheet" href="index.css">
         <link rel="stylesheet" href="booking.css">
+        <script src="booking.js"></script>
     </head>
 
     <body>
@@ -108,7 +109,7 @@
 
             <p class="formmain">Enter Seat Count</p>
             <label class="seatcount">
-                <input type="number" name="scount" placeholder="Max Seat Count : 20" min="0" max="20">
+                <input type="number" id="scount" name="scount" placeholder="Max Seat Count : 20" min="0" max="20">
             </label>
 
             <p class="formmain">Select a Date</p>
@@ -122,8 +123,8 @@
             <label class="terms"><input type="checkbox">  Accept Terms & Conditions</label>
 
             <div class="buttonset">
-                <button class="calc">Calculate Price</button>
-                <button class="disc">Get Discounts</button>
+                <button type="button" class="calc" onclick="calcPrice();">Calculate Price</button>
+                <button type="button" class="disc">Get Discounts</button>
             </div>
 
             <p id="price"></p>

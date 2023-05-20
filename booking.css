@@ -20,19 +20,18 @@ form {
 
 .routeitem {
     background-color: #27241D;
+    border: 4px solid transparent;
     display: block;
     width: 280px;
     padding: 5px 5px;
     padding-bottom: 20px;
     border-radius: 12px;
     text-align: center;
-    border: none;
 }
 .routeitem:hover {
-    transform: scale(1.05);
+    border: 4px dashed #FFB84C;
     transition: 0.2s;
     cursor: pointer;
-    box-shadow: 0 0 10px #423D33;
 }
 .routeitem input {
     height: 20px;
@@ -54,16 +53,16 @@ form {
 
 .boattypes {
     background-color: #27241D;
+    border: 3px solid transparent;
     display: flex;
     width: 200px;
     padding: 12px;
     border-radius: 12px;
 }
 .boattypes:hover {
-    transform: scale(1.1);
+    border: 3px dashed #FFB84C;
     transition: 0.2s;
     cursor: pointer;
-    box-shadow: 0 0 10px #423D33;
 }
 .boattypes img {
     width: 70px;
@@ -82,29 +81,29 @@ form {
 }
 .seatcount input {
     background-color: #27241D;
+    border: 2px solid transparent;
     width: 99.5%;
     height: 32px;
     text-indent: 10px;
     font-family: 'OutfitR';
     color: #FFFFFF;
     border-radius: 8px;
-    border: none;
 }
 .seatcount input:hover, .enterdate input:hover {
+    border: 2px dashed #FFB84C;
     transition: 0.2s;
-    box-shadow: 0 0 10px #423D33;
 }
 
 
 .enterdate input {
     background-color: #27241D;
+    border: 2px solid transparent;
     width: 96%;
     height: 32px;
     text-indent: 6px;
     font-family: 'OutfitR';
     color: #FFFFFF;
     border-radius: 8px;
-    border: none;
 }
 
 .formitems button {
@@ -164,13 +163,16 @@ form {
 
 #price {
     display: block;
+    text-align: center;
+    font-family: 'OutfitB';
+    color: white;
+    font-size: 30px;
+    padding-top: 15px;
     margin: 30px auto;
     width: 300px;
     height: 60px;
     border: 2px dashed #FFBB33;
     border-radius: 16px;
-    /* Horizontal, Vertical Text Align */
-    /* Font Size & Font Family */
 }
 
 
