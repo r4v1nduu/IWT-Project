@@ -9,16 +9,35 @@
 
     <body>
 
-        <form class="signupbox" method="get">
+        <form class="signupbox" method="post" action="signupdetails.php">
             <input type="button" class="back" value="X" onclick="history.back(-1)">
         
             <p class="signupnote">Create an <span class="brand1"> AQUA </span><span class="brand2"> SWIFT </span> Account</p>
             
-            <label class="detail3">First Name <input class="detail4" name="fname" type="text" required></label>
-            <label class="detail3">Last Name <input class="detail4" name="lname" type="text" required></label>
-            <label class="detail3">Email Address <input class="detail4" name="email" type="email" required></label>
-            <label class="detail3">Password <input class="detail4" name="pass" type="password" required></label>
-            <label class="detail3">Confirm Password <input class="detail4" name="cpass" type="password" required></label>
+            <label class="detail3">
+                First Name 
+                <input class="detail4" name="fname" type="text" required>
+            </label>
+
+            <label class="detail3">
+                Last Name 
+                <input class="detail4" name="lname" type="text" required>
+            </label>
+
+            <label class="detail3">
+                Email Address 
+                <input class="detail4" name="email" type="email" required>
+            </label>
+
+            <label class="detail3">
+                Password 
+                <input class="detail4" name="pass" type="password" required>
+            </label>
+            
+            <label class="detail3">
+                Confirm Password 
+                <input class="detail4" name="cpass" type="password" required>
+            </label>
             
             <button type="submit" class="signupbutton">SIGNUP</button>
             
