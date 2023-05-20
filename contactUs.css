@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+.contactbox {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+    height: 680px;
+    width: 1000px;
+    background-color: #27241D;
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0; 
+    margin: auto;
+    border-radius: 10px;
+}
+.contactbox label {
+    display: block;
+    font-family: 'OutfitR';
+    font-size: 18px;
+    text-indent: 20px;
+}
+.contactbox label p {
+    margin-bottom: 8px;
+    margin-top: 30px;
+}
+.contactbox input {
+    background-color: #423D33;
+    width: 430px;
+    height: 35px;
+    border-radius: 8px;
+    border: none;
+    text-indent: 20px;
+    font-family: 'OutfitL';
+    font-size: 17px;
+    color: #FFFFFF;
+}
+
+.subject input {
+    width: 930px;
+}
+.detail {
+    width: 930px;
+}
+textarea {
+    background-color: #423D33;
+    width: 910px;
+    height: 140px;
+    border-radius: 8px;
+    border: none;
+    text-indent: 10px;
+    padding: 10px;
+    font-family: 'OutfitL';
+    font-size: 17px;
+    color: #FFFFFF;
+    resize: none;
+}
+
+.contactbox button {
+    display: block;
+    margin-left: 760px;
+    margin-top: 20px;
+    width: 100px;
+    height: 35px;
+    font-family: 'OutfitEB';
+    color: #FFFFFF;
+    background-color: #7445C4;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+}
+.contactbox button:hover {
+    background-color: #46277C;
+    cursor: pointer;
+}
+
+
+.contactbottom {
+    font-family: 'OutfitL';
+    color: #C1BBAE;
+    margin-top: 40px;
+    padding: 0 40px;
+    display: flex;
+    width: 900px;
+    height: 50px;
+    justify-content: space-between;
+}
