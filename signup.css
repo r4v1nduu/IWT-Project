@@ -56,7 +56,8 @@
     border: none;
     border-radius: 10px;
     text-indent: 10px;
-    font-size: 18px;
+    font-size: 17px;
+    font-family: 'OutfitR';
 }
 
 .signupbutton {
