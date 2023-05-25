@@ -1,10 +1,12 @@
+<?php include 'editacc.php';?>
 <!DOCTYPE html>
 
 <html>
     <head>
         <title>Aqua Swift</title>
+        <link rel="stylesheet" href="account.css?v=<?php echo time();?>">
         <link rel="stylesheet" href="index.css">
-        <link rel="stylesheet" href="account.css">
+        
     </head>
 
     <body>
@@ -14,29 +16,36 @@
                 <a href="index.html"><button>Home</button></a>
                 <a href="booking.html"><button>Book Ticket</button></a>
                 <a href="gallery.html"><button>Gallery</button></a>
-                <a href="aboutUs.html"><button>About Us</button></a>
+                <a href="#"><button>About Us</button></a>
                 <a href="account.html"><img src="SRC/dp.png" alt="Profile"></a>
             </div>
         </div>
+
+        <form method="post" action="logoff.php">
+        <input class="logoff" name="logoff" type="submit" value="LOG OFF">
+        </form>
+        
 
         <div class="summery">
             <img class="bigdp" src="SRC/dp.png">
             <div class="devider"></div>
             <p>
-                <span id="username">Ravindu Kavishka</span><br>
-                <span id="email">ravindukavishka.119@outlook.com</span><br><br>
+                <span id="username"> <?php echo $fname ?> &nbsp <?php echo $lname ?> </span><br>
+                <span id="email"> <?php echo $email ?> </span><br><br>
                 <span id="usertype">Premium User</span>
             </p>
         </div>
 
-        <form class="detail">
+        <form class="detail" method="post" action="editacc.php">
             <div class="name">
-                <p>First Name</p><input type="text" name="fname" placeholder="Ravindu">
-                <p>Last Name</p><input type="text" name="lname" placeholder="Kavishka">
+                <p>First Name</p><input type="text" name="fname" value=<?php echo $fname ?> >
+                <p>Last Name</p><input type="text" name="lname" value=<?php echo $lname ?> >
             </div>
-            <div class="mail"><p>Email</p><input type="text" name="lname" placeholder="ravindukavishka.119@outlook.com"></div>
+            <div class="mail"><p>Email</p><input type="text" name="email" placeholder="ravindukavishka.119@outlook.com"></div>
         
-            <button type="submit" class="save">Save Changes</button>
+            
+            <input class="save" name="update" type="submit" value="Save Changes">
+            
 
             <div class="bookings">
                 <p>Last Booking</p>
@@ -55,14 +64,17 @@
         
         </form>
 
-        <button class="delete">Delete Account</button>
+        <form method="post" action="editacc.php">
+            <input class="delete" name="delete" type="submit" value="Delete Account">
+        </form>
+        
 
     </body>
 
     <footer style="position: fixed; bottom: 0;">
 
         <p class="copyright">Copyright 2023 © AquaSwift. All Rights Reserved.</p>
-        <a href="contactUs.html"><button class="contactus">
+        <a href="#"><button class="contactus">
             Send Message
         </button></a>
     </footer>

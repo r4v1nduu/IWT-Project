@@ -10,11 +10,11 @@
     <body>
     
 
-        <form class="loginbox" method="get">
+        <form class="loginbox" method="post" action="loginconfig.php">
             <input type="button" class="back" value="X" onclick="history.back(-1)">
 
             <p class="login1">Login</p>
-            <label class="detail1">Email <input class="detail2" name="username" type="email" required></label>
+            <label class="detail1">Email <input class="detail2" name="email" type="email" required></label>
             <label class="detail1">Password <input class="detail2" name="password" type="password" required></label>
             <a class="forgotpw" href="#">Forgot Password?</a>
             <button class="loginbutton">LOGIN</button>

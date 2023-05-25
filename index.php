@@ -1,20 +1,21 @@
+<?php include 'check.php';?>
 <!DOCTYPE html>
 
 <html>
     <head>
         <title>Aqua Swift</title>
-        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="index.css?v=<?php echo time();?>">
     </head>
 
     <body>
         <div class="navbar">
             <img class="logo" src="SRC/AquaSwiftLogo.png" alt="Business Logo">
             <div class="buttonset1">
-                <a href="index.html"><button>Home</button></a>
+                <a href="index.php"><button>Home</button></a>
                 <a href="booking.html"><button>Book Ticket</button></a>
                 <a href="gallery.html"><button>Gallery</button></a>
-                <a href="aboutUs.html"><button>About Us</button></a>
-                <a href="account.html"><img src="SRC/dp.png" alt="Profile"></a>
+                <a href="#"><button>About Us</button></a>
+                <div class="acclogo"><a href="account.php"><img src="SRC/dp.png" alt="Profile"></a></div>
             </div>
         </div>
 
@@ -32,7 +33,7 @@
         </p>
 
         
-
+        
         <!--Temp-->
         <div style="display: block; 
                     width: 400px; 
@@ -53,7 +54,7 @@
                 <a href="index.html"><button>Home</button></a>
                 <a href="booking.html"><button>Book Ticket</button></a>
                 <a href="gallery.html"><button>Gallery</button></a>
-                <a href="aboutUs.html"><button>About Us</button></a>
+                <a href="#"><button>About Us</button></a>
             </div>
 
             <div class="devider"></div>
@@ -103,7 +104,7 @@
         </div>
 
         <p class="copyright">Copyright 2023 © AquaSwift. All Rights Reserved.</p>
-        <a href="contactUs.html"><button class="contactus">
+        <a href="#"><button class="contactus">
             Send Message
         </button></a>
     </footer>

@@ -17,7 +17,7 @@ input::-webkit-calendar-picker-indicator {
 }
 
 /* Reomve Focus Outline for Input Boxes */
-input:focus , textarea:focus{
+input:focus {
     outline-color: #504A40;
     outline-style: groove;
 }
