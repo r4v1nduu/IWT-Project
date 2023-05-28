@@ -1,22 +1,23 @@
+<?php include 'SRC/check.php';?>
 <!DOCTYPE html>
 
 <html>
     <head>
         <title>Booking Page</title>
-        <link rel="stylesheet" href="index.css">
-        <link rel="stylesheet" href="booking.css">
+        <link rel="stylesheet" href="SRC/index.css?v=<?php echo time();?>">
+        <link rel="stylesheet" href="SRC/booking.css?v=<?php echo time();?>">
         <script src="booking.js"></script>
     </head>
 
     <body>
         <div class="navbar">
-            <img class="logo" src="SRC/AquaSwiftLogo.png" alt="Business Logo">
+            <img class="logo" src="SRC/Index/AquaSwiftLogo.png" alt="Business Logo">
             <div class="buttonset1">
-                <a href="index.html"><button>Home</button></a>
-                <a href="booking.html"><button>Book Ticket</button></a>
-                <a href="gallery.html"><button>Gallery</button></a>
-                <a href="aboutUs.html"><button>About Us</button></a>
-                <a href="account.html"><img src="SRC/dp.png" alt="Profile"></a>
+                <a href="index.php"><button>Home</button></a>
+                <a href="booking.php"><button>Book Ticket</button></a>
+                <a href="gallery.php"><button>Gallery</button></a>
+                <a href="review.php"><button>Reviews</button></a>
+                <div class="acclogo"><a href="account.php"><img src="SRC/dp.png" alt="Profile"></a></div>
             </div>
         </div>
 
@@ -169,10 +170,10 @@
         <div class="topfooter">
 
             <div class="bottomnavbar">
-                <a href="index.html"><button>Home</button></a>
-                <a href="booking.html"><button>Book Ticket</button></a>
-                <a href="gallery.html"><button>Gallery</button></a>
-                <a href="aboutUs.html"><button>About Us</button></a>
+                <a href="index.php"><button>Home</button></a>
+                <a href="booking.php"><button>Book Ticket</button></a>
+                <a href="gallery.php"><button>Gallery</button></a>
+                <a href="review.php"><button>Reviews</button></a>
             </div>
 
             <div class="devider"></div>
@@ -212,17 +213,17 @@
             <div class="devider"></div>
 
             <div class="socialscontainer">
-                <a href="#"><img src="SRC/Facebook.png" alt="Facebook"></a>
-                <a href="#"><img src="SRC/Instagram.png" alt="Instagram"></a>
-                <a href="#"><img src="SRC/Twitter.png" alt="Twitter"></a>
-                <a href="#"><img src="SRC/Whatsapp.png" alt="Whatsapp"></a>
+                <a href="#"><img src="SRC/Index/Facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="SRC/Index/Instagram.png" alt="Instagram"></a>
+                <a href="#"><img src="SRC/Index/Twitter.png" alt="Twitter"></a>
+                <a href="#"><img src="SRC/Index/Whatsapp.png" alt="Whatsapp"></a>
             </div>
-            <img src="SRC/qr.png" alt="QR Code" class="qr">
+            <img src="SRC/Index/qr.png" alt="QR Code" class="qr">
             
         </div>
 
         <p class="copyright">Copyright 2023 © AquaSwift. All Rights Reserved.</p>
-        <a href="contactUs.html"><button class="contactus">
+        <a href="contactUs.php"><button class="contactus">
             Send Message
         </button></a>
     </footer>

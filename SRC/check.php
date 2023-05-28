@@ -3,7 +3,10 @@
 
 
     if (isset($_SESSION["id"])) {
-        echo "<style type=text/css> .login{display:none;} </style>";
+        echo "<style type=text/css> 
+                .login{display:none;}
+                .acclogo{display:block;}
+            </style>";
         
     }
     else {

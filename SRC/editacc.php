@@ -21,13 +21,13 @@
         if($conn->query($sql)){
             echo "<script>
                     alert('Data Updated Successfuly');
-                    window.location.href='account.php';
+                    window.location.href='../account.php';
                 </script>";
         }
         else{
             echo "<script>
                     alert('Data Update Error');
-                    window.location.href='account.php';
+                    window.location.href='../account.php';
                 </script>";
         }
         $con->close();
@@ -39,14 +39,14 @@
         if($conn->query($sql)){
             echo "<script>
                     alert('Account was Deleted');
-                    window.location.href='index.php';
+                    window.location.href='../index.php';
                 </script>";
             session_destroy();
         }
         else{
             echo "<script>
                     alert('Error Deleting Account');
-                    window.location.href='index.php';
+                    window.location.href='../index.php';
                 </script>";
         }
         $con->close();

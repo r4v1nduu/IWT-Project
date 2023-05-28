@@ -76,6 +76,27 @@ form {
 }
 
 
+.timeslot {
+    background-color: #27241D;
+    border: 2px solid transparent;
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+    text-indent: 18px;
+    border-radius: 12px;
+    font-family: 'OutfitR';
+    font-size: 16px;
+}
+.timeslot input {
+    margin-right: 25px;
+}
+.timeslot:hover {
+    border: 2px dashed #FFB84C;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+
 .seatcount, .enterdate {
     width: 100%;
 }

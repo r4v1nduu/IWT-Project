@@ -24,11 +24,11 @@
         else{  
             echo "<script>
                     alert('Incorrect Login Details!');
-                    window.location.href='login.html';
+                    window.location.href='../login.html';
                 </script>";
         }
 
         if(isset ($_SESSION["id"])) {
-            header ("Location:index.php");
+            header ("Location:../index.php");
         }
 ?>  

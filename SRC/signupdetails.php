@@ -17,7 +17,7 @@
         if(mysqli_query($conn,$sql)) {
             echo "<script>
                     alert('Successfull');
-                    window.location.href='login.html';
+                    window.location.href='../login.html';
                 </script>";
         }
         else {
@@ -29,7 +29,7 @@
     else {
         echo "<script>
                 alert('Password MisMatch!');
-                window.location.href='signup.html';
+                window.location.href='../signup.html';
             </script>";
     }
 
