@@ -6,6 +6,20 @@
         <title>Booking Page</title>
         <link rel="stylesheet" href="SRC/index.css?v=<?php echo time();?>">
         <link rel="stylesheet" href="SRC/gallery.css?v=<?php echo time();?>">
+
+        <script>
+            const element = document.querySelector("#container");
+
+element.addEventListener('wheel', (event) => {
+  event.preventDefault();
+
+  element.scrollBy({
+    left: event.deltaY < 0 ? -30 : 30,
+    
+  });
+});
+        </script>
+
     </head>
 
     <body>
@@ -16,7 +30,7 @@
                 <a href="booking.php"><button>Book Ticket</button></a>
                 <a href="gallery.php"><button>Gallery</button></a>
                 <a href="review.php"><button>Reviews</button></a>
-                <div class="acclogo"><a href="account.php"><img src="SRC/dp.png" alt="Profile"></a></div>
+                <div class="acclogo"><a href="account.php"><img src="SRC/Index/dp.png" alt="Profile"></a></div>
             </div>
         </div>
 
@@ -25,7 +39,7 @@
             <a href="signup.html"><button>Sign Up</button></a>
         </div>
 
-        <div class="imagecontainer">
+        <div class="imagecontainer" id="container">
             <div class="images">
                 <img src="SRC/Gallery/gallery (15).jpg" alt="Gallery01">
                 <img src="SRC/Gallery/gallery (2).jpg" alt="Gallery02">

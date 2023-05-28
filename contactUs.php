@@ -16,7 +16,7 @@
                 <a href="booking.php"><button>Book Ticket</button></a>
                 <a href="gallery.php"><button>Gallery</button></a>
                 <a href="review.php"><button>Reviews</button></a>
-                <div class="acclogo"><a href="account.php"><img src="SRC/dp.png" alt="Profile"></a></div>
+                <div class="acclogo"><a href="account.php"><img src="SRC/Index/dp.png" alt="Profile"></a></div>
             </div>
         </div>
 

@@ -17,7 +17,7 @@
                 <a href="booking.php"><button>Book Ticket</button></a>
                 <a href="gallery.php"><button>Gallery</button></a>
                 <a href="review.php"><button>Reviews</button></a>
-                <div class="acclogo"><a href="account.php"><img src="SRC/dp.png" alt="Profile"></a></div>
+                <div class="acclogo"><a href="account.php"><img src="SRC/Index/dp.png" alt="Profile"></a></div>
             </div>
         </div>
 
@@ -26,7 +26,7 @@
             <a href="signup.html"><button>Sign Up</button></a>
         </div>
 
-        <form method="get">
+        <form method="post" action="SRC/bookingdetails.php">
 
             <p class="formmain">Select Safari Route</p>
             <div class="formitems">
@@ -38,7 +38,7 @@
                         Travel Time : 30 Minutes<br>
                         Length : 2 KM
                     </p>
-                    <input type="radio" name="rnumber" value="01">
+                    <input type="radio" name="rnumber" value="RT01">
                 </label>
 
                 <label class="routeitem">
@@ -47,7 +47,7 @@
                         Travel Time : 60 Minutes<br>
                         Length : 4 KM
                     </p>
-                    <input type="radio" name="rnumber" value="02">
+                    <input type="radio" name="rnumber" value="RT02">
                     
                 </label>
 
@@ -58,7 +58,7 @@
                         Travel Time : 90 Minutes<br>
                         Length : 6 KM
                     </p>
-                    <input type="radio" name="rnumber" value="03">
+                    <input type="radio" name="rnumber" value="RT03">
                 </label>
 
                 <label class="routeitem">
@@ -68,7 +68,7 @@
                         Travel Time : 160 Minutes<br>
                         Length : 12 KM
                     </p>
-                    <input type="radio" name="rnumber" value="04">
+                    <input type="radio" name="rnumber" value="RT04">
                 </label>
 
             </div>
@@ -79,31 +79,31 @@
                 <label class="boattypes">
                     <img src="SRC/Boats/type1.png" alt="Boat01">
                     <p class="routenum">Boat 01</p>
-                    <input type="radio" name="bnumber" value="01">
+                    <input type="radio" name="bnumber" value="BT01">
                 </label>
 
                 <label class="boattypes">
                     <img src="SRC/Boats/type2.png" alt="Boat02">
                     <p class="routenum">Boat 02</p>
-                    <input type="radio" name="bnumber" value="02">
+                    <input type="radio" name="bnumber" value="BT02">
                 </label>
 
                 <label class="boattypes">
                     <img src="SRC/Boats/type3.png" alt="Boat03">
                     <p class="routenum">Boat 03</p>
-                    <input type="radio" name="bnumber" value="03">
+                    <input type="radio" name="bnumber" value="BT03">
                 </label>
 
                 <label class="boattypes">
                     <img src="SRC/Boats/type4.png" alt="Boat04">
                     <p class="routenum">Boat 04</p>
-                    <input type="radio" name="bnumber" value="04">
+                    <input type="radio" name="bnumber" value="BT04">
                 </label>
 
                 <label class="boattypes">
                     <img src="SRC/Boats/type5.png" alt="Boat05">
                     <p class="routenum">Boat 05</p>
-                    <input type="radio" name="bnumber" value="05">
+                    <input type="radio" name="bnumber" value="BT05">
                 </label>
 
             </div>
@@ -113,27 +113,27 @@
 
                 <label class="timeslot">
                     <p>08:00 A.M.</p>
-                    <input type="radio" name="tnumber" value="08_AM">
+                    <input type="radio" name="time" value="08_AM">
                 </label>
                 <label class="timeslot">
                     <p>10:00 A.M.</p>
-                    <input type="radio" name="tnumber" value="10_AM">
+                    <input type="radio" name="time" value="10_AM">
                 </label>
                 <label class="timeslot">
                     <p>12:00 P.M.</p>
-                    <input type="radio" name="tnumber" value="12_PM">
+                    <input type="radio" name="time" value="12_PM">
                 </label>
                 <label class="timeslot">
                     <p>02:00 P.M.</p>
-                    <input type="radio" name="tnumber" value="02_PM">
+                    <input type="radio" name="time" value="02_PM">
                 </label>
                 <label class="timeslot">
                     <p>04:00 P.M.</p>
-                    <input type="radio" name="tnumber" value="04_PM">
+                    <input type="radio" name="time" value="04_PM">
                 </label>
                 <label class="timeslot">
                     <p>06:00 P.M.</p>
-                    <input type="radio" name="tnumber" value="06_PM">
+                    <input type="radio" name="time" value="06_PM">
                 </label>
                 
 
@@ -147,7 +147,7 @@
             <p class="formmain">Select a Date</p>
             <div class="formitems">
                 <label class="enterdate">
-                    <input type="date" min='2023-05-13' max='2023-12-31'>
+                    <input type="date" name="date" min='2023-05-13' max='2023-12-31'>
                 </label>
                 <button>View Schedule</button>
             </div>

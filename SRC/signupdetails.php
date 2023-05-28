@@ -32,8 +32,4 @@
                 window.location.href='../signup.html';
             </script>";
     }
-
-    
-
-
 ?>

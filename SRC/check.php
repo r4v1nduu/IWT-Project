@@ -4,15 +4,13 @@
 
     if (isset($_SESSION["id"])) {
         echo "<style type=text/css> 
-                .login{display:none;}
-                .acclogo{display:block;}
+                .login{visibility:hidden;}
             </style>";
-        
     }
     else {
         echo "<style type=text/css> 
-                .login{display:flex;}
-                .acclogo{display:none;}
+                .acclogo{visibility:hidden;}
+                .submitbutton{visibility:hidden;}
             </style>";
     }
 ?>

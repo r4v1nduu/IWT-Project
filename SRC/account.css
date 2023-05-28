@@ -1,14 +1,31 @@
 @charset "UTF-8";
 
 .logoff {
-    margin-top: 100px;
-}    
+    display: flex;
+    justify-content: right;
+    margin-bottom: -30px;
+    margin-top: 90px;
+}
+.logoff input {
+    display: block;
+    margin-right: 160px;
+    height: 26px;
+    width: 90px;
+    border: none;
+    background-color: #A39E93;
+    font-family: 'OutfitR';
+}
+.logoff input:hover {
+    background-color: #303F9F;
+    color: #FFFFFF;
+    cursor: pointer;
+}
 
 .summery {
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
     height: 120px;
-    width: 440px;
+    width: 500px;
     margin-top: 20px;
     margin-left: 200px;
 }
@@ -20,6 +37,7 @@
     background-color: rgb(141, 141, 141);
     height: 120px;
     width: 3px;
+    margin: 0 20px;
 }
 
 #username {
