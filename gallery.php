@@ -6,20 +6,6 @@
         <title>Booking Page</title>
         <link rel="stylesheet" href="SRC/index.css?v=<?php echo time();?>">
         <link rel="stylesheet" href="SRC/gallery.css?v=<?php echo time();?>">
-
-        <script>
-            const element = document.querySelector("#container");
-
-element.addEventListener('wheel', (event) => {
-  event.preventDefault();
-
-  element.scrollBy({
-    left: event.deltaY < 0 ? -30 : 30,
-    
-  });
-});
-        </script>
-
     </head>
 
     <body>

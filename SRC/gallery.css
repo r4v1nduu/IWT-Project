@@ -8,17 +8,17 @@
     top: 0; bottom: 80px; left: 0; right: 0; 
     margin: auto;
     border-radius: 10px;
-    overflow-x: scroll;
+    overflow-y: scroll;
 }
 .imagecontainer::-webkit-scrollbar {
     display: none;
-  }
+}
 
 .images {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    width: 3400px;
+    width: 1500px;
     position: absolute;
     top: 0; bottom: 80px; left: 0; right: 0; 
     margin: auto;

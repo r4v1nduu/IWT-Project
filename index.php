@@ -9,7 +9,7 @@
 
     <body>
         <div class="navbar">
-            <img class="logo" src="SRC/Index/AquaSwiftLogo.png" alt="Business Logo">
+            <img src="SRC/Index/AquaSwiftLogo.png" alt="Business Logo">
             <div class="buttonset1">
                 <a href="index.php"><button>Home</button></a>
                 <a href="booking.php"><button>Book Ticket</button></a>
