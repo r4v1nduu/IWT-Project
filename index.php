@@ -32,7 +32,22 @@
             <br>Book your adventure today and <span> embark on a journey </span> of a lifetime!
         </p>
 
-        
+        <div class="home1">
+            <img class src="SRC/Index/home1.png">
+            <p>
+                Welcome to our Boat Safari Booking Website!<br>
+                Prepare to embark on an extraordinary adventure and immerse yourself in the awe-inspiring beauty of nature.<br>
+                Our platform is your gateway to an unforgettable experience as you explore the tranquil waterways and encounter breathtaking wildlife.
+            </p>
+        </div>
+
+        <div class="home2">
+            <p>
+                Browse through our handpicked selection of boat safari packages, meticulously designed to cater to your unique interests.<br>
+                From meandering rivers and expansive lakes to stunning coastlines, we provide access to diverse ecosystems teeming with life.
+                </p>
+            <img class src="SRC/Index/home2.png">
+        </div>
         
         <!--Temp-->
         <div style="display: block; 

@@ -6,12 +6,12 @@
         <title>Booking Page</title>
         <link rel="stylesheet" href="SRC/index.css?v=<?php echo time();?>">
         <link rel="stylesheet" href="SRC/booking.css?v=<?php echo time();?>">
-        <script src="booking.js"></script>
+        <script src="booking.js?v=<?php echo time();?>"></script>
     </head>
 
     <body>
         <div class="navbar">
-            <img class="logo" src="SRC/Index/AquaSwiftLogo.png" alt="Business Logo">
+            <img src="SRC/Index/AquaSwiftLogo.png" alt="Business Logo">
             <div class="buttonset1">
                 <a href="index.php"><button>Home</button></a>
                 <a href="booking.php"><button>Book Ticket</button></a>

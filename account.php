@@ -50,8 +50,8 @@
             <div class="bookings">
                 <p>Last Booking</p>
                 <div class="history" id="lastbooking">
-                    2023 - 05 - 14 
-                    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+                    2023 - 05 - 14
+                    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
                     #25478
                 </div>
             </div>

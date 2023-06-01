@@ -5,6 +5,7 @@
         <title>SignUp</title>
         <link rel="stylesheet" href="SRC/index.css">
         <link rel="stylesheet" href="SRC/signup.css">
+        <script src="signup.js"></script>
     </head>
 
     <body>
@@ -14,15 +15,17 @@
         
             <p class="signupnote">Create an <span class="brand1"> AQUA </span><span class="brand2"> SWIFT </span> Account</p>
             
-            <label class="detail3">
-                First Name 
-                <input class="detail4" name="fname" type="text" required>
-            </label>
-
-            <label class="detail3">
-                Last Name 
-                <input class="detail4" name="lname" type="text" required>
-            </label>
+            <div class="name">
+                <label class="detail3">
+                    First Name 
+                    <input class="detail4" name="fname" type="text" required>
+                </label>
+    
+                <label class="detail3">
+                    Last Name 
+                    <input class="detail4" name="lname" type="text" required>
+                </label>
+            </div>
 
             <label class="detail3">
                 Email Address 
@@ -36,9 +39,11 @@
             
             <label class="detail3">
                 Confirm Password 
-                <input class="detail4" name="cpass" type="password" required>
+                <input class="detail4" name="cpass" type="password" required onkeyup="checkpw();">
             </label>
             
+            <p id="checktext">#</p>
+
             <button type="submit" class="signupbutton">SIGNUP</button>
             
         </form>        

@@ -14,7 +14,6 @@
         if($count == 1) {
             session_start();
             $_SESSION["id"] = $email;
-//            setcookie("id", $email, time()+3600, "/");
             
             echo $_SESSION["id"];
             echo "<script>

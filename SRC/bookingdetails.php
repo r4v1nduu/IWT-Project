@@ -1,5 +1,6 @@
 <?php
-    include_once 'config.php'
+    include_once 'config.php';
+    echo '<body style="background-color:#121212">';
 ?>
 
 <?php 

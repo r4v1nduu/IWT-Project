@@ -2,8 +2,8 @@
 
 .signupbox {
     display: block;
-    height: 660px;
-    width: 400px;
+    height: 650px;
+    width: 480px;
     background-color: #27241D;
     position: absolute;
     top:0; bottom: 0; left: 0; right: 0; 
@@ -37,6 +37,19 @@
 .brand1 {color: #FF6D28;}
 .brand2 {color: #009FBD;}
 
+
+.name {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 25px;
+}
+.name input {
+    width: 200px;
+}
+.name label {
+    text-indent: 13px;
+}
+
 .detail3 {
     display: block;
     font-family: 'OutfitB';
@@ -48,7 +61,7 @@
     background-color: #423D33;
     color: #FFFFFF;
     display: block;
-    width: 340px;
+    width: 420px;
     height: 40px;
     margin: auto;
     margin-top: 6px;
@@ -59,9 +72,24 @@
     font-size: 18px;
 }
 
+
+#checktext {
+    visibility: hidden;
+    display: block;
+    text-align: center;
+    font-family: 'OutfitL';
+    font-size: 16px;
+    padding: 8px 0;
+    width: 320px;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+
 .signupbutton {
     display: block;
-    margin: 40px auto;
+    margin: 30px auto;
     width: 130px;
     height: 40px;
     border: none;

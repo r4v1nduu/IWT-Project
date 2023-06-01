@@ -1,5 +1,6 @@
 <?php
     include('config.php');
+    echo '<body style="background-color:#121212">';
     
     session_start();
     $id = $_SESSION["id"];

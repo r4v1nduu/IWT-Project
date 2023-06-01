@@ -3,7 +3,7 @@
 .loginbox {
     display: block;
     height: 500px;
-    width: 400px;
+    width: 480px;
     background-color: #27241D;
     position: absolute;
     top:0; bottom: 0; left: 0; right: 0; 
@@ -44,7 +44,7 @@
     background-color: #423D33;
     color: #FFFFFF;
     display: block;
-    width: 340px;
+    width: 420px;
     height: 40px;
     margin: auto;
     margin-top: 6px;
