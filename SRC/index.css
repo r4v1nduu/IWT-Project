@@ -303,3 +303,21 @@ footer {
     color: white;
     bottom: 0;
 }
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1700px) {
+    .footerdesc {
+        display: none;
+    }
+    #devider1 {
+        display: none;
+    }
+}

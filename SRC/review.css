@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+.reviewbox {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 160px auto;
+    width: 1000px;
+}
+
+.review {
+    background-color: #282828;
+    padding: 20px;
+    display: block;
+    width: 450px;
+    border-radius: 20px;
+}
+.name {
+    font-family: 'OutfitR';
+    font-size: 18px;
+    display: flex;
+    margin-top: 10px;
+}
+.name img {
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.text {
+    font-family: 'OutfitEL';
+    font-size: 17px;
+    line-height: 30px;
+    margin: 40px 0;
+}
+.date {
+    font-family: 'OutfitL';
+    font-size: 16px;
+    text-align: right;
+}

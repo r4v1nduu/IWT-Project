@@ -192,7 +192,7 @@
                 </div>
             </div>
 
-            <div class="devider"></div>
+            <div class="devider"  id="devider1"></div>
 
             <div class="footerdesc">
                 Aqua Swift is your one-stop destination for unforgettable boat safaris. 
