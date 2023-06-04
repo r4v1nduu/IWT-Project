@@ -13,14 +13,14 @@
 
     if ($pass == $cpass) {
 
-        $sql = "SELECT * FROM registered_user WHERE email = '$email'";
+        $sql = "SELECT * FROM registered_user WHERE user_email = '$email'";
         $result = $conn->query($sql);
         $row = $result->fetch_assoc();
         $count = mysqli_num_rows($result);
 
         if ($count == 0) {
-            $sql = "INSERT INTO registered_user (user_id, first_name, last_name, email, passwrd, user_type)
-                    VALUES ('', '$fname', '$lname', '$email', '$pass', '')";
+            $sql = "INSERT INTO registered_user (user_id, user_type, first_name, last_name, user_email, user_password)
+                    VALUES ('', '', '$fname', '$lname', '$email', '$pass')";
 
             if(mysqli_query($conn,$sql)) {
                 echo "<script>

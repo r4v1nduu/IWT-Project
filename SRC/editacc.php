@@ -5,20 +5,20 @@
     session_start();
     $id = $_SESSION["id"];
 
-    $sql = "SELECT * FROM registered_user WHERE email='$id'";
+    $sql = "SELECT * FROM registered_user WHERE user_email='$id'";
     $result = $conn->query($sql);
     $row = $result->fetch_assoc();
 
     $fname = $row["first_name"];
     $lname = $row["last_name"];
-    $email = $row["email"];
-    $pass = $row["passwrd"];
+    $email = $row["user_email"];
+    $pass = $row["user_password"];
 
     if(isset($_POST['update'])) {
         $fnameN = $_POST['fname'];
         $lnameN = $_POST['lname'];
 
-        $sql = "UPDATE registered_user SET first_name='$fnameN', last_name='$lnameN' WHERE email='$id' ";
+        $sql = "UPDATE registered_user SET first_name='$fnameN', last_name='$lnameN' WHERE user_email='$id' ";
         if($conn->query($sql)){
             echo "<script>
                     alert('Data Updated Successfuly');
@@ -36,7 +36,7 @@
 
     if(isset($_POST['delete'])) {
         $id = $_SESSION["id"];
-        $sql = "DELETE FROM registered_user WHERE email='$id'";
+        $sql = "DELETE FROM registered_user WHERE user_email='$id'";
         if($conn->query($sql)){
             echo "<script>
                     alert('Account was Deleted');

@@ -215,3 +215,30 @@ form {
     background-color: #8F5F00;
     cursor: pointer;
 }
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1700px) {
+    form {
+        margin: 160px 160px;
+    }
+}
+@media screen and (max-width: 1600px) {
+    form {
+        margin: 160px 120px;
+    }
+}
+@media screen and (max-width: 1500px) {
+    form {
+        margin: 160px 80px;
+    }
+}
+@media screen and (max-width: 1400px) {
+    
+}
+

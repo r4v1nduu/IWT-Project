@@ -4,7 +4,7 @@
     $pass = $_POST['password'];  
       
       
-        $sql = "SELECT * FROM registered_user WHERE email = '$email' AND passwrd = '$pass'";  
+        $sql = "SELECT * FROM registered_user WHERE user_email = '$email' AND user_password = '$pass'";  
         $result = $conn->query($sql);
         $row = $result->fetch_assoc();
 

@@ -4,6 +4,7 @@
 <html>
     <head>
         <title>Aqua Swift</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="SRC/index.css?v=<?php echo time();?>">
     </head>
 
@@ -72,7 +73,7 @@
                 <a href="review.php"><button>Reviews</button></a>
             </div>
 
-            <div class="devider"></div>
+            <div class="devider" id="devider2"></div>
 
             <div class="payoptions">
                 <p>Pay securely with</p>
@@ -97,7 +98,7 @@
                 Book your safari today and experience the magic of Aqua Swift!
             </div>
 
-            <div class="devider"></div>
+            <div class="devider" id="devider3"></div>
 
             <div class="contacts">
                 <p>Contact Us</p>

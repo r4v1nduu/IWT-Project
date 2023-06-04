@@ -147,7 +147,7 @@ a {
     justify-content: space-between;
 }
 .home1 img {
-    width: 400px;
+    width: 400px; height: fit-content;
     margin-right: 120px;
 }
 .home1 p, .home2 p {
@@ -166,7 +166,7 @@ a {
     justify-content: space-between;
 }
 .home2 img {
-    width: 560px;
+    width: 560px;  height: fit-content;
     margin-left: 120px;
 }
 
@@ -178,7 +178,7 @@ a {
     position: fixed;
     width: 86px;
     height: 46px;
-    right: 145px;
+    right: 140px;
     bottom: 12px;
     font-family: 'OutfitEB';
     font-size: 15px;
@@ -208,7 +208,7 @@ footer {
     justify-content: space-between;
     background-color: #423D33;
     height: 100px;
-    padding: 20px;
+    padding: 20px 120px;
 }
 .devider {
     background-color: #c5c5c5;
@@ -216,9 +216,7 @@ footer {
 }
 
 .bottomnavbar {
-    margin-left: 100px;
     margin-top: -10px;
-    margin-right: 10px;
 }
 .bottomnavbar button {
     display: block;
@@ -238,8 +236,6 @@ footer {
 
 .payoptions {
     margin-top: -20px;
-    margin-left: 15px;
-    margin-right: 15px;
     font-family: 'OutfitR';
     font-size: 16px;
 }
@@ -277,7 +273,6 @@ footer {
 
 .socialscontainer {
     display: inline-block;
-    margin-right: 100px;
     width: 100px;
 }
 .socialscontainer img {
@@ -290,8 +285,6 @@ footer {
     display: block;
     width: 60px;
     height: 60px;
-    margin-left: -120px;
-    margin-right: 142px;
     margin-top: 10px;
     cursor: pointer;
 }
@@ -319,5 +312,62 @@ footer {
     }
     #devider1 {
         display: none;
+    }
+    .home1 img {
+        width: 300px;
+        margin-right: 100px;
+    }
+    .home2 img {
+        width: 440px;
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .qr {
+        display: none;
+    }
+    .socialscontainer {
+        display: flex;
+        width: 180px;
+    }
+    .home1, .home2 {
+        display: block;
+        padding: 0 160px;
+    }
+    .home1 img {
+        margin-bottom: 40px;
+        width: 400px;
+    }
+    .home2 img {
+        margin-top: 40px;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .bottomnavbar {
+        display: none;
+    }
+    #devider2 {
+        display: none;
+    }
+    .buttonset1 {
+        display: none;
+    }
+    .home1, .home2 {
+        padding: 0 140px;
+    }
+}
+@media screen and (max-width: 980px) {
+    .contacts {
+        display: none;
+    }
+    .contactus {
+        right: 100px;
+    }
+    #devider3 {
+        display: none;
+    }
+    .home1, .home2 {
+        padding: 0 120px;
     }
 }
