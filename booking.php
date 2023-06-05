@@ -82,7 +82,7 @@
 
             </div>
 
-            <p class="formmain">Select Safari Route</p>
+            <p class="formmain">Select Boat Type</p>
             <div class="formitems">
 
                 <label class="boattypes">
