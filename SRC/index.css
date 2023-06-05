@@ -167,7 +167,7 @@ a {
 
 .description {
     padding: 0 40px;
-    padding-bottom: 120px;
+    padding-bottom: 200px;
     font-family: 'OutfitL';
     font-size: 26px;
     text-align: center;
@@ -178,24 +178,21 @@ a {
 
 
 .home1, .home2 {
-    background-color: #27241D;
-    border-radius: 60px;
-    margin-top: 80px;
     margin-left: auto;
     margin-right: auto;
-    width: 1500px;
-    padding: 50px;
+    width: 75%;
+    padding: 40px 50px;
     display: flex;
     justify-content: space-between;
 }
 .home1 img {
-    width: 400px; height: fit-content;
+    width: 340px; height: fit-content;
     margin-right: 100px;
 }
 .home1 p, .home2 p {
     font-family: 'Handwritten';
     line-height: 50px;
-    font-size: 48px;
+    font-size: 46px;
     margin-top: auto;
     margin-bottom: auto;
 }
@@ -206,22 +203,50 @@ a {
 }
 
 .home3 {
-    background-color: #323F4B;
-    font-family: 'Handwritten';
-    border-radius: 60px;
-    margin-top: 80px;
     margin-left: auto;
     margin-right: auto;
-    width: 1500px;
+    font-family: 'Handwritten';
+    font-size: 56px;
+    font-weight: bold;
+    text-align: center;
+    width: 75%;
     padding: 10px 50px;
 }
-.home3 p {
-    font-size: 56px;
+.home3 a {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 40px;
+    background-color: #A39E93;
+    color: #121212;
+    width: 240px;
+    padding: 10px 0;
+    font-family: 'OutfitEB';
+    font-size: 36px;
 }
-.home3 ul {
-    font-size: 42px;
+.home3 a:hover {
+    background: rgb(255,109,40);
+    background: linear-gradient(90deg, rgba(255,109,40,1) 33%, rgba(0,159,189,1) 100%);
+    box-shadow: 0 0 40px #A39E93;
 }
 
+.home4 {
+    background-color: #102A43;
+    border-radius: 80px;
+    margin-top: 250px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'OutfitB';
+    font-size: 36px;
+    text-align: center;
+    width: 60%;
+    padding: 40px 50px;
+}
+.home4 p {
+    font-family: 'OutfitR';
+    font-size: 28px;
+}
 
 /* Contact Us Button */
 
@@ -384,7 +409,6 @@ footer {
     }
     .home1, .home2 {
         display: block;
-        padding: 0 160px;
     }
     .home1 img {
         margin-bottom: 40px;
@@ -410,9 +434,6 @@ footer {
     #line3 {
         display: block;
     }
-    .home1, .home2 {
-        padding: 0 140px;
-    }
 }
 @media screen and (max-width: 980px) {
     .contacts {
@@ -423,9 +444,6 @@ footer {
     }
     #devider3 {
         display: none;
-    }
-    .home1, .home2 {
-        padding: 0 120px;
     }
 }
 

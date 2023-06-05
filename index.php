@@ -44,43 +44,37 @@
         <div class="home1">
             <img class src="SRC/Index/home1.png">
             <p>
-                Welcome to our Boat Safari Booking Website!<br>
-                Prepare to embark on an extraordinary adventure and immerse yourself in the awe-inspiring beauty of nature.<br>
-                Our platform is your gateway to an unforgettable experience as you explore the tranquil waterways and encounter breathtaking wildlife.
+                Booking your boat safari is now easier than ever!<br>
+                With adjustable time slots, flexible planning, and a user-friendly website, reserving your spot and making payments is a breeze.<br>
+                Enjoy affordable prices and unforgettable experiences with our exclusive discounts.
             </p>
         </div>
 
         <div class="home2">
             <p>
-                Browse through our handpicked selection of boat safari packages, meticulously designed to cater to your unique interests.<br>
-                From meandering rivers and expansive lakes to stunning coastlines, we provide access to diverse ecosystems teeming with life.
-                </p>
+                Experience a unique boat safari with four captivating routes and personalized adventures.<br>
+                Our fleet of five distinct boat types caters to your needs, guided by experts to the best wildlife spots.<br>
+                Embark on a mesmerizing journey with up to 20 seats per trip.<br>
+                Create lasting memories with loved ones - don't miss out on this incredible opportunity!
+            </p>
             <img class src="SRC/Index/home2.png">
         </div>
 
         <div class="home3">
-            <p>Why Choose Us</p>
-            <ul>
-                <li>Diverse Safari Options: Serene river cruises to thrilling ocean adventures, we have something for everyone.</li>
-                <li>Expert Guides: Experienced guides accompany you, sharing insights and enhancing your journey.</li>
-                <li>Stunning Destinations: Explore exotic wildlife, rare bird species, and breathtaking landscapes.</li>
-                <li>Comfort and Safety: Well-maintained boats, modern amenities, and strict safety measures.</li>
-                <li>Easy Booking Process: Browse, select dates, and make secure payments with our user-friendly website.</li>
-                <li>Sustainable Tourism: Support conservation efforts and the local economy through responsible tourism.</li>
-            <ul>
+            <p>Ready to set sail? Book your boat safari today!</p>
+            <a href="booking.php">Book Now</a>
         </div>
-        
-        
-        <!--Temp-->
-        <div style="display: block; 
-                    width: 400px; 
-                    height: 1200px; 
-                    background-color: #121212;
-                    margin-left: 30px;">
+
+        <div class="home4">
+            About Us
+            <p>
+                Aquaswift is your go-to boat safari booking website since 2020. 
+                With a staff of 20, our mission is to connect you with extraordinary water adventures. 
+                Our user-friendly platform ensures hassle-free reservations for captivating boat safari routes. 
+                Join us on this exciting voyage, creating cherished memories amidst nature's beauty.
+            </p>
         </div>
-        
-        
-        
+                
     </body>
 
 

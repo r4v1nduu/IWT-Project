@@ -10,14 +10,15 @@
 }
 
 .review {
-    background-color: #282828;
+    background: rgb(31,41,51);
+    background: linear-gradient(90deg, rgba(31,41,51,1) 26%, rgba(39,36,29,1) 100%);
     padding: 20px;
     display: block;
     width: 450px;
     border-radius: 20px;
 }
 .review:hover {
-    box-shadow: 0 0 18px #FFC628;
+    box-shadow: 0 0 18px #A39E93;
 }
 .name {
     font-family: 'OutfitR';
