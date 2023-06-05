@@ -1,9 +1,11 @@
 <?php
     include_once 'config.php';
     echo '<body style="background-color:#121212">';
-?>
 
-<?php 
+    session_start();
+    if (isset($_SESSION["id"])) {
+        $id = $_SESSION["id"];
+    }
     
     $rnumber = $_POST["rnumber"];
     $bnumber = $_POST["bnumber"];
@@ -11,8 +13,8 @@
     $scount = $_POST["scount"];
     $date = $_POST["date"];
 
-    $sql = "INSERT INTO safari_booking (route_id, boat_id, time_slot, seat_count, s_date)
-            VALUES ('$rnumber', '$bnumber', '$time', '$scount', '$date')";
+    $sql = "INSERT INTO safari_booking (safari_id, user_email, route_id, boat_id, time_slot, seat_count, s_date)
+            VALUES ('', '$id', '$rnumber', '$bnumber', '$time', '$scount', '$date')";
 
     if(mysqli_query($conn,$sql)) {
         echo "<script>

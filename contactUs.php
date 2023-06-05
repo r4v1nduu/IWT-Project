@@ -22,15 +22,15 @@
         </div>
 
 
-        <form method="get" class="contactbox">
+        <form method="post" action="SRC/contactUsdata.php" class="contactbox">
 
-            <label><p>First Name</p> <input name="fname" type="text"></label>
+            <label><p>First Name <span style="color:red;">*</span></p> <input name="fname" type="text" required></label>
             <label><p>Last Name</p> <input name="lname" type="text"></label>
-            <label><p>Email Address</p> <input name="email" type="email"></label>
-            <label><p>Contact Number</p> <input name="cnum" type="text" maxlength="10"></label>
+            <label><p>Email Address <span style="color:red;">*</span></p> <input name="email" type="email"  required></label>
+            <label><p>Contact Number</p> <input name="cnum" type="text" pattern="[0-9]{10}"></label>
 
-            <label class="subject"><p>Subject</p> <input name="subject" type="text"></label>
-            <label class="detail"><p>Details</p> <textarea name="detail"></textarea></label>
+            <label class="subject"><p>Subject <span style="color:red;">*</span></p> <input name="subject" type="text" required></label>
+            <label class="detail"><p>Details <span style="color:red;">*</span></p> <textarea name="detail" required></textarea></label>
 
             <button type="submit">SUBMIT</button>
 

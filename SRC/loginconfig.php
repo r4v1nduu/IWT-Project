@@ -1,5 +1,7 @@
 <?php      
-    include('config.php');  
+    include('config.php');
+    echo '<body style="background-color:#121212">';
+
     $email = $_POST['email'];  
     $pass = $_POST['password'];  
       

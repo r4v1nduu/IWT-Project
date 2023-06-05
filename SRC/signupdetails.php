@@ -1,9 +1,6 @@
 <?php
     include_once 'config.php';
     echo '<body style="background-color:#121212">';
-?>
-
-<?php 
     
     $fname = $_POST["fname"];
     $lname = $_POST["lname"];
