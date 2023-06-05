@@ -16,6 +16,9 @@
     width: 450px;
     border-radius: 20px;
 }
+.review:hover {
+    box-shadow: 0 0 18px #FFC628;
+}
 .name {
     font-family: 'OutfitR';
     font-size: 18px;

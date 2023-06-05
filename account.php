@@ -23,7 +23,7 @@
         </div>
 
         <form method="post" action="SRC/logoff.php" class="logoff">
-        <input name="logoff" type="submit" value="LOG OFF">
+        <input name="logoff" type="submit" value="LOG OUT">
         </form>
         
 

@@ -49,6 +49,19 @@
                 </p>
             <img class src="SRC/Index/home2.png">
         </div>
+
+        <div class="home3">
+            <p>Why Choose Us</p>
+            <ul>
+                <li>Diverse Safari Options: Serene river cruises to thrilling ocean adventures, we have something for everyone.</li>
+                <li>Expert Guides: Experienced guides accompany you, sharing insights and enhancing your journey.</li>
+                <li>Stunning Destinations: Explore exotic wildlife, rare bird species, and breathtaking landscapes.</li>
+                <li>Comfort and Safety: Well-maintained boats, modern amenities, and strict safety measures.</li>
+                <li>Easy Booking Process: Browse, select dates, and make secure payments with our user-friendly website.</li>
+                <li>Sustainable Tourism: Support conservation efforts and the local economy through responsible tourism.</li>
+            <ul>
+        </div>
+        
         
         <!--Temp-->
         <div style="display: block; 

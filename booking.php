@@ -141,9 +141,11 @@
             </div>
 
             <p class="formmain">Enter Seat Count</p>
-            <label class="seatcount">
-                <input type="number" id="scount" name="scount" placeholder="Max Seat Count : 20" min="0" max="20">
-            </label>
+            <div class="formitems">
+                <label class="seatcount">
+                    <input type="number" name="scount" placeholder="Max Seat Count : 20" min="0" max="20">
+                </label>
+            </div>
 
             <p class="formmain">Select a Date</p>
             <div class="formitems">

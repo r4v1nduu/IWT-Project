@@ -222,7 +222,16 @@ form {
 
 
 
-
+@media screen and (max-width: 1900px) {
+    form {
+        margin: 160px 250px;
+    }
+}
+@media screen and (max-width: 1800px) {
+    form {
+        margin: 160px 200px;
+    }
+}
 @media screen and (max-width: 1700px) {
     form {
         margin: 160px 160px;
@@ -238,7 +247,17 @@ form {
         margin: 160px 80px;
     }
 }
-@media screen and (max-width: 1400px) {
-    
+@media screen and (max-width: 1420px) {
+    .formitems {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        width: 640px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .formmain {
+        text-align: center;
+    }
 }
 

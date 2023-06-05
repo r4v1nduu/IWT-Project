@@ -8,9 +8,10 @@
     height: 680px;
     width: 1000px;
     background-color: #27241D;
-    position: absolute;
-    top: 0; bottom: 0; left: 0; right: 0; 
-    margin: auto;
+    margin-left: auto;
+    margin-right:  auto;
+    margin-top: 120px;
+    margin-bottom: 80px;
     border-radius: 10px;
 }
 .contactbox label {
@@ -83,4 +84,30 @@ textarea {
     width: 900px;
     height: 50px;
     justify-content: space-between;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .contactbox {
+        width: 520px;
+        height: 980px;
+    }
+    .subject input {
+        width: 450px;
+    }
+    .detail, textarea {
+        width: 450px;
+    }
+    .contactbox button {
+        margin-left: 280px;
+    }
+    .contactbottom {
+        display: block;
+        text-align: center;
+        height: 160px;
+    }
+    #devider {
+        display: none;
+    }
 }

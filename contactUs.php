@@ -35,9 +35,9 @@
             <button type="submit">SUBMIT</button>
 
             <div class="contactbottom">
-                <p>Tel: 071 222 3345</p><p>|</p>
-                <p>Tel: 077 223 4456</p><p>|</p>
-                <p>Fax: 033 224 5678</p><p>|</p>
+                <p>Tel: 071 222 3345</p><p id="devider">|</p>
+                <p>Tel: 077 223 4456</p><p id="devider">|</p>
+                <p>Fax: 033 224 5678</p><p id="devider">|</p>
                 <p>Email: aquaswift.contact@outlook.com</p>
             </div>
         </form>
