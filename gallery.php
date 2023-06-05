@@ -98,8 +98,8 @@
             <div class="socialscontainer">
                 <a href="#"><img src="SRC/Index/Facebook.png" alt="Facebook"></a>
                 <a href="#"><img src="SRC/Index/Instagram.png" alt="Instagram"></a>
-                <a href="#"><img src="SRC/Index/Twitter.png" alt="Twitter"></a>
                 <a href="#"><img src="SRC/Index/Whatsapp.png" alt="Whatsapp"></a>
+                <a href="#"><img src="SRC/Index/Twitter.png" alt="Twitter"></a>
             </div>
             <img src="SRC/Index/qr.png" alt="QR Code" class="qr">
             

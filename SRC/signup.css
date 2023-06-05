@@ -2,7 +2,7 @@
 
 .signupbox {
     display: block;
-    height: 650px;
+    height: 600px;
     width: 480px;
     background-color: #27241D;
     position: absolute;
@@ -71,25 +71,19 @@
     text-indent: 10px;
     font-size: 18px;
 }
-
-
-#checktext {
-    visibility: hidden;
-    display: block;
-    text-align: center;
-    font-family: 'OutfitL';
+.detail4::placeholder {
     font-size: 16px;
-    padding: 8px 0;
-    width: 320px;
-    margin: auto;
-    border-radius: 10px;
-    margin-top: 40px;
+}
+
+#check {
+    border-bottom: 6px solid transparent;
+    height: 34px;
 }
 
 
 .signupbutton {
     display: block;
-    margin: 30px auto;
+    margin: 50px auto;
     width: 130px;
     height: 40px;
     border: none;

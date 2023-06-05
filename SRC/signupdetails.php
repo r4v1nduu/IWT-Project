@@ -20,11 +20,11 @@
 
         if ($count == 0) {
             $sql = "INSERT INTO registered_user (user_id, user_type, first_name, last_name, user_email, user_password)
-                    VALUES ('', '', '$fname', '$lname', '$email', '$pass')";
+                    VALUES ('', 'Normal User', '$fname', '$lname', '$email', '$pass')";
 
             if(mysqli_query($conn,$sql)) {
                 echo "<script>
-                        alert('Successfull');
+                        alert('Account created successfully');
                         window.location.href='../login.html';
                     </script>";
             }

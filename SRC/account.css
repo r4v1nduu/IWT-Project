@@ -21,6 +21,11 @@
     cursor: pointer;
 }
 
+.summery {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 200px;
+}
 
 .bigdp {
     width: 120px;
@@ -57,21 +62,23 @@
     width: 1200px;
     background-color: #27241D;
     position: absolute;
-    top: 120px; bottom: 0; left: 0; right: 0; 
+    top: 140px; bottom: 0; left: 0; right: 0; 
     margin: auto;
     border-radius: 10px;
 }
-.mail p, .name p, .bookings p {
+
+.data p {
     font-family: 'OutfitR';
     font-size: 16px;
     background-color: #3E4C59;
     color: #FFFFFF;
     padding: 10px 0;
-    width: 120px;
+    width: 160px;
     text-align: center;
     border-radius: 12px;
+    margin-right: 20px;
 }
-.mail input, .name input {
+.data input {
     background-color: #9AA5B1;
     font-family: 'OutfitR';
     font-size: 16px;
@@ -80,34 +87,25 @@
     border-radius: 12px;
     height: 40px;
     margin: auto;
-    width: 400px;
+    width: 350px;
 }
-.name {
+.data {
     display: flex;
     justify-content: space-between;
-    padding-right: 30px;
-    padding-left: 40px;
+    padding: 0 40px;
     margin-top: 30px;
 }
-.name p:last-of-type{
-    margin-left: 40px;
-}
-.mail {
+.data label {
     display: flex;
-    justify-content: space-between;
-    padding-left: 40px;
-    padding-right: 30px;
+    justify-content: left;
 }
-.mail input {
-    width: 980px;
-}
+
 
 .save {
     display: block;
-    position: absolute;
-    right: 80px;
-    margin-top: 20px;
-    width: 140px;
+    margin-top: 10px;
+    margin-left: 960px;
+    width: 160px;
     height: 35px;
     font-family: 'OutfitB';
     font-size: 16px;
@@ -121,62 +119,46 @@
     cursor: pointer;
 }
 
-.bookings {
-    margin-top: 100px;
-    display: flex;
-    justify-content: space-between;
-    padding-left: 40px;
-    padding-right: 30px;
+.password {
+    background-color: #353128;
+    margin-top: 40px;
+    padding: 20px 0;
 }
-.bookings input {
-    width: 980px;
-}
-
-.history {
+.password span {
     display: block;
-    background-color: #9AA5B1;
-    color: #000000;
-    width: 980px;
-    font-family: 'OutfitL';
-    font-size: 16px;
-    text-indent: 14px;
-    border: none;
-    border-radius: 12px;
-    margin: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    font-family: 'OutfitB';
+    color: #c2b391;
+    font-size: 18px;
+    margin-left: 46px;
+    margin-bottom: -20px;
 }
 
 .extras {
     display: flex;
     justify-content: space-between;
-    height: 50px;
-    width: 750px;
-    margin: auto;
-    margin-top: 50px;
+    width: 360px;
+    margin-left: 760px;
+    margin-top: 60px;
 }
-.extras a {
-    width: 200px;
+.extras div {
+    width: 160px;
+    padding: 7px 0;
     font-family: 'OutfitB';
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
-    padding-top: 12px;
     border: none;
     border-radius: 12px;
     background-color: #504A40;
     color: #FFFFFF;
 }
-.extras a:hover {
+.extras div:hover {
     background-color: #3E4C59;
     cursor: pointer;
 }
 
 .delete {
     display: block;
-    position: absolute;
-    right: 440px;
-    top: 800px;
-    width: 140px;
+    width: 160px;
     height: 35px;
     font-family: 'OutfitB';
     font-size: 16px;

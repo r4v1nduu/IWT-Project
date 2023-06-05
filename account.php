@@ -33,40 +33,32 @@
             <p>
                 <span id="username"> <?php echo $fname ?> &nbsp <?php echo $lname ?> </span><br>
                 <span id="email"> <?php echo $email ?> </span><br><br>
-                <span id="usertype">Premium User</span>
+                <span id="usertype"> <?php echo $usertype ?> </span>
             </p>
         </div>
 
         <form class="detail" method="post" action="SRC/editacc.php">
-            <div class="name">
-                <p>First Name</p><input type="text" name="fname" value=<?php echo $fname ?> >
-                <p>Last Name</p><input type="text" name="lname" value=<?php echo $lname ?> >
+            <div class="data">
+                <label><p>First Name</p><input type="text" name="fname" value=<?php echo $fname ?> ></label>
+                <label><p>Last Name</p><input type="text" name="lname" value=<?php echo $lname ?> ></label>
             </div>
-            <div class="mail"><p>Email</p><input type="text" name="email" placeholder="ravindukavishka.119@outlook.com"></div>
-        
-            
+
             <input class="save" name="update" type="submit" value="Save Changes">
-            
 
-            <div class="bookings">
-                <p>Last Booking</p>
-                <div class="history" id="lastbooking">
-                    2023 - 05 - 14
-                    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-                    #25478
+            <div class="password">
+                <span>Change Password</span>
+                <div class="data">
+                    <label><p>Current Password</p><input type="password" name="pass" required></label>
+                    <label><p>New Password</p><input type="password" name="npass" required></label>
                 </div>
-            </div>
 
+                <input class="save" name="updatepw" type="submit" value="Update Password">
+            </div>
+            
             <div class="extras">
-                <a>Change Password</a>
-                <a>Booking History</a>
-                <a>Special Discounts</a>
+                <div>Booking History</div>
+                <input class="delete" name="delete" type="submit" value="Delete Account">
             </div>
-        
-        </form>
-
-        <form method="post" action="SRC/editacc.php">
-            <input class="delete" name="delete" type="submit" value="Delete Account">
         </form>
         
 

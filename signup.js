@@ -3,13 +3,9 @@ function checkpw() {
     var cpass = document.querySelector('input[name=cpass]');
 
     if (pass.value == cpass.value) {
-        document.getElementById('checktext').innerHTML = "Password is Matching";
-        document.getElementById('checktext').style.backgroundColor = "#23C552";
-        document.getElementById('checktext').style.visibility = "visible";
+        document.getElementById('check').style.borderBottomColor = "#23C552";
     }
     else {
-        document.getElementById('checktext').innerHTML = "Password is Not Matching";
-        document.getElementById('checktext').style.backgroundColor = " #F84F31";
-        document.getElementById('checktext').style.visibility = "visible";
+        document.getElementById('check').style.borderBottomColor = "#F84F31";
     }
 }

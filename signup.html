@@ -35,15 +35,14 @@
 
             <label class="detail3">
                 Password 
-                <input class="detail4" name="pass" type="password" required>
+                <input class="detail4" name="pass" type="password" required minlength="8" placeholder="Should be more than 8 characters">
             </label>
             
             <label class="detail3">
                 Confirm Password 
-                <input class="detail4" name="cpass" type="password" required onkeyup="checkpw();">
+                <input class="detail4" name="cpass" id="check" type="password" required onkeyup="checkpw();">
             </label>
             
-            <p id="checktext">#</p>
 
             <button type="submit" class="signupbutton">SIGNUP</button>
             

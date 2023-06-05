@@ -16,7 +16,7 @@
                 <a href="booking.php"><button>Book Ticket</button></a>
                 <a href="gallery.php"><button>Gallery</button></a>
                 <a href="review.php"><button>Reviews</button></a>
-                <div class="acclogo"><a href="account.php"><img src="SRC/Index/dp.png" alt="Profile"></a></div>
+                <a href="account.php" class="acclogo"><img src="SRC/Index/dp.png" alt="Profile"></a>
             </div>
         </div>
 
@@ -112,8 +112,8 @@
             <div class="socialscontainer">
                 <a href="#"><img src="SRC/Index/Facebook.png" alt="Facebook"></a>
                 <a href="#"><img src="SRC/Index/Instagram.png" alt="Instagram"></a>
-                <a href="#"><img src="SRC/Index/Twitter.png" alt="Twitter"></a>
                 <a href="#"><img src="SRC/Index/Whatsapp.png" alt="Whatsapp"></a>
+                <a href="#"><img src="SRC/Index/Twitter.png" alt="Twitter"></a>
             </div>
             <img src="SRC/Index/qr.png" alt="QR Code" class="qr">
             
