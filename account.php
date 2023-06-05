@@ -1,4 +1,10 @@
-<?php include 'SRC/editacc.php';?>
+<?php 
+    include 'SRC/editacc.php';
+
+    if (!isset($_SESSION["id"])) {
+        echo "<script>window.location.href='index.php';</script>";
+    }
+?>
 <!DOCTYPE html>
 
 <html>
@@ -7,19 +13,26 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="SRC/account.css?v=<?php echo time();?>">
         <link rel="stylesheet" href="SRC/index.css?v=<?php echo time();?>">
-        
+        <script src="navbar.js?v=<?php echo time();?>"></script>
     </head>
 
     <body>
         <div class="navbar">
-            <img class="logo" src="SRC/Index/AquaSwiftLogo.png" alt="Business Logo">
+            <a href="index.php"><img class="mainlogo" src="SRC/Index/AquaSwiftLogo.png" alt="Business Logo">
             <div class="buttonset1">
                 <a href="index.php"><button>Home</button></a>
                 <a href="booking.php"><button>Book Ticket</button></a>
                 <a href="gallery.php"><button>Gallery</button></a>
                 <a href="review.php"><button>Reviews</button></a>
-                <div class="acclogo"><a href="account.php"><img src="SRC/Index/dp.png" alt="Profile"></a></div>
+                <img src="SRC/Index/dropdown.png" alt="dropdown" id="line3" onclick="shownavbar()">
+                <a href="account.php" class="acclogo"><img src="SRC/Index/dp.png" alt="Profile"></a>
             </div>
+        </div>
+        <div id="mininavbar">
+            <a href="index.php"><button>Home</button></a>
+            <a href="booking.php"><button>Book Ticket</button></a>
+            <a href="gallery.php"><button>Gallery</button></a>
+            <a href="review.php"><button>Reviews</button></a>
         </div>
 
         <form method="post" action="SRC/logoff.php" class="logoff">

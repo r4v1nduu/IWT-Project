@@ -3,17 +3,19 @@
 .logoff {
     display: flex;
     justify-content: right;
-    margin-bottom: -30px;
-    margin-top: 90px;
+    margin-bottom: -90px;
+    margin-top: 140px;
 }
 .logoff input {
     display: block;
-    margin-right: 160px;
-    height: 26px;
+    margin-right: 140px;
+    height: 36px;
     width: 90px;
     border: none;
+    border-radius: 6px;
     background-color: #A39E93;
-    font-family: 'OutfitR';
+    font-family: 'OutfitEB';
+    font-size: 14px;
 }
 .logoff input:hover {
     background-color: #303F9F;
@@ -23,7 +25,7 @@
 
 .summery {
     display: flex;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-left: 200px;
 }
 
@@ -63,7 +65,7 @@
     background-color: #27241D;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
+    margin-top: 40px;
     margin-bottom: 120px;
     border-radius: 10px;
 }
