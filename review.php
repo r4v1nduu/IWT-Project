@@ -38,7 +38,7 @@
         <div class="reviewbox">
             <div class="review">
                 <div class="name">
-                    <img src="SRC/Index/dp.png">
+                    <img src="SRC/Profiles/pro5.jpg">
                     <p>Minsandha Pathirana<p>
                 </div>
                 <p class="text">
@@ -54,7 +54,7 @@
 
             <div class="review">
                 <div class="name">
-                    <img src="SRC/Index/dp.png">
+                    <img src="SRC/Profiles/pro1.jpg">
                     <p>Pasindu Wanigaratne<p>
                 </div>
                 <p class="text">
@@ -70,7 +70,7 @@
 
             <div class="review">
                 <div class="name">
-                    <img src="SRC/Index/dp.png">
+                    <img src="SRC/Profiles/pro4.jpg">
                     <p>Ravindu Kavishka<p>
                 </div>
                 <p class="text">
@@ -87,7 +87,7 @@
 
             <div class="review">
                 <div class="name">
-                    <img src="SRC/Index/dp.png">
+                    <img src="SRC/Profiles/pro3.jpg">
                     <p>Senali Guruge<p>
                 </div>
                 <p class="text">
@@ -103,7 +103,7 @@
 
             <div class="review">
                 <div class="name">
-                    <img src="SRC/Index/dp.png">
+                    <img src="SRC/Profiles/pro2.jpg">
                     <p>Aravinda Amartunge<p>
                 </div>
                 <p class="text">

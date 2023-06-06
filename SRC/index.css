@@ -434,6 +434,9 @@ footer {
     #line3 {
         display: block;
     }
+    .login {
+        top: 120px;
+    }
 }
 @media screen and (max-width: 980px) {
     .contacts {
