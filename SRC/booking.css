@@ -198,7 +198,7 @@ form {
 
 
 
-.submitbutton {
+#submitbutton {
     display: block;
     margin: auto;
     margin-bottom: -50px;
@@ -211,7 +211,7 @@ form {
     background-color: #CC8800;
     color: #FFFFFF;
 }
-.submitbutton:hover {
+#submitbutton:hover {
     background-color: #8F5F00;
     cursor: pointer;
 }

@@ -11,7 +11,7 @@
         <script src="navbar.js?v=<?php echo time();?>"></script>
     </head>
 
-    <body>
+    <body onload="termsCheck()">
         <div class="navbar">
             <a href="index.php"><img class="mainlogo" src="SRC/Index/AquaSwiftLogo.png" alt="Business Logo">
             <div class="buttonset1">
@@ -47,7 +47,7 @@
                         Travel Time : 30 Minutes<br>
                         Length : 2 KM
                     </p>
-                    <input type="radio" name="rnumber" value="RT01">
+                    <input type="radio" name="rnumber" value="RT01" required>
                 </label>
 
                 <label class="routeitem">
@@ -56,7 +56,7 @@
                         Travel Time : 60 Minutes<br>
                         Length : 4 KM
                     </p>
-                    <input type="radio" name="rnumber" value="RT02">
+                    <input type="radio" name="rnumber" value="RT02" required>
                     
                 </label>
 
@@ -67,7 +67,7 @@
                         Travel Time : 90 Minutes<br>
                         Length : 6 KM
                     </p>
-                    <input type="radio" name="rnumber" value="RT03">
+                    <input type="radio" name="rnumber" value="RT03" required>
                 </label>
 
                 <label class="routeitem">
@@ -77,7 +77,7 @@
                         Travel Time : 160 Minutes<br>
                         Length : 12 KM
                     </p>
-                    <input type="radio" name="rnumber" value="RT04">
+                    <input type="radio" name="rnumber" value="RT04" required>
                 </label>
 
             </div>
@@ -88,31 +88,31 @@
                 <label class="boattypes">
                     <img src="SRC/Boats/type1.png" alt="Boat01">
                     <p class="routenum">Boat 01</p>
-                    <input type="radio" name="bnumber" value="BT01">
+                    <input type="radio" name="bnumber" value="BT01" required>
                 </label>
 
                 <label class="boattypes">
                     <img src="SRC/Boats/type2.png" alt="Boat02">
                     <p class="routenum">Boat 02</p>
-                    <input type="radio" name="bnumber" value="BT02">
+                    <input type="radio" name="bnumber" value="BT02" required>
                 </label>
 
                 <label class="boattypes">
                     <img src="SRC/Boats/type3.png" alt="Boat03">
                     <p class="routenum">Boat 03</p>
-                    <input type="radio" name="bnumber" value="BT03">
+                    <input type="radio" name="bnumber" value="BT03" required>
                 </label>
 
                 <label class="boattypes">
                     <img src="SRC/Boats/type4.png" alt="Boat04">
                     <p class="routenum">Boat 04</p>
-                    <input type="radio" name="bnumber" value="BT04">
+                    <input type="radio" name="bnumber" value="BT04" required>
                 </label>
 
                 <label class="boattypes">
                     <img src="SRC/Boats/type5.png" alt="Boat05">
                     <p class="routenum">Boat 05</p>
-                    <input type="radio" name="bnumber" value="BT05">
+                    <input type="radio" name="bnumber" value="BT05" required>
                 </label>
 
             </div>
@@ -122,27 +122,27 @@
 
                 <label class="timeslot">
                     <p>08:00 A.M.</p>
-                    <input type="radio" name="time" value="08_AM">
+                    <input type="radio" name="time" value="08_AM" required>
                 </label>
                 <label class="timeslot">
                     <p>10:00 A.M.</p>
-                    <input type="radio" name="time" value="10_AM">
+                    <input type="radio" name="time" value="10_AM" required>
                 </label>
                 <label class="timeslot">
                     <p>12:00 P.M.</p>
-                    <input type="radio" name="time" value="12_PM">
+                    <input type="radio" name="time" value="12_PM" required>
                 </label>
                 <label class="timeslot">
                     <p>02:00 P.M.</p>
-                    <input type="radio" name="time" value="02_PM">
+                    <input type="radio" name="time" value="02_PM" required>
                 </label>
                 <label class="timeslot">
                     <p>04:00 P.M.</p>
-                    <input type="radio" name="time" value="04_PM">
+                    <input type="radio" name="time" value="04_PM" required>
                 </label>
                 <label class="timeslot">
                     <p>06:00 P.M.</p>
-                    <input type="radio" name="time" value="06_PM">
+                    <input type="radio" name="time" value="06_PM" required>
                 </label>
                 
 
@@ -151,28 +151,28 @@
             <p class="formmain">Enter Seat Count</p>
             <div class="formitems">
                 <label class="seatcount">
-                    <input type="number" name="scount" placeholder="Max Seat Count : 20" min="0" max="20">
+                    <input type="number" name="scount" placeholder="Max Seat Count : 20" min="0" max="20"  required>
                 </label>
             </div>
 
             <p class="formmain">Select a Date</p>
             <div class="formitems">
                 <label class="enterdate">
-                    <input type="date" name="date" min='2023-05-13' max='2023-12-31'>
+                    <input type="date" name="date" min='2023-05-13' max='2023-12-31'  required>
                 </label>
                 <button>View Schedule</button>
             </div>
 
-            <label class="terms"><input type="checkbox">  Accept Terms & Conditions</label>
+            <label class="terms"><input type="checkbox" name="terms" value="tCheck" onclick="termsCheck()">  Accept Terms & Conditions</label>
 
             <div class="buttonset">
-                <button type="button" class="calc" onclick="calcPrice();">Calculate Price</button>
+                <button type="button" class="calc" onclick="calcPrice()">Calculate Price</button>
                 <button type="button" class="disc">Get Discounts</button>
             </div>
 
             <p id="price"></p>
             
-           <button type="submit" class="submitbutton">Pay & Book</button>
+           <button type="submit" id="submitbutton">Pay & Book</button>
 
         </form>
     </body>

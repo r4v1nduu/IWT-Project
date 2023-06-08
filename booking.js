@@ -1,9 +1,10 @@
 function calcPrice() {
      var route = document.querySelector('input[name=rnumber]:checked').value;
      var boat = document.querySelector('input[name=bnumber]:checked').value;
-     var seat = document.querySelector('#scount').value;
+     var seat = document.querySelector("input[name=scount]").value;
 
      var routeValue, boatValue, total;
+
 
           if (route == 'RT01') {routeValue = 200;}
      else if (route == 'RT02') {routeValue = 400;}
@@ -23,6 +24,26 @@ function calcPrice() {
      else if (seat >= 15) {total = total * 0.6} //40% Discount
 
      if (seat <= 20 && seat > 0) {
-          document.getElementById('price').innerHTML = "Rs. "+(total)+".00"
+          document.getElementById('price').innerHTML = "Rs. "+(total)+".00";
+     }
+     else {
+          document.getElementById('price').innerHTML = "";
+     }
+}
+
+
+
+
+function termsCheck() {
+     var terms = document.querySelector('input[name=terms]');
+
+     if (terms.checked) {
+          document.getElementById("submitbutton").style.opacity = "1";
+          document.getElementById("submitbutton").disabled = false;
+          
+     }
+     else {
+          document.getElementById("submitbutton").style.opacity = "0.4";
+          document.getElementById("submitbutton").disabled = true;
      }
 }

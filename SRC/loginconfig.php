@@ -17,7 +17,6 @@
             session_start();
             $_SESSION["id"] = $email;
             
-            echo $_SESSION["id"];
             echo "<script>
                     alert('Login Successful!');
                 </script>";
