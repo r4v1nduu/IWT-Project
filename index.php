@@ -6,7 +6,6 @@
         <title>Aqua Swift</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="SRC/index.css?v=<?php echo time();?>">
-        <script src="navbar.js?v=<?php echo time();?>"></script>
     </head>
 
     <body>
@@ -17,10 +16,13 @@
                 <a href="booking.php"><button>Book Ticket</button></a>
                 <a href="gallery.php"><button>Gallery</button></a>
                 <a href="review.php"><button>Reviews</button></a>
-                <img src="SRC/Index/dropdown.png" alt="dropdown" id="line3" onclick="shownavbar()">
+                <img src="SRC/Index/dropdown.png" alt="dropdown" id="line3">
                 <a href="account.php" class="acclogo"><img src="SRC/Index/dp.png" alt="Profile"></a>
             </div>
         </div>
+
+        <script src="navbar.js?v=<?php echo time();?>"></script>
+
         <div id="mininavbar">
             <a href="index.php"><button>Home</button></a>
             <a href="booking.php"><button>Book Ticket</button></a>

@@ -154,7 +154,7 @@ form {
 .buttonset {
     text-align: center;
 }
-.calc, .disc {
+#calc, .disc {
     font-family: 'OutfitB';
     font-size: 18px;
     height: 40px;
@@ -163,11 +163,11 @@ form {
     border-radius: 10px;
     margin: 10px;
 }
-.calc {
+#calc {
     background-color: #00897B;
     color: #FFFFFF;
 }
-.calc:hover {
+#calc:hover {
     background-color: #005249;
     cursor: pointer;
     }

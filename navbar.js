@@ -1,4 +1,4 @@
-function shownavbar() {
+document.getElementById("line3").addEventListener("click", function shownavbar() {
     var status = document.getElementById("mininavbar");
     
     if (status.style.display == "") {
@@ -10,4 +10,4 @@ function shownavbar() {
     else {
         status.style.display = "none";
     }
-}
+});

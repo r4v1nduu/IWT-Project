@@ -1,4 +1,4 @@
-function calcPrice() {
+document.getElementById("calc").addEventListener("click", function calcPrice() {
      var route = document.querySelector('input[name=rnumber]:checked').value;
      var boat = document.querySelector('input[name=bnumber]:checked').value;
      var seat = document.querySelector("input[name=scount]").value;
@@ -29,7 +29,7 @@ function calcPrice() {
      else {
           document.getElementById('price').innerHTML = "";
      }
-}
+});
 
 
 
