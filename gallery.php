@@ -10,6 +10,9 @@
     </head>
 
     <body>
+        <div class="topshadow"></div>
+        <div class="bottomshadow"></div>
+
         <div class="navbar">
             <a href="index.php"><img class="mainlogo" src="SRC/Index/AquaSwiftLogo.png" alt="Business Logo">
             <div class="buttonset1">
@@ -31,31 +34,32 @@
             <a href="review.php"><button>Reviews</button></a>
         </div>
 
+        
+
         <div class="login">
             <a href="login.html"><button>Login</button></a>
             <a href="signup.html"><button>Sign Up</button></a>
         </div>
 
-        <div class="imagecontainer" id="container">
-            <div class="images">
-                <img src="SRC/Gallery/gallery (15).jpg" alt="Gallery01">
-                <img src="SRC/Gallery/gallery (2).jpg" alt="Gallery02">
-                <img src="SRC/Gallery/gallery (5).jpg" alt="Gallery03">
-                <img src="SRC/Gallery/gallery (9).jpg" alt="Gallery04">
-                <img src="SRC/Gallery/gallery (4).jpg" alt="Gallery05">
-                <img src="SRC/Gallery/gallery (6).jpg" alt="Gallery06">
-                <img src="SRC/Gallery/gallery (7).jpg" alt="Gallery07">
-                <img src="SRC/Gallery/gallery (8).jpg" alt="Gallery08">
-                <img src="SRC/Gallery/gallery (3).jpg" alt="Gallery09">
-                <img src="SRC/Gallery/gallery (10).jpg" alt="Gallery10">
-                <img src="SRC/Gallery/gallery (11).jpg" alt="Gallery11">
-                <img src="SRC/Gallery/gallery (12).jpg" alt="Gallery12">
-                <img src="SRC/Gallery/gallery (13).jpg" alt="Gallery13">
-                <img src="SRC/Gallery/gallery (14).jpg" alt="Gallery14">
-                <img src="SRC/Gallery/gallery (1).jpg" alt="Gallery15">
-            </div>
+        
+        <div class="images">
+            <img src="SRC/Gallery/gallery (15).jpg" alt="Gallery01">
+            <img src="SRC/Gallery/gallery (2).jpg" alt="Gallery02">
+            <img src="SRC/Gallery/gallery (5).jpg" alt="Gallery03">
+            <img src="SRC/Gallery/gallery (9).jpg" alt="Gallery04">
+            <img src="SRC/Gallery/gallery (4).jpg" alt="Gallery05">
+            <img src="SRC/Gallery/gallery (6).jpg" alt="Gallery06">
+            <img src="SRC/Gallery/gallery (7).jpg" alt="Gallery07">
+            <img src="SRC/Gallery/gallery (8).jpg" alt="Gallery08">
+            <img src="SRC/Gallery/gallery (3).jpg" alt="Gallery09">
+            <img src="SRC/Gallery/gallery (10).jpg" alt="Gallery10">
+            <img src="SRC/Gallery/gallery (11).jpg" alt="Gallery11">
+            <img src="SRC/Gallery/gallery (12).jpg" alt="Gallery12">
+            <img src="SRC/Gallery/gallery (13).jpg" alt="Gallery13">
+            <img src="SRC/Gallery/gallery (14).jpg" alt="Gallery14">
+            <img src="SRC/Gallery/gallery (1).jpg" alt="Gallery15">
         </div>
-
+        
 
     </body>
 

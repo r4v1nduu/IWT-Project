@@ -1,5 +1,15 @@
 @charset "UTF-8";
 
+
+.topshadow {
+    height: 150px;
+    width: 100%;
+    background: rgb(18,18,18);
+    background: linear-gradient(180deg, rgba(18,18,18,1) 70%, transparent 100%);
+    position: fixed;
+    margin-top: -160px;
+}
+
 .reviewbox {
     display: flex;
     justify-content: space-between;

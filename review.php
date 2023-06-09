@@ -10,6 +10,8 @@
     </head>
 
     <body>
+    <div class="topshadow"></div>
+
         <div class="navbar">
             <a href="index.php"><img class="mainlogo" src="SRC/Index/AquaSwiftLogo.png" alt="Business Logo">
             <div class="buttonset1">
