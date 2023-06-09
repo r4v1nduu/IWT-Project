@@ -146,7 +146,6 @@
                     <input type="radio" name="time" value="06_PM" required>
                 </label>
                 
-
             </div>
 
             <p class="formmain">Enter Seat Count</p>

@@ -40,8 +40,14 @@
         $passN = $_POST['pass'];
         $npass = $_POST['npass'];
 
-        if ($passN == $pass) {
-            $sql = "UPDATE registered_user SEt user_password='$npass' WHERE  user_email='$id' ";
+        if ($pass == NULL or $passN == NULL) {
+            echo "<script>
+                    alert('Please Fill both fields!');
+                    window.location.href='../account.php';
+                </script>";
+        }
+        else if ($passN == $pass) {
+            $sql = "UPDATE registered_user SET user_password='$npass' WHERE user_email='$id' ";
             
             if($conn->query($sql)){
                 echo "<script>

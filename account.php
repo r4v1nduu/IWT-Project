@@ -63,15 +63,15 @@
             <div class="password">
                 <span>Change Password</span>
                 <div class="data">
-                    <label><p>Current Password</p><input type="password" name="pass" required></label>
-                    <label><p>New Password</p><input type="password" name="npass" required></label>
+                    <label><p>Current Password</p><input type="password" name="pass"></label>
+                    <label><p>New Password</p><input type="password" name="npass"></label>
                 </div>
 
                 <input class="save" name="updatepw" type="submit" value="Update Password">
             </div>
             
             <div class="extras">
-                <div>Booking History</div>
+                <a href="mybookings.php"><div>Booking History</div></a>
                 <input class="delete" name="delete" type="submit" value="Delete Account">
             </div>
         </form>

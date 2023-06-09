@@ -17,11 +17,13 @@ CREATE TABLE registered_user (
 );
 
 CREATE TABLE safari_booking (
-    safari_id VARCHAR(10),
+    safari_id INT NOT NULL AUTO_INCREMENT,
     user_email VARCHAR(50),
     route_id VARCHAR(10),
     boat_id VARCHAR(10),
     time_slot VARCHAR(10),
     seat_count INT,
     s_date DATE
+
+    CONSTRAINT Booking_PK PRIMARY KEY (safari_id),
 );
