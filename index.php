@@ -5,7 +5,6 @@ include 'SRC/config.php';?>
 <html>
     <head>
         <title>Aqua Swift</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="SRC/index.css?v=<?php echo time();?>">
     </head>
 
