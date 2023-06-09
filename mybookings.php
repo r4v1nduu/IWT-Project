@@ -46,7 +46,7 @@
             else{
                 echo "<script>
                         alert('No previous bookings');
-                        window.location.href='../account.php';
+                        window.location.href='account.php';
                     </script>";
             }
         ?>
