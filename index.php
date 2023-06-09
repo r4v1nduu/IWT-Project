@@ -7,16 +7,6 @@ include 'SRC/config.php';?>
         <title>Aqua Swift</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="SRC/index.css?v=<?php echo time();?>">
-        <style>
-            .newsletter
-            {
-                display:block;
-                margin-right:auto;
-                margin-left:auto;
-                width:62%;
-                border: 3px solid green;
-            }
-        </style>
     </head>
 
     <body>
@@ -91,12 +81,11 @@ include 'SRC/config.php';?>
     </body>
 
     <div class="newsletter">
+        <p>Subscribe to Our Newsletter</p>
         <form method="POST" action="SRC/newsletter.php">
-        <legend>News Letter</legend>
-            <label for="name">Your Name </label>
-            <input type="text" name="name" required>
-            <label for="email">Your Email</label>
-            <input type="text" name="email" required>
+            <label for="name">Your Name &nbsp<input type="text" name="name" required></label>
+            <label for="email">Your Email &nbsp<input type="text" name="email" required></label>
+            
             <button type="submit">Subscribe</button>
             <a href="SRC/editSub.html">Edit My Subscription</a>
         </form>

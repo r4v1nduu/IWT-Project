@@ -1,6 +1,6 @@
 <?php
     include('config.php');
-//    echo '<body style="background-color:#121212">';
+    echo '<body style="background-color:#121212">';
 
     if(isset($_POST['updateSub'])) {
         $name = $_POST['name'];

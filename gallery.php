@@ -3,7 +3,7 @@
 
 <html>
     <head>
-        <title>Booking Page</title>
+        <title>Gallery</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="SRC/index.css?v=<?php echo time();?>">
         <link rel="stylesheet" href="SRC/gallery.css?v=<?php echo time();?>">

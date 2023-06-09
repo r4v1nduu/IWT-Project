@@ -1,6 +1,6 @@
-
 <?php
-include ('config.php');
+    include ('config.php');
+    echo '<body style="background-color:#121212">';
 
     $id=$_POST['email'];
 
@@ -20,11 +20,11 @@ include ('config.php');
         echo "
             <p>Update Subscription Details</p>
             <form method='POST' action='updateSub.php'>
-                <label for='name'>Change Name <input type='text' name='name' value='$name' required> </label> 
-                <label for='email'>Your Email <input type='text' name='email' value='$email' required></label>
+                <label for='name'>Change Name <input class='data' type='text' name='name' value='$name' required> </label> 
+                <label for='email'>Your Email <input class='data' type='text' name='email' value='$email' required></label>
                 
-                <input type='submit' name='updateSub' value='SUBMIT'>
-                <input type='submit' name='deleteSub' value='Remove Subscription'>
+                <input class='button1' type='submit' name='updateSub' value='SUBMIT'>
+                <input class='button2' type='submit' name='deleteSub' value='Remove Subscription'>
             </form>
         ";
 /*        */
@@ -36,3 +36,86 @@ include ('config.php');
             </script>";
     }
 ?>
+
+<!DOCTYPE html>
+<head>
+    <title>Newsletter</title>
+    <link rel="stylesheet" href="index.css?v=<?php echo time();?>">
+    <style>
+        body {
+            margin: 0;
+            background-color: #121212;
+        }
+        p {
+            font-family: 'OutfitB';
+            font-size: 18px;
+            text-align: center;
+            margin-top: 120px;
+        }
+        form {
+            background-color: #27241D;
+            border-radius: 6px;
+            width: 300px;
+            padding: 20px 10px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            font-family: 'OutfitR';
+            font-size: 16px;
+            text-align: center;
+        }
+        label {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .data {
+            text-indent: 10px;
+            background-color: #424242;
+            border: none;
+            border-radius: 6px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            width: 250px;
+            height: 30px;
+            color: #FFFFFF;
+            text-indet: 10px;
+        }
+        .button1, .button2 {
+            border: none;
+            border-radius: 6px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 20px;
+            height: 30px;
+            font-family: 'OutfitB';
+            font-size: 14px;
+            color: #000000;
+        }
+        .button1 {
+            width: 100px;
+            margin-top: 10px;
+            background-color: #E0E0E0;
+        }
+        .button1:hover{
+            background-color: #03C988;
+            cursor: pointer;
+        }
+        .button2 {
+            width: 200px;
+            margin-top: 40px;
+            background-color: #EA5455;
+        }
+        .button2:hover{
+            background-color: #ED2B2A;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+</body>
+</html>

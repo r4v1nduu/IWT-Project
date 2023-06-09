@@ -21,13 +21,13 @@
 
         if(mysqli_query($conn,$sql)) {
             echo "<script>
-                    alert('Successfull');
+                    alert('Safari Booking Successfull');
                     window.location.href='../booking.php';
                 </script>";
         }
         else {
             echo "<script>
-                    alert('UnSuccessfull');
+                    alert('Safari Booking Unsuccessfull');
                     window.location.href='../booking.php';
                 </script>";
         }

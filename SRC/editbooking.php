@@ -3,6 +3,7 @@
 <html>
 
 <head>
+    <title>Edit Bookings</title>
     <link rel="stylesheet" href="booking.css?v=<?php echo time();?>">
     <link rel="stylesheet" href="index.css?v=<?php echo time();?>">
     <link rel="stylesheet" href="mybookings.css?v=<?php echo time();?>">

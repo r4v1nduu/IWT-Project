@@ -2,6 +2,7 @@
 
 <html>
     <head>
+        <title>My Bookings</title>
         <link rel="stylesheet" href="SRC/index.css?v=<?php echo time();?>">
         <link rel="stylesheet" href="SRC/mybookings.css?v=<?php echo time();?>">
     </head>

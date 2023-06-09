@@ -2,8 +2,50 @@
 
 <html>
     <head>
+        <title>Newsletter</title>
         <title>Update Subscription</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="index.css?v=<?php echo time();?>">
+        <style>
+            form {
+                display: block;
+                background-color: #27241D;
+                border-radius: 12px;
+                padding: 20px;
+                margin-left: auto;
+                margin-right: auto;
+                width: 380px;
+                margin-top: 120px;
+                font-family: 'OutfitR';
+            }
+            p {
+                font-family: 'OutfitB';
+                font-size: 18px;
+            }
+            button {
+                margin-left: 40px;
+                height: 30px;
+                width: 80px;
+                font-family: 'OutfitEB';
+                font-size: 14px;
+                border: none;
+                border-radius: 4px;
+                background-color: #E0E0E0;
+            }
+            button:hover {
+                background-color: #03C988;
+                cursor: pointer;
+            }
+            input {
+                border: none;
+                border-radius: 4px;
+                background-color: #424242;
+                height: 30px;
+                width: 200px;
+                text-indent: 10px;
+                color: #FFFFFF;
+            }
+        </style>
     </head>
 
     <body>
@@ -12,7 +54,7 @@
 
             <p class="login1">Enter your Email to check</p>
 
-            <label class="detail1">Email <input name="email" type="email" required></label>
+            <label class="detail1">Email : <input name="email" type="email" required></label>
 
             <button class="loginbutton" type="submit">SUBMIT</button>
         </form>        
