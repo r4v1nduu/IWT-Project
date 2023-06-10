@@ -23,9 +23,9 @@ CREATE TABLE safari_booking (
     boat_id VARCHAR(10),
     time_slot VARCHAR(10),
     seat_count INT,
-    s_date DATE
+    s_date DATE,
 
-    CONSTRAINT Booking_PK PRIMARY KEY (safari_id),
+    CONSTRAINT Booking_PK PRIMARY KEY (safari_id)
 );
 
 CREATE TABLE newsletter(
