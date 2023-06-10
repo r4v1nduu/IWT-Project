@@ -4,7 +4,7 @@
 <html>
     <head>
         <title>Safari Booking</title>
-        //Fix for CSS and JS files not syncing with PHP properly (Source: StackOverflow)
+        <!--Fix for CSS and JS files not syncing with PHP properly (Source: StackOverflow)-->
         <link rel="stylesheet" href="SRC/index.css?v=<?php echo time();?>">
         <link rel="stylesheet" href="SRC/booking.css?v=<?php echo time();?>">
     </head>
@@ -23,7 +23,7 @@
             </div>
         </div>
 
-        //Fix for CSS and JS files not syncing with PHP properly (Source: StackOverflow)
+        <!--Fix for CSS and JS files not syncing with PHP properly (Source: StackOverflow)-->
         <script src="navbar.js?v=<?php echo time();?>"></script>
 
         <div id="mininavbar">
@@ -165,7 +165,7 @@
                 <a href="SRC/schedule.php">View Schedule</a>
             </div>
 
-            //Calling JavaScript function to check whether terms and conditions are checked
+            <!--Calling JavaScript function to check whether terms and conditions are checked-->
             <label class="terms"><input type="checkbox" name="terms" value="tCheck" onclick="termsCheck()">  Accept Terms & Conditions</label>
 
             <div class="buttonset">

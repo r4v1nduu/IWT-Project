@@ -12,7 +12,7 @@
 <html>
     <head>
         <title>User Account</title>
-        //Fix for CSS and JS files not syncing with PHP properly (Source: StackOverflow)
+        <!--Fix for CSS and JS files not syncing with PHP properly (Source: StackOverflow)-->
         <link rel="stylesheet" href="SRC/account.css?v=<?php echo time();?>">
         <link rel="stylesheet" href="SRC/index.css?v=<?php echo time();?>">
     </head>
@@ -30,7 +30,7 @@
             </div>
         </div>
 
-        //Fix for CSS and JS files not syncing with PHP properly (Source: StackOverflow)
+        <!--Fix for CSS and JS files not syncing with PHP properly (Source: StackOverflow)-->
         <script src="navbar.js?v=<?php echo time();?>"></script>
 
         <div id="mininavbar">
@@ -78,14 +78,11 @@
             </div>
         </form>
 
-        //Disable ENTER key form submitting (Source: JavaScript)
+        <!--Disable ENTER key form submitting (Source: JavaScript)-->
         <script>
             document.getElementById("myaccount").onkeypress = function(e) {
                 var key = e.charCode || e.keyCode || 0;     
-                if (key == 13) {
-                    e.preventDefault();
-                }
-            } 
+                if (key == 13) {e.preventDefault();}} 
         </script>
         
 
