@@ -17,14 +17,14 @@
         if(mysqli_query($conn,$sql)) {
             //Fix for PHP header Location: skipping the alert box (Source: StackOverflow)
             echo "<script>
-                    alert('Successfull');
+                    alert('Successfully Subscribed');
                     window.location.href='../index.php';
                 </script>";
         }
         else {
             //Fix for PHP header Location: skipping the alert box (Source: StackOverflow)
             echo "<script>
-                    alert('UnSuccessfull');
+                    alert('Subscription UnSuccessfull');
                     window.location.href='../index.php';
                 </script>";
         }
