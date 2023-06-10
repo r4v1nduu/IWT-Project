@@ -85,7 +85,7 @@ input:focus {
     border-bottom: 3px solid #FF6D28;
     color: #FF6D28;
     cursor: pointer;
-    transition: 0.3s;
+    transition: 0.2s;
 }
 .buttonset1 img {
     display: block;

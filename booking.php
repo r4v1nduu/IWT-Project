@@ -162,7 +162,7 @@
                 <label class="enterdate">
                     <input type="date" name="date" min='2023-05-13' max='2023-12-31'  required>
                 </label>
-                <a href="SRC/schedule.php">View Schedule</a>
+                <a href="SRC/schedule.php">View Reservations</a>
             </div>
 
             <!--Calling JavaScript function to check whether terms and conditions are checked-->

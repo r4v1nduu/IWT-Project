@@ -100,7 +100,7 @@
                         <label class='enterdate'>
                             <input type='date' name='date' min='2023-05-13' max='2023-12-31'  required>
                         </label>
-                        <a href='schedule.php'>View Schedule</a>
+                        <a href='schedule.php'>View Reservations</a>
                     </div>
 
                     <button type='submit' id='submitbutton'>Update</button>
