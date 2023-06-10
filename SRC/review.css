@@ -51,6 +51,11 @@
     font-size: 16px;
     text-align: right;
 }
+.rating {
+    margin-top: -20px;
+    height: 40px;
+    width: fit-content;
+}
 
 
 @media screen and (max-width: 1100px) {.reviewbox {width: 500px;}}
