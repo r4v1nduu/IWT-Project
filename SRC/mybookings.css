@@ -26,11 +26,11 @@ a {
     cursor: pointer;
 }
 table {
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
     margin-left: auto;
     margin-right: auto;
-    background-color: #323F4B;
-    border-radius: 6px;
-    border: 1px solid transparent;
     display: block;
     margin-top: 120px;
     width: 800px;
@@ -41,15 +41,13 @@ th {
     font-family: 'OutfitEB';
     color: #C2B391;
     background-color: #27241D;
-    border-radius: 6px;
-    height: 40px;
+    height: 60px;
 }
 td {
-    font-family: 'OutfitB';
-    background-color: #27241D;
-    border-radius: 6px;
+    font-family: 'OutfitR';
+    background-color: #515151;
     width: 120px;
-    height: 40px;
+    height: 50px;
     text-align: center;
 }
 td:last-of-type {

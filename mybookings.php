@@ -23,9 +23,9 @@
             $result = $conn->query($sql);
 
             if($result->num_rows > 0) {
-                echo "<table border='1'>";
+                echo "<table>";
                 echo "<tr><th class='back'><a href='account.php'>Account Page</a></th></tr>";
-                echo "<th>Date</th><th>Route ID</th><th>Boat ID</th><th>Time Slot</th><th>Seat Count</th>";
+                echo "<th>Date</th><th>Route ID</th><th>Boat ID</th><th>Time Slot</th><th>Seat Count</th><th></th>";
                 
                 while($row = $result->fetch_assoc()) {
                     

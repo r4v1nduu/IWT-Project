@@ -8,7 +8,7 @@
     if($result->num_rows > 0) {
         //JavaScript function to go back to the previous page
         echo "<div class='back'><button class='back' onclick='history.back(-1)'>X</button></div>";
-        echo "<table border='1'>";
+        echo "<table>";
         echo "<th>Date</th><th>Time Slot</th>";
         while($row = $result->fetch_assoc()){
             $date = $row["s_date"];

@@ -125,27 +125,27 @@
 
                 <label class="timeslot">
                     <p>08:00 A.M.</p>
-                    <input type="radio" name="time" value="08_AM" required>
+                    <input type="radio" name="time" value="08 AM" required>
                 </label>
                 <label class="timeslot">
                     <p>10:00 A.M.</p>
-                    <input type="radio" name="time" value="10_AM" required>
+                    <input type="radio" name="time" value="10 AM" required>
                 </label>
                 <label class="timeslot">
                     <p>12:00 P.M.</p>
-                    <input type="radio" name="time" value="12_PM" required>
+                    <input type="radio" name="time" value="12 PM" required>
                 </label>
                 <label class="timeslot">
                     <p>02:00 P.M.</p>
-                    <input type="radio" name="time" value="02_PM" required>
+                    <input type="radio" name="time" value="02 PM" required>
                 </label>
                 <label class="timeslot">
                     <p>04:00 P.M.</p>
-                    <input type="radio" name="time" value="04_PM" required>
+                    <input type="radio" name="time" value="04 PM" required>
                 </label>
                 <label class="timeslot">
                     <p>06:00 P.M.</p>
-                    <input type="radio" name="time" value="06_PM" required>
+                    <input type="radio" name="time" value="06 PM" required>
                 </label>
                 
             </div>

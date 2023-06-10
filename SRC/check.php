@@ -10,7 +10,7 @@
     else {
         echo "<style type=text/css> 
                 .acclogo{visibility:hidden;}
-                .submitbutton{visibility:hidden;}
+                #submitbutton{visibility:hidden;}
             </style>";
     }
 ?>
