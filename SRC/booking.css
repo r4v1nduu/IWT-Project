@@ -127,7 +127,9 @@ form {
     border-radius: 8px;
 }
 
-.formitems button {
+.formitems a {
+    padding-top: 6px;
+    text-align: center;
     width: 240px;
     border: none;
     border-radius: 8px;
@@ -136,7 +138,7 @@ form {
     background-color: #52606D;
     color: #FFFFFF;
 }
-.formitems button:hover {
+.formitems a:hover {
     background-color: #303F9F;
     cursor: pointer;
 }
@@ -258,6 +260,10 @@ form {
     }
     .formmain {
         text-align: center;
+    }
+    .formitems a {
+        padding-top: 3px;
+        padding-bottom: 3px;
     }
 }
 

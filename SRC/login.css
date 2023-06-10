@@ -1,5 +1,19 @@
 @charset "UTF-8";
 
+
+.admin {
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: right;
+}
+.admin a {
+    margin-right: 80px;
+    color: #D3CEC4;
+    text-decoration: underline;
+    font-family: 'OutfitL';
+}
+
 .loginbox {
     display: block;
     height: 500px;

@@ -159,7 +159,7 @@
                 <label class="enterdate">
                     <input type="date" name="date" min='2023-05-13' max='2023-12-31'  required>
                 </label>
-                <button>View Schedule</button>
+                <a href="schedule.php">View Schedule</a>
             </div>
 
             <label class="terms"><input type="checkbox" name="terms" value="tCheck" onclick="termsCheck()">  Accept Terms & Conditions</label>
