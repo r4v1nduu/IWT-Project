@@ -1,3 +1,4 @@
+//Function to use Mini Navigation bar
 document.getElementById("line3").addEventListener("click", function shownavbar() {
     var status = document.getElementById("mininavbar");
     

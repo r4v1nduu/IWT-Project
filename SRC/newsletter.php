@@ -15,12 +15,14 @@
         $sql="INSERT INTO newsletter (name,email) VALUES ('$name','$email')";
 
         if(mysqli_query($conn,$sql)) {
+            //Fix for PHP header Location: skipping the alert box (Source: StackOverflow)
             echo "<script>
                     alert('Successfull');
                     window.location.href='../index.php';
                 </script>";
         }
         else {
+            //Fix for PHP header Location: skipping the alert box (Source: StackOverflow)
             echo "<script>
                     alert('UnSuccessfull');
                     window.location.href='../index.php';
@@ -29,13 +31,10 @@
         mysqli_close($conn);
     }
     else {
+        //Fix for PHP header Location: skipping the alert box (Source: StackOverflow)
         echo "<script>
             alert('You have already subscribed to our Newsletter');
             window.location.href='../index.php';
         </script>";
     }
-
-
-
-    
 ?>

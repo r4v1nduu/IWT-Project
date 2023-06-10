@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-
+/* Customer review page Styles */
 .topshadow {
     height: 150px;
     width: 100%;
@@ -9,7 +9,6 @@
     position: fixed;
     margin-top: -160px;
 }
-
 .reviewbox {
     display: flex;
     justify-content: space-between;
@@ -18,7 +17,6 @@
     margin: 160px auto;
     width: 1000px;
 }
-
 .review {
     background: rgb(31,41,51);
     background: linear-gradient(90deg, rgba(31,41,51,1) 26%, rgba(39,36,29,1) 100%);
@@ -26,6 +24,7 @@
     display: block;
     width: 450px;
     border-radius: 20px;
+    /* Linear gradient generated from : https://cssgradient.io/ */
 }
 .review:hover {
     box-shadow: 0 0 18px #A39E93;
@@ -54,13 +53,4 @@
 }
 
 
-
-
-
-
-
-@media screen and (max-width: 1100px) {
-    .reviewbox {
-        width: 500px;
-    }
-}
+@media screen and (max-width: 1100px) {.reviewbox {width: 500px;}}

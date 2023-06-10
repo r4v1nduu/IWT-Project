@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 
 <html>
-
 <head>
     <title>Edit Bookings</title>
     <link rel="stylesheet" href="booking.css?v=<?php echo time();?>">
@@ -10,7 +9,6 @@
 </head>
 
 <body>
-
 <?php
     include('config.php');
     echo '<body style="background-color:#121212">';
@@ -24,6 +22,7 @@
         $sql = "DELETE FROM safari_booking WHERE safari_id='$deleteID'";
     
         if($conn->query($sql)){
+            //Fix for PHP header Location: skipping the alert box (Source: StackOverflow)
             echo "<script>
                     alert('Booking cancelled successfully');
                     alert('Your payment will be refunded shortly');
@@ -31,6 +30,7 @@
                 </script>";
         }
         else{
+            //Fix for PHP header Location: skipping the alert box (Source: StackOverflow)
             echo "<script>
                     alert('Error cancelling safari');
                     window.location.href='../mybookings.php';
@@ -100,7 +100,7 @@
                         <label class='enterdate'>
                             <input type='date' name='date' min='2023-05-13' max='2023-12-31'  required>
                         </label>
-                        <a href='../schedule.php'>View Schedule</a>
+                        <a href='schedule.php'>View Schedule</a>
                     </div>
 
                     <button type='submit' id='submitbutton'>Update</button>
@@ -109,6 +109,5 @@
         }
     }
 ?>
-
 </body>
 </html>

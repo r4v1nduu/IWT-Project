@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
+
+/*  Booking Form Styles */
 form {
     display: block;
     margin: 160px 300px;
 }
-
-
 .formmain {
     margin-top: 60px;
     font-family: 'OutfitSB';
@@ -16,8 +16,6 @@ form {
     display: flex;
     justify-content: space-between;
 }
-
-
 .routeitem {
     background-color: #27241D;
     border: 4px solid transparent;
@@ -49,8 +47,6 @@ form {
     font-family: 'OutfitR';
     line-height: 22px;
 }
-
-
 .boattypes {
     background-color: #27241D;
     border: 3px solid transparent;
@@ -74,8 +70,6 @@ form {
     margin-top: 21px;
     margin-left: 20px;
 }
-
-
 .timeslot {
     background-color: #27241D;
     border: 2px solid transparent;
@@ -95,8 +89,6 @@ form {
     transition: 0.2s;
     cursor: pointer;
 }
-
-
 .seatcount, .enterdate {
     width: 100%;
 }
@@ -114,8 +106,6 @@ form {
     border: 2px dashed #FFB84C;
     transition: 0.2s;
 }
-
-
 .enterdate input {
     background-color: #27241D;
     border: 2px solid transparent;
@@ -126,7 +116,6 @@ form {
     color: #FFFFFF;
     border-radius: 8px;
 }
-
 .formitems a {
     padding-top: 6px;
     text-align: center;
@@ -142,7 +131,6 @@ form {
     background-color: #303F9F;
     cursor: pointer;
 }
-
 .terms {
     display: block;
     text-align: center;
@@ -151,8 +139,6 @@ form {
     font-family: 'OutfitR';
     font-size: 18px;
 }
-
-
 .buttonset {
     text-align: center;
 }
@@ -181,9 +167,6 @@ form {
     background-color: #46277C;
     cursor: pointer;
 }
-
-
-
 #price {
     display: block;
     text-align: center;
@@ -197,9 +180,6 @@ form {
     border: 2px dashed #FFBB33;
     border-radius: 16px;
 }
-
-
-
 #submitbutton {
     display: block;
     margin: auto;
@@ -219,36 +199,11 @@ form {
 }
 
 
-
-
-
-
-
-@media screen and (max-width: 1900px) {
-    form {
-        margin: 160px 250px;
-    }
-}
-@media screen and (max-width: 1800px) {
-    form {
-        margin: 160px 200px;
-    }
-}
-@media screen and (max-width: 1700px) {
-    form {
-        margin: 160px 160px;
-    }
-}
-@media screen and (max-width: 1600px) {
-    form {
-        margin: 160px 120px;
-    }
-}
-@media screen and (max-width: 1500px) {
-    form {
-        margin: 160px 80px;
-    }
-}
+@media screen and (max-width: 1900px) {form {margin: 160px 250px;}}
+@media screen and (max-width: 1800px) {form {margin: 160px 200px;}}
+@media screen and (max-width: 1700px) {form {margin: 160px 160px;}}
+@media screen and (max-width: 1600px) {form {margin: 160px 120px;}}
+@media screen and (max-width: 1500px) {form {margin: 160px 80px;}}
 @media screen and (max-width: 1420px) {
     .formitems {
         justify-content: center;
@@ -258,12 +213,7 @@ form {
         margin-left: auto;
         margin-right: auto;
     }
-    .formmain {
-        text-align: center;
-    }
-    .formitems a {
-        padding-top: 3px;
-        padding-bottom: 3px;
-    }
+    .formmain {text-align: center;}
+    .formitems a {padding-top: 3px; padding-bottom: 3px;}
 }
 

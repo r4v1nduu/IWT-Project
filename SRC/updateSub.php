@@ -8,12 +8,14 @@
 
         $sql = "UPDATE newsletter SET name='$name', email='$email' WHERE email='$email' ";
         if($conn->query($sql)) {
+            //Fix for PHP header Location: skipping the alert box (Source: StackOverflow)
             echo "<script>
                     alert('Subscription Data Updated Successfuly');
                     window.location.href='../index.php';
                 </script>";
         }
         else {
+            //Fix for PHP header Location: skipping the alert box (Source: StackOverflow)
             echo "<script>
                     alert('Data Update Error');
                     window.location.href='./index.php';
@@ -27,13 +29,15 @@
 
         $sql = "DELETE FROM newsletter WHERE email='$email'";
         
-        if($conn->query($sql)){
+        if($conn->query($sql)) {
+            //Fix for PHP header Location: skipping the alert box (Source: StackOverflow)
             echo "<script>
                     alert('Unsubscribed Successfully');
                     window.location.href='../index.php';
                 </script>";
         }
-        else{
+        else {
+            //Fix for PHP header Location: skipping the alert box (Source: StackOverflow)
             echo "<script>
                     alert('Error Unsubscribing!');
                     window.location.href='../index.php';

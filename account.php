@@ -1,7 +1,9 @@
+//Can't go into account page if not logged in
 <?php 
     include 'SRC/editacc.php';
 
     if (!isset($_SESSION["id"])) {
+        //Redirect to home page using JavaScript
         echo "<script>window.location.href='index.php';</script>";
     }
 ?>
@@ -10,6 +12,7 @@
 <html>
     <head>
         <title>User Account</title>
+        //Fix for CSS and JS files not syncing with PHP properly (Source: StackOverflow)
         <link rel="stylesheet" href="SRC/account.css?v=<?php echo time();?>">
         <link rel="stylesheet" href="SRC/index.css?v=<?php echo time();?>">
     </head>
@@ -27,6 +30,7 @@
             </div>
         </div>
 
+        //Fix for CSS and JS files not syncing with PHP properly (Source: StackOverflow)
         <script src="navbar.js?v=<?php echo time();?>"></script>
 
         <div id="mininavbar">
@@ -40,7 +44,6 @@
         <input name="logoff" type="submit" value="LOG OUT">
         </form>
         
-
         <div class="summery">
             <img class="bigdp" src="SRC/Index/dp.png">
             <div class="devider"></div>
@@ -75,6 +78,7 @@
             </div>
         </form>
 
+        //Disable ENTER key form submitting (Source: JavaScript)
         <script>
             document.getElementById("myaccount").onkeypress = function(e) {
                 var key = e.charCode || e.keyCode || 0;     
@@ -88,7 +92,6 @@
     </body>
 
     <footer style="position: fixed; bottom: 0;">
-
         <p class="copyright">Copyright 2023 © AquaSwift. All Rights Reserved.</p>
         <a href="contactUs.php"><button class="contactus">
             Send Message

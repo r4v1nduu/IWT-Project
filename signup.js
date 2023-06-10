@@ -1,3 +1,4 @@
+//Inform user if Password and Re-Enter Password are not equal
 document.getElementById("check").addEventListener("keyup", function checkpw() {
     var pass = document.querySelector('input[name=pass]');
     var cpass = document.querySelector('input[name=cpass]');

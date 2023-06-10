@@ -5,7 +5,6 @@
     session_start();
     $id = $_SESSION["id"];
     
-
     $safariID = $_GET["safariid"];
     $time = $_POST["time"];
     $date = $_POST["date"];
@@ -13,17 +12,18 @@
     $sql = "UPDATE safari_booking SET time_slot='$time', s_date='$date' WHERE  safari_id='$safariID' ";
 
     if(mysqli_query($conn,$sql)) {
+        //Fix for PHP header Location: skipping the alert box (Source: StackOverflow)
         echo "<script>
                 alert('Successfull');
                 window.location.href='../mybookings.php';
             </script>";
     }
     else {
+        //Fix for PHP header Location: skipping the alert box (Source: StackOverflow)
         echo "<script>
                 alert('UnSuccessfull');
                 window.location.href='../mybookings.php';
             </script>";
     }
-
     mysqli_close($conn);
 ?>

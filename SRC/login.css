@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-
+/* Login page Styles */
 .admin {
     margin-top: 20px;
     display: flex;
@@ -13,7 +13,6 @@
     text-decoration: underline;
     font-family: 'OutfitL';
 }
-
 .loginbox {
     display: block;
     height: 500px;
@@ -24,7 +23,6 @@
     margin: auto;
     border-radius: 10px;
 }
-
 .back {
     display: block;
     font-family: 'OutfitEB';

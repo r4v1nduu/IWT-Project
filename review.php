@@ -4,6 +4,7 @@
 <html>
     <head>
         <title>Customer Reviews</title>
+        //Fix for CSS and JS files not syncing with PHP properly (Source: StackOverflow)
         <link rel="stylesheet" href="SRC/index.css?v=<?php echo time();?>">
         <link rel="stylesheet" href="SRC/review.css?v=<?php echo time();?>">
     </head>
@@ -23,6 +24,7 @@
             </div>
         </div>
 
+        //Fix for CSS and JS files not syncing with PHP properly (Source: StackOverflow)
         <script src="navbar.js?v=<?php echo time();?>"></script>
         
         <div id="mininavbar">
@@ -122,10 +124,7 @@
             
         </div>
         
-        
-        
     </body>
-
 
     <footer>
         <div class="topfooter">

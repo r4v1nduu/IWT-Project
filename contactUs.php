@@ -4,6 +4,7 @@
 <html>
     <head>
         <title>Contact Us</title>
+        //Fix for CSS and JS files not syncing with PHP properly (Source: StackOverflow)
         <link rel="stylesheet" href="SRC/index.css?v=<?php echo time();?>">
         <link rel="stylesheet" href="SRC/contactUs.css?v=<?php echo time();?>">
     </head>
@@ -21,6 +22,7 @@
             </div>
         </div>
 
+        //Fix for CSS and JS files not syncing with PHP properly (Source: StackOverflow)
         <script src="navbar.js?v=<?php echo time();?>"></script>
 
         <div id="mininavbar">
@@ -29,7 +31,6 @@
             <a href="gallery.php"><button>Gallery</button></a>
             <a href="review.php"><button>Reviews</button></a>
         </div>
-
 
         <form method="post" action="SRC/contactUsdata.php" class="contactbox">
 
@@ -51,9 +52,7 @@
             </div>
         </form>
         
-        
     </body>
-
 
     <footer style="position: fixed; bottom: 0;">
         <p class="copyright">Copyright 2023 © AquaSwift. All Rights Reserved.</p>

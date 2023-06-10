@@ -6,14 +6,12 @@
 
     $sql = "SELECT * FROM newsletter WHERE email='$id'";
 
-
     $result = $conn->query($sql);
     $row = $result->fetch_assoc();
 
     $count = mysqli_num_rows($result);
           
     if ($count == 1) {
-        
         $name = $row['name'];
         $email = $row['email'];
 
@@ -27,9 +25,9 @@
                 <input class='button2' type='submit' name='deleteSub' value='Remove Subscription'>
             </form>
         ";
-/*        */
     }
     else {
+        //Fix for PHP header Location: skipping the alert box (Source: StackOverflow)
         echo "<script>
                 alert('Email is not in our subscription list');
                 window.location.href='../index.php';

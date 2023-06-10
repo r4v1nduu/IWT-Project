@@ -1,10 +1,10 @@
+//Calculating the cost by considering user selections
 document.getElementById("calc").addEventListener("click", function calcPrice() {
      var route = document.querySelector('input[name=rnumber]:checked').value;
      var boat = document.querySelector('input[name=bnumber]:checked').value;
      var seat = document.querySelector("input[name=scount]").value;
 
      var routeValue, boatValue, total;
-
 
           if (route == 'RT01') {routeValue = 200;}
      else if (route == 'RT02') {routeValue = 400;}
@@ -32,8 +32,7 @@ document.getElementById("calc").addEventListener("click", function calcPrice() {
 });
 
 
-
-
+//Checking whether the terms and conditions are checked
 function termsCheck() {
      var terms = document.querySelector('input[name=terms]');
 

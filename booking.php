@@ -4,10 +4,12 @@
 <html>
     <head>
         <title>Safari Booking</title>
+        //Fix for CSS and JS files not syncing with PHP properly (Source: StackOverflow)
         <link rel="stylesheet" href="SRC/index.css?v=<?php echo time();?>">
         <link rel="stylesheet" href="SRC/booking.css?v=<?php echo time();?>">
     </head>
 
+    //Calling JavaScript function to disable BOOK button when page loads
     <body onload="termsCheck()">
         <div class="navbar">
             <a href="index.php"><img class="mainlogo" src="SRC/Index/AquaSwiftLogo.png" alt="Business Logo">
@@ -21,6 +23,7 @@
             </div>
         </div>
 
+        //Fix for CSS and JS files not syncing with PHP properly (Source: StackOverflow)
         <script src="navbar.js?v=<?php echo time();?>"></script>
 
         <div id="mininavbar">
@@ -159,9 +162,10 @@
                 <label class="enterdate">
                     <input type="date" name="date" min='2023-05-13' max='2023-12-31'  required>
                 </label>
-                <a href="schedule.php">View Schedule</a>
+                <a href="SRC/schedule.php">View Schedule</a>
             </div>
 
+            //Calling JavaScript function to check whether terms and conditions are checked
             <label class="terms"><input type="checkbox" name="terms" value="tCheck" onclick="termsCheck()">  Accept Terms & Conditions</label>
 
             <div class="buttonset">

@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+/* Signup page Styles */
 .signupbox {
     display: block;
     height: 600px;
@@ -10,7 +11,6 @@
     margin: auto;
     border-radius: 10px;
 }
-
 .back {
     display: block;
     font-family: 'OutfitEB';
@@ -39,8 +39,6 @@
 }
 .brand1 {color: #FF6D28;}
 .brand2 {color: #009FBD;}
-
-
 .name {
     display: flex;
     justify-content: space-around;
@@ -52,7 +50,6 @@
 .name label {
     text-indent: 13px;
 }
-
 .detail3 {
     display: block;
     font-family: 'OutfitB';
@@ -77,13 +74,10 @@
 .detail4::placeholder {
     font-size: 16px;
 }
-
 #check {
     border-bottom: 6px solid transparent;
     height: 34px;
 }
-
-
 .signupbutton {
     display: block;
     margin: 50px auto;

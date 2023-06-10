@@ -4,6 +4,7 @@
 <html>
     <head>
         <title>Gallery</title>
+        //Fix for CSS and JS files not syncing with PHP properly (Source: StackOverflow)
         <link rel="stylesheet" href="SRC/index.css?v=<?php echo time();?>">
         <link rel="stylesheet" href="SRC/gallery.css?v=<?php echo time();?>">
     </head>
@@ -24,6 +25,7 @@
             </div>
         </div>
 
+        //Fix for CSS and JS files not syncing with PHP properly (Source: StackOverflow)
         <script src="navbar.js?v=<?php echo time();?>"></script>
 
         <div id="mininavbar">
@@ -33,14 +35,11 @@
             <a href="review.php"><button>Reviews</button></a>
         </div>
 
-        
-
         <div class="login">
             <a href="login.html"><button>Login</button></a>
             <a href="signup.html"><button>Sign Up</button></a>
         </div>
 
-        
         <div class="images">
             <img src="SRC/Gallery/gallery (15).jpg" alt="Gallery01">
             <img src="SRC/Gallery/gallery (2).jpg" alt="Gallery02">
@@ -59,7 +58,6 @@
             <img src="SRC/Gallery/gallery (1).jpg" alt="Gallery15">
         </div>
         
-
     </body>
 
     <footer  style="position: fixed; bottom: 0;">

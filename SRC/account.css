@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+/* LogOut Button Styles */
 .logoff {
     display: flex;
     justify-content: right;
@@ -23,12 +24,12 @@
     cursor: pointer;
 }
 
+/* User Info Styles */
 .summery {
     display: flex;
     margin-top: 50px;
     margin-left: 200px;
 }
-
 .bigdp {
     width: 120px;
     border-radius: 50%;
@@ -39,7 +40,6 @@
     width: 3px;
     margin: 0 20px;
 }
-
 #username {
     font-family: 'OutfitB';
     font-size: 22px;
@@ -58,6 +58,7 @@
     cursor: pointer;
 }
 
+/* Form Styles */
 .detail {
     display: block;
     height: 500px;
@@ -69,7 +70,6 @@
     margin-bottom: 120px;
     border-radius: 10px;
 }
-
 .data p {
     font-family: 'OutfitR';
     font-size: 16px;
@@ -102,8 +102,6 @@
     display: flex;
     justify-content: left;
 }
-
-
 .save {
     display: block;
     margin-top: 10px;
@@ -121,7 +119,6 @@
     background-color: #005249;
     cursor: pointer;
 }
-
 .password {
     background-color: #353128;
     margin-top: 40px;
@@ -135,7 +132,6 @@
     margin-left: 46px;
     margin-bottom: -20px;
 }
-
 .extras {
     display: flex;
     justify-content: space-between;
@@ -158,7 +154,6 @@
     background-color: #3E4C59;
     cursor: pointer;
 }
-
 .delete {
     display: block;
     width: 160px;
@@ -176,29 +171,11 @@
 }
 
 
-
-@media screen and (max-width: 1700px) {
-    .summery {
-        margin-left: 150px;
-    }
-}
-@media screen and (max-width: 1400px) {
-    .summery {
-        margin-left: 100px;
-    }
-}
+@media screen and (max-width: 1700px) {.summery {margin-left: 150px;}}
+@media screen and (max-width: 1400px) {.summery {margin-left: 100px;}}
 @media screen and (max-width: 1300px) {
-    .detail {
-        width: 600px;
-        height: 640px;
-    }
-    .data {
-        display: block;
-    }
-    .save {
-        margin-left: 360px;
-    }
-    .extras {
-        margin-left: 160px;
-    }
+    .detail {width: 600px; height: 640px;}
+    .data {display: block;}
+    .save {margin-left: 360px;}
+    .extras {margin-left: 160px;}
 }

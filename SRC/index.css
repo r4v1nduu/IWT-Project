@@ -10,6 +10,7 @@
 
 @font-face {font-family: Handwritten; src: url('Outfit/Handwritten007.ttf');}
 
+/* Date input calender icon edit (Source: StackOverflow) */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button,
 input::-webkit-calendar-picker-indicator {
@@ -25,21 +26,7 @@ input:focus {
 }
 
 
-
-body {
-    margin: 0;
-    background-color: #121212;
-/*    background-image: url("SRC/patternpad.svg");
-*/
-    color: #FFFFFF;
-}
-a {
-    text-decoration: none;
-}
-
-
 /* Navigation Bar Styles */
-
 #mininavbar {
     display: none;
     justify-content: center;
@@ -62,8 +49,6 @@ a {
     color: #FF6D28;
     cursor: pointer;
 }
-
-
 .navbar {
     display: flex;
     position: fixed;
@@ -100,7 +85,6 @@ a {
     color: #FF6D28;
     cursor: pointer;
 }
-
 .buttonset1 img {
     display: block;
     width: 54px;
@@ -114,7 +98,6 @@ a {
     opacity: 0.7;
     transition: 0.2s;
 }
-
 .buttonset1 {
     display: flex;
     justify-content: space-between;
@@ -124,9 +107,7 @@ a {
 }
 
 
-
 /* Login Prompt Message Styles */
-
 .login {
     display: flex;
     position: fixed;
@@ -152,19 +133,20 @@ a {
 }
 
 
-
-
-
-/* Main Image */
-
+/* Home page Styles */
+body {
+    margin: 0;
+    background-color: #121212;
+    color: #FFFFFF;
+}
+a {
+    text-decoration: none;
+}
 .mainimage {
     width: 100%;
     display: block;
     margin-top: 70px;
 }
-
-/* Description Text */
-
 .description {
     padding: 0 40px;
     padding-bottom: 200px;
@@ -175,8 +157,6 @@ a {
 .description span {
     font-size: 42px;
 }
-
-
 .home1, .home2 {
     margin-left: auto;
     margin-right: auto;
@@ -201,7 +181,6 @@ a {
     width: 560px;  height: fit-content;
     margin-left: 100px;
 }
-
 .home3 {
     margin-left: auto;
     margin-right: auto;
@@ -228,8 +207,8 @@ a {
     background: rgb(255,109,40);
     background: linear-gradient(90deg, rgba(255,109,40,1) 33%, rgba(0,159,189,1) 100%);
     box-shadow: 0 0 40px #A39E93;
+    /* Linear gradient generated from : https://cssgradient.io/ */
 }
-
 .home4 {
     background-color: #102A43;
     border-radius: 80px;
@@ -247,8 +226,6 @@ a {
     font-family: 'OutfitR';
     font-size: 28px;
 }
-
-
 .newsletter {
     background-color: #212121;
     display: flex;
@@ -291,7 +268,6 @@ a {
     background-color: #03C988;
     cursor: pointer;
 }
-
 .newsletter a {
     color: #FFFFFF;
     background-color: #424242;
@@ -302,7 +278,6 @@ a {
 .newsletter a:hover {
     box-shadow: 0 0 5px #BDBDBD;
 }
-
 .newsletter p {
     font-size: 20px;
     margin-top: 30px;
@@ -310,11 +285,7 @@ a {
 }
 
 
-
-
-
-/* Contact Us Button */
-
+/* Contact Us Button Styles */
 .contactus {
     display: block;
     position: fixed;
@@ -336,15 +307,13 @@ a {
 }
 
 
-/* Footer */
-
+/* Footer Styles */
 footer {
     display: inline-block;
     width: 100%;
     background-color: #27241D;
     text-align: center;
 }
-
 .topfooter {
     display: flex;
     justify-content: space-between;
@@ -356,7 +325,6 @@ footer {
     background-color: #c5c5c5;
     width: 1px;
 }
-
 .bottomnavbar button {
     display: block;
     width: 100px;
@@ -372,7 +340,6 @@ footer {
     border-bottom: 1px solid #FFFFFF;
     cursor: pointer;
 }
-
 .payoptions {
     font-family: 'OutfitR';
     font-size: 16px;
@@ -391,7 +358,6 @@ footer {
     cursor: pointer;
     border-radius: 6px;
 }
-
 .footerdesc {
     display: block;
     width: 400px;
@@ -399,7 +365,6 @@ footer {
     font-size: 14px;
     margin: auto 0;
 }
-
 .contacts {
     font-family: 'OutfitL';
     font-size: 14px;
@@ -411,7 +376,6 @@ footer {
     margin-bottom: 8px;
     margin-top: 2px;
 }
-
 .socialscontainer {
     display: inline-block;
     width: 100px;
@@ -421,7 +385,6 @@ footer {
     margin: 5px;
     cursor: pointer;
 }
-
 .qr {
     display: block;
     width: 60px;
@@ -429,7 +392,6 @@ footer {
     margin-top: 10px;
     cursor: pointer;
 }
-
 .copyright {
     font-family: 'OutfitL';
     font-size: 13px;
@@ -439,31 +401,12 @@ footer {
 }
 
 
-
-
-
-
-
-
-
-
 @media screen and (max-width: 1700px) {
-    .footerdesc {
-        display: none;
-    }
-    #devider1 {
-        display: none;
-    }
-    .home1 img {
-        width: 300px;
-        margin-right: 100px;
-    }
-    .home2 img {
-        width: 440px;
-        margin-left: 100px;
-    }
+    .footerdesc {display: none;}
+    #devider1 {display: none;}
+    .home1 img {width: 300px; margin-right: 100px;}
+    .home2 img {width: 440px; margin-left: 100px;}
 }
-
 @media screen and (max-width: 1530px) {
     .newsletter {
         padding-top: 5px;
@@ -481,35 +424,15 @@ footer {
         text-indent: 0;
     }
 }
-
 @media screen and (max-width: 1300px) {
-    .qr {
-        display: none;
-    }
-    .socialscontainer {
-        display: flex;
-        width: 180px;
-    }
-    .home1, .home2 {
-        display: block;
-    }
-    .home1 img {
-        margin-bottom: 40px;
-        width: 400px;
-    }
-    .home2 img {
-        margin-top: 40px;
-    }
-    .newsletter {
-        height: 300px;
-    }
-    .newsletter form {
-        display: block;
-    }
-    .newsletter label {
-        display: block;
-        margin-top: 20px;
-    }
+    .qr {display: none;}
+    .socialscontainer {display: flex; width: 180px;}
+    .home1, .home2 {display: block;}
+    .home1 img {margin-bottom: 40px; width: 400px;}
+    .home2 img {margin-top: 40px;}
+    .newsletter {height: 300px;}
+    .newsletter form {display: block;}
+    .newsletter label {display: block; margin-top: 20px;}
     .newsletter button {
         display: block;
         margin-left: auto;
@@ -519,40 +442,16 @@ footer {
     }
 }
 @media screen and (max-width: 1100px) {
-    .bottomnavbar {
-        display: none;
-    }
-    #devider2 {
-        display: none;
-    }
-    .buttonset1 {
-        width: 200px;
-    }
-    .buttonset1 button {
-        display: none;
-    }
-    #line3 {
-        display: block;
-    }
-    .login {
-        top: 120px;
-    }
+    .bottomnavbar {display: none;}
+    #devider2 {display: none;}
+    .buttonset1 {width: 200px;}
+    .buttonset1 button {display: none;}
+    #line3 {display: block;}
+    .login {top: 120px;}
 }
 @media screen and (max-width: 980px) {
-    .contacts {
-        display: none;
-    }
-    .contactus {
-        right: 100px;
-    }
-    #devider3 {
-        display: none;
-    }
+    .contacts {display: none;}
+    .contactus {right: 100px;}
+    #devider3 {display: none;}
 }
-
-
-@media screen and (min-width: 1100px) {
-    #mininavbar {
-        visibility: hidden;
-    }
-}
+@media screen and (min-width: 1100px) {#mininavbar {visibility: hidden;}}

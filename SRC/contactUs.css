@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+/* Send Message page Styles */
 .contactbox {
     display: flex;
     justify-content: space-around;
@@ -35,7 +36,6 @@
     font-size: 17px;
     color: #FFFFFF;
 }
-
 .subject input {
     width: 930px;
 }
@@ -55,7 +55,6 @@ textarea {
     color: #FFFFFF;
     resize: none;
 }
-
 .contactbox button {
     display: block;
     margin-left: 760px;
@@ -73,8 +72,6 @@ textarea {
     background-color: #46277C;
     cursor: pointer;
 }
-
-
 .contactbottom {
     font-family: 'OutfitL';
     color: #C1BBAE;
@@ -87,27 +84,15 @@ textarea {
 }
 
 
-
 @media screen and (max-width: 1200px) {
-    .contactbox {
-        width: 520px;
-        height: 980px;
-    }
-    .subject input {
-        width: 450px;
-    }
-    .detail, textarea {
-        width: 450px;
-    }
-    .contactbox button {
-        margin-left: 280px;
-    }
+    .contactbox {width: 520px; height: 980px;}
+    .subject input {width: 450px;}
+    .detail, textarea {width: 450px;}
+    .contactbox button {margin-left: 280px;}
     .contactbottom {
         display: block;
         text-align: center;
         height: 160px;
     }
-    #devider {
-        display: none;
-    }
+    #devider {display: none;}
 }
