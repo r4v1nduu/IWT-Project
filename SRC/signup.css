@@ -28,6 +28,7 @@
 .back:hover {
     background-color: #981F1F;
     cursor: pointer;
+    transition: 0.3s;
 }
 .signupnote {
     display: block;

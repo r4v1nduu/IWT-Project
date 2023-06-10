@@ -28,8 +28,8 @@ form {
 }
 .routeitem:hover {
     border: 4px dashed #FFB84C;
-    transition: 0.2s;
     cursor: pointer;
+    transition: 0.3s;
 }
 .routeitem input {
     height: 20px;
@@ -57,7 +57,7 @@ form {
 }
 .boattypes:hover {
     border: 3px dashed #FFB84C;
-    transition: 0.2s;
+    transition: 0.3s;
     cursor: pointer;
 }
 .boattypes img {
@@ -86,7 +86,7 @@ form {
 }
 .timeslot:hover {
     border: 2px dashed #FFB84C;
-    transition: 0.2s;
+    transition: 0.3s;
     cursor: pointer;
 }
 .seatcount, .enterdate {
@@ -104,7 +104,7 @@ form {
 }
 .seatcount input:hover, .enterdate input:hover {
     border: 2px dashed #FFB84C;
-    transition: 0.2s;
+    transition: 0.3s;
 }
 .enterdate input {
     background-color: #27241D;
@@ -130,6 +130,7 @@ form {
 .formitems a:hover {
     background-color: #303F9F;
     cursor: pointer;
+    transition: 0.3s;
 }
 .terms {
     display: block;
@@ -196,6 +197,7 @@ form {
 #submitbutton:hover {
     background-color: #8F5F00;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 

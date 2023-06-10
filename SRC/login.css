@@ -40,6 +40,7 @@
 .back:hover {
     background-color: #981F1F;
     cursor: pointer;
+    transition: 0.3s;
 }
 .login1 {
     text-align: center;
@@ -101,6 +102,7 @@
     background-color: #009FBD;
     color: #FFFFFF;
     cursor: pointer;
+    transition: 0.3s;
     transition: 0.3s;
 }
 .logregister1 {

@@ -78,7 +78,7 @@
             </div>
         </form>
 
-        <!--Disable ENTER key form submitting (Source: JavaScript)-->
+        <!--Disable ENTER key form submitting (Source: StackOverflow)-->
         <script>
             document.getElementById("myaccount").onkeypress = function(e) {
                 var key = e.charCode || e.keyCode || 0;     

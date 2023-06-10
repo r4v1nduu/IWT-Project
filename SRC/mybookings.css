@@ -24,6 +24,7 @@ a {
 .back:hover {
     background-color: #116A7B;
     cursor: pointer;
+    transition: 0.3s;
 }
 table {
     border-collapse: collapse;
@@ -67,10 +68,12 @@ td:last-of-type {
 .buttons1:hover {
     background-color: #00DFA2;
     cursor: pointer;
+    transition: 0.3s;
 }
 .buttons2:hover {
     background-color: #F45050;
     cursor: pointer;
+    transition: 0.3s;
 }
 form {
     background-color: #323F4B;

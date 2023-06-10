@@ -24,7 +24,14 @@
                 <input class='button1' type='submit' name='updateSub' value='SUBMIT'>
                 <input class='button2' type='submit' name='deleteSub' value='Remove Subscription'>
             </form>
+
+            <script>
+            document.getElementById('myaccount').onkeypress = function(e) {
+                var key = e.charCode || e.keyCode || 0;     
+                if (key == 13) {e.preventDefault();}} 
+            </script>
         ";
+        //Disable ENTER key form submitting (Source: StackOverflow)
     }
     else {
         //Fix for PHP header Location: skipping the alert box (Source: StackOverflow)
@@ -102,6 +109,7 @@
         .button1:hover{
             background-color: #03C988;
             cursor: pointer;
+            transition: 0.3s;
         }
         .button2 {
             width: 200px;
@@ -111,6 +119,7 @@
         .button2:hover{
             background-color: #ED2B2A;
             cursor: pointer;
+            transition: 0.3s;
         }
     </style>
 </head>

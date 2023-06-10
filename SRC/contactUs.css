@@ -71,6 +71,7 @@ textarea {
 .contactbox button:hover {
     background-color: #46277C;
     cursor: pointer;
+    transition: 0.3s;
 }
 .contactbottom {
     font-family: 'OutfitL';

@@ -28,6 +28,7 @@
 }
 .review:hover {
     box-shadow: 0 0 18px #A39E93;
+    transition: 0.3s;
 }
 .name {
     font-family: 'OutfitR';

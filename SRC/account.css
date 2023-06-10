@@ -22,6 +22,7 @@
     background-color: #303F9F;
     color: #FFFFFF;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 /* User Info Styles */
@@ -118,6 +119,7 @@
 .save:hover {
     background-color: #005249;
     cursor: pointer;
+    transition: 0.3s;
 }
 .password {
     background-color: #353128;
@@ -153,6 +155,7 @@
 .extras div:hover {
     background-color: #3E4C59;
     cursor: pointer;
+    transition: 0.3s;
 }
 .delete {
     display: block;
@@ -168,6 +171,7 @@
 .delete:hover {
     background-color: #981F1F;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 

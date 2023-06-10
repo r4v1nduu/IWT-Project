@@ -48,6 +48,7 @@ input:focus {
 #mininavbar button:hover {
     color: #FF6D28;
     cursor: pointer;
+    transition: 0.3s;
 }
 .navbar {
     display: flex;
@@ -84,6 +85,7 @@ input:focus {
     border-bottom: 3px solid #FF6D28;
     color: #FF6D28;
     cursor: pointer;
+    transition: 0.3s;
 }
 .buttonset1 img {
     display: block;
@@ -96,7 +98,7 @@ input:focus {
 }
 .buttonset1 img:hover {
     opacity: 0.7;
-    transition: 0.2s;
+    transition: 0.3s;
 }
 .buttonset1 {
     display: flex;
@@ -130,6 +132,7 @@ input:focus {
     background-color: #303F9F;
     color: #FFFFFF;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 
@@ -207,6 +210,7 @@ a {
     background: rgb(255,109,40);
     background: linear-gradient(90deg, rgba(255,109,40,1) 33%, rgba(0,159,189,1) 100%);
     box-shadow: 0 0 40px #A39E93;
+    transition: 0.3s;
     /* Linear gradient generated from : https://cssgradient.io/ */
 }
 .home4 {
@@ -267,6 +271,7 @@ a {
 .newsletter button:hover {
     background-color: #03C988;
     cursor: pointer;
+    transition: 0.3s;
 }
 .newsletter a {
     color: #FFFFFF;
@@ -277,6 +282,7 @@ a {
 }
 .newsletter a:hover {
     box-shadow: 0 0 5px #BDBDBD;
+    transition: 0.3s;
 }
 .newsletter p {
     font-size: 20px;
@@ -303,7 +309,7 @@ a {
 .contactus:hover {
     background-color: #FFAB00;
     cursor: pointer;
-    transition: 0.2s;
+    transition: 0.3s;
 }
 
 
@@ -339,6 +345,7 @@ footer {
 .bottomnavbar button:hover {
     border-bottom: 1px solid #FFFFFF;
     cursor: pointer;
+    transition: 0.3s;
 }
 .payoptions {
     font-family: 'OutfitR';
