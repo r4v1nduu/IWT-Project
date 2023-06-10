@@ -37,19 +37,19 @@
     }
 
     if(isset($_POST['updatepw'])) {
-        $passN = $_POST['pass'];
-        $npass = $_POST['npass'];
+        $passO = $_POST['pass'];
+        $passN = $_POST['npass'];
 
-        if ($pass == NULL or $passN == NULL) {
+        if ($passN == NULL OR $passO == NULL) {
             echo "<script>
                     alert('Please Fill both fields!');
                     window.location.href='../account.php';
                 </script>";
         }
-        else if ($passN == $pass) {
-            $sql = "UPDATE registered_user SET user_password='$npass' WHERE user_email='$id' ";
+        else if ($pass == $passO) {
+            $sql = "UPDATE registered_user SET user_password='$passN' WHERE user_email='$id' ";
             
-            if($conn->query($sql)){
+            if($conn->query($sql)) {
                 echo "<script>
                         alert('Password Updated Successfuly');
                         window.location.href='../account.php';

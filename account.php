@@ -51,7 +51,7 @@
             </p>
         </div>
 
-        <form class="detail" method="post" action="SRC/editacc.php">
+        <form class="detail" id="myaccount" method="post" action="SRC/editacc.php">
             <div class="data">
                 <label><p>First Name</p><input type="text" name="fname" value=<?php echo $fname ?> ></label>
                 <label><p>Last Name</p><input type="text" name="lname" value=<?php echo $lname ?> ></label>
@@ -63,7 +63,7 @@
                 <span>Change Password</span>
                 <div class="data">
                     <label><p>Current Password</p><input type="password" name="pass"></label>
-                    <label><p>New Password</p><input type="password" name="npass"></label>
+                    <label><p>New Password</p><input type="password" name="npass" minlength="8"></label>
                 </div>
 
                 <input class="save" name="updatepw" type="submit" value="Update Password">
@@ -74,6 +74,15 @@
                 <input class="delete" name="delete" type="submit" value="Delete Account">
             </div>
         </form>
+
+        <script>
+            document.getElementById("myaccount").onkeypress = function(e) {
+                var key = e.charCode || e.keyCode || 0;     
+                if (key == 13) {
+                    e.preventDefault();
+                }
+            } 
+        </script>
         
 
     </body>
