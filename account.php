@@ -1,5 +1,5 @@
-//Can't go into account page if not logged in
-<?php 
+<?php
+    //Can't go into account page if not logged in
     include 'SRC/editacc.php';
 
     if (!isset($_SESSION["id"])) {

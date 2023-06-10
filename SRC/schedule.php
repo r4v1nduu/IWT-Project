@@ -32,7 +32,7 @@
 <html>
     <head>
         <title>Aqua Swift</title>
-        //Fix for CSS and JS files not syncing with PHP properly (Source: StackOverflow)
+        <!--Fix for CSS and JS files not syncing with PHP properly (Source: StackOverflow)-->
         <link rel="stylesheet" href="index.css?v=<?php echo time();?>">
         <link rel="stylesheet" href="schedule.css?v=<?php echo time();?>">
     </head>

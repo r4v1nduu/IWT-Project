@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="SRC/booking.css?v=<?php echo time();?>">
     </head>
 
-    //Calling JavaScript function to disable BOOK button when page loads
+    <!--Calling JavaScript function to disable BOOK button when page loads-->
     <body onload="termsCheck()">
         <div class="navbar">
             <a href="index.php"><img class="mainlogo" src="SRC/Index/AquaSwiftLogo.png" alt="Business Logo">
