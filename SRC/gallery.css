@@ -18,10 +18,11 @@
 .topshadow {
     height: 200px;
     width: 100%;
-    background: rgb(18,18,18);
-    background: linear-gradient(180deg, rgba(18,18,18,1) 60%, transparent 100%);
     position: fixed;
     margin-top: -140px;
+    background: rgb(18,18,18);
+    background: linear-gradient(180deg, rgba(18,18,18,1) 60%, transparent 100%);
+    /* Linear gradient generated from : https://cssgradient.io/ */
 }
 .bottomshadow {
     height: 300px;
@@ -30,6 +31,7 @@
     bottom: 0;
     background: rgb(18,18,18);
     background: linear-gradient(0deg, rgba(18,18,18,1) 70%, transparent 100%);
+    /* Linear gradient generated from : https://cssgradient.io/ */
 }
 
 
