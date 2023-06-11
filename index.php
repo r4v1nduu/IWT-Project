@@ -87,7 +87,7 @@
             <label for="email">Your Email &nbsp<input type="text" name="email" required></label>
             
             <button type="submit">Subscribe</button>
-            <a href="SRC/editSub.html">Edit My Subscription</a>
+            <a href="validateSub.html">Edit My Subscription</a>
         </form>
     </div>
 
