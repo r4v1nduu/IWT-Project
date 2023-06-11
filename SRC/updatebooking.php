@@ -14,14 +14,14 @@
     if(mysqli_query($conn,$sql)) {
         //Fix for PHP header Location: skipping the alert box (Source: StackOverflow)
         echo "<script>
-                alert('Successfull');
+                alert('Safari Detail Updated Successfully');
                 window.location.href='../mybookings.php';
             </script>";
     }
     else {
         //Fix for PHP header Location: skipping the alert box (Source: StackOverflow)
         echo "<script>
-                alert('UnSuccessfull');
+                alert('Safari detail update unsuccessfull');
                 window.location.href='../mybookings.php';
             </script>";
     }

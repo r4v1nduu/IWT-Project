@@ -6,7 +6,7 @@
     $result = $conn->query($sql);
 
     if($result->num_rows > 0) {
-        //JavaScript function to go back to the previous page
+        //JavaScript function to go back to the previous page (Source: StackOverflow)
         echo "<div class='back'><button class='back' onclick='history.back(-1)'>X</button></div>";
         echo "<table>";
         echo "<th>Date</th><th>Time Slot</th>";
@@ -21,9 +21,10 @@
         echo "</table>";
     }
     else {
+        //JavaScript function to go back to the previous page (Source: StackOverflow)
         echo "<script>
                 alert('Schedule is empty!');
-                window.location.href='../account.php';
+                window.window.history.back(-1);
             </script>";
     }
 ?>

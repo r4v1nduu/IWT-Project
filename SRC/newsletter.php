@@ -2,8 +2,8 @@
     include('config.php');
     echo '<body style="background-color:#121212">';
 
-    $name=$_POST["name"];
-    $email=$_POST["email"];
+    $name = $_POST["name"];
+    $email = $_POST["email"];
 
     $sql = "SELECT * FROM newsletter WHERE email = '$email'";
 

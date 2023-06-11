@@ -16,8 +16,8 @@
         $count = mysqli_num_rows($result);
 
         if ($count == 0) {
-            $sql = "INSERT INTO registered_user (user_id, user_type, first_name, last_name, user_email, user_password)
-                    VALUES ('', 'Normal User', '$fname', '$lname', '$email', '$pass')";
+            $sql = "INSERT INTO registered_user (user_type, first_name, last_name, user_email, user_password)
+                    VALUES ('Normal User', '$fname', '$lname', '$email', '$pass')";
 
             if(mysqli_query($conn,$sql)) {
                 //Fix for PHP header Location: skipping the alert box (Source: StackOverflow)

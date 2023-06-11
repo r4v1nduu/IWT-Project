@@ -46,3 +46,19 @@ function termsCheck() {
           document.getElementById("submitbutton").disabled = true;
      }
 }
+
+
+//Set minimum date to today and max to 1 year from today in date input
+
+var fullDate = new Date();
+var month = fullDate.getUTCMonth()+1; //months from 1-12
+var day = fullDate.getUTCDate();
+var year = fullDate.getUTCFullYear();
+
+if (month < 10) {month="0"+month;} //make sure month is a 2 digit number
+
+var today = year+"-"+month+"-"+day;
+var maxday = (year+1)+"-"+month+"-"+day;
+
+document.getElementById('dateSelect').setAttribute("min", today);
+document.getElementById('dateSelect').setAttribute("max", maxday);

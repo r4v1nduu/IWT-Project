@@ -160,7 +160,7 @@
             <p class="formmain">Select a Date</p>
             <div class="formitems">
                 <label class="enterdate">
-                    <input type="date" name="date" min='2023-05-13' max='2023-12-31'  required>
+                    <input type="date" name="date" id="dateSelect" required>
                 </label>
                 <a href="SRC/schedule.php">View Reservations</a>
             </div>
