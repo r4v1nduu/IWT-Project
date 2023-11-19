@@ -59,7 +59,7 @@
 
             <div class="review">
                 <div class="name">
-                    <img src="SRC/Profiles/pro3.jpg">
+                    <img src="SRC/Profiles/pro1.jpg">
                     <p>Pasindu Wanigaratne<p>
                 </div>
                 <p class="text">
