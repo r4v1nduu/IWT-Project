@@ -15,7 +15,7 @@ This is a Boat Safari Ticket Booking Web App developed using HTML, CSS, JavaScri
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](/Screenshots/SS (1))
 
 
 ## Contributing
