@@ -1,8 +1,5 @@
-# IWT-IT1100
-Internet and Web Technologies Group Project
+# Boat Safari Booking System
 
-**Topic :** Boat Safari Trip Management System
+This is a Boat Safari Ticket Booking Web App developed using HTML, CSS, JavaScript, PHP, and SQL where users can effortlessly create/manage accounts, book tickets, view booking history, and calculate ticket prices.
 
-<img src="https://img.shields.io/github/last-commit/Project-Group-Y1S2/IWT-IT1100" alt="shields">
-<img src="https://img.shields.io/github/repo-size/Project-Group-Y1S2/IWT-IT1100" alt="shields">
-<img src="https://img.shields.io/github/directory-file-count/Project-Group-Y1S2/IWT-IT1100" alt="shields">
+<img src="https://img.shields.io/github/downloads/r4v1nduu/IWT-Project/total"  alt="shields">
