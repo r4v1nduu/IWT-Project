@@ -15,10 +15,6 @@ This is a Boat Safari Ticket Booking Web App developed using HTML, CSS, JavaScri
 
 ## Screenshots
 
-![App Screenshot](/Screenshots/SS (1))
-
-
-## Contributing
-
-Pasindu Wanigaratne (https://github.com/Pasindu0214)
-
+![App Screenshot](https://github.com/r4v1nduu/IWT-Project/blob/main/Screenshots/SS%20(1).png)
+![App Screenshot](https://github.com/r4v1nduu/IWT-Project/blob/main/Screenshots/SS%20(6).png)
+![App Screenshot](https://github.com/r4v1nduu/IWT-Project/blob/main/Screenshots/SS%20(5).png)
