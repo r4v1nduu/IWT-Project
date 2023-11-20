@@ -10,7 +10,7 @@ This is a Boat Safari Ticket Booking Web App developed using HTML, CSS, JavaScri
 
 ## Deployment
 
- developing . . .
+ developing . . 
 
 
 ## Screenshots
