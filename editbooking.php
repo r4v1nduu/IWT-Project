@@ -3,14 +3,14 @@
 <html>
 <head>
     <title>Edit Bookings</title>
-    <link rel="stylesheet" href="booking.css?v=<?php echo time();?>">
-    <link rel="stylesheet" href="index.css?v=<?php echo time();?>">
-    <link rel="stylesheet" href="mybookings.css?v=<?php echo time();?>">
+    <link rel="stylesheet" href="SRC/CSS/booking.css?v=<?php echo time();?>">
+    <link rel="stylesheet" href="SRC/CSS/index.css?v=<?php echo time();?>">
+    <link rel="stylesheet" href="SRC/CSS/mybookings.css?v=<?php echo time();?>">
 </head>
 
 <body>
 <?php
-    include('config.php');
+    include('SRC/config.php');
     echo '<body style="background-color:#121212">';
     
     session_start();
@@ -26,14 +26,14 @@
             echo "<script>
                     alert('Booking cancelled successfully');
                     alert('Your payment will be refunded shortly');
-                    window.location.href='../mybookings.php';
+                    window.location.href='mybookings.php';
                 </script>";
         }
         else{
             //Fix for PHP header Location: skipping the alert box (Source: StackOverflow)
             echo "<script>
                     alert('Error cancelling safari');
-                    window.location.href='../mybookings.php';
+                    window.location.href='mybookings.php';
                 </script>";
         }
         $con->close();

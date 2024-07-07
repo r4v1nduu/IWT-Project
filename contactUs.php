@@ -5,8 +5,8 @@
     <head>
         <title>Contact Us</title>
         <!--Fix for CSS and JS files not syncing with PHP properly (Source: StackOverflow)-->
-        <link rel="stylesheet" href="SRC/index.css?v=<?php echo time();?>">
-        <link rel="stylesheet" href="SRC/contactUs.css?v=<?php echo time();?>">
+        <link rel="stylesheet" href="SRC/CSS/index.css?v=<?php echo time();?>">
+        <link rel="stylesheet" href="SRC/CSS/contactUs.css?v=<?php echo time();?>">
     </head>
 
     <body>

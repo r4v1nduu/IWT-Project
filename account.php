@@ -13,8 +13,8 @@
     <head>
         <title>User Account</title>
         <!--Fix for CSS and JS files not syncing with PHP properly (Source: StackOverflow)-->
-        <link rel="stylesheet" href="SRC/account.css?v=<?php echo time();?>">
-        <link rel="stylesheet" href="SRC/index.css?v=<?php echo time();?>">
+        <link rel="stylesheet" href="SRC/CSS/account.css?v=<?php echo time();?>">
+        <link rel="stylesheet" href="SRC/CSS/index.css?v=<?php echo time();?>">
     </head>
 
     <body>
