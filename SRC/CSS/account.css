@@ -1,0 +1,185 @@
+@charset "UTF-8";
+
+/* LogOut Button Styles */
+.logoff {
+    display: flex;
+    justify-content: right;
+    margin-bottom: -90px;
+    margin-top: 140px;
+}
+.logoff input {
+    display: block;
+    margin-right: 140px;
+    height: 36px;
+    width: 90px;
+    border: none;
+    border-radius: 6px;
+    background-color: #A39E93;
+    font-family: 'OutfitEB';
+    font-size: 14px;
+}
+.logoff input:hover {
+    background-color: #303F9F;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* User Info Styles */
+.summery {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.bigdp {
+    width: 120px;
+    border-radius: 50%;
+}
+.devider {
+    background-color: rgb(141, 141, 141);
+    height: 120px;
+    width: 3px;
+    margin: 0 20px;
+}
+#username {
+    font-family: 'OutfitB';
+    font-size: 22px;
+}
+#email {
+    font-family: 'OutfitL';
+    font-size: 18px;
+}
+#usertype {
+    background-color: #F5A300;
+    color: #000000;
+    font-family: 'OutfitR';
+    font-size: 14px;
+    padding: 5px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Form Styles */
+.detail {
+    display: block;
+    height: 500px;
+    width: 1200px;
+    background-color: #27241D;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 120px;
+    border-radius: 10px;
+}
+.data p {
+    font-family: 'OutfitR';
+    font-size: 16px;
+    background-color: #3E4C59;
+    color: #FFFFFF;
+    padding: 10px 0;
+    width: 160px;
+    text-align: center;
+    border-radius: 12px;
+    margin-right: 20px;
+}
+.data input {
+    background-color: #9AA5B1;
+    font-family: 'OutfitR';
+    font-size: 16px;
+    text-indent: 10px;
+    border: none;
+    border-radius: 12px;
+    height: 40px;
+    margin: auto;
+    width: 350px;
+}
+.data {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    padding-top: 30px;
+}
+.data label {
+    display: flex;
+    justify-content: left;
+}
+.save {
+    display: block;
+    margin-top: 10px;
+    margin-left: 960px;
+    width: 160px;
+    height: 35px;
+    font-family: 'OutfitB';
+    font-size: 16px;
+    border: none;
+    border-radius: 12px;
+    background-color: #00897B;
+    color: #FFFFFF;
+}
+.save:hover {
+    background-color: #005249;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.password {
+    background-color: #353128;
+    margin-top: 40px;
+    padding: 20px 0;
+}
+.password span {
+    display: block;
+    font-family: 'OutfitB';
+    color: #c2b391;
+    font-size: 18px;
+    margin-left: 46px;
+    margin-bottom: -20px;
+}
+.extras {
+    display: flex;
+    justify-content: space-between;
+    width: 360px;
+    margin-left: 760px;
+    margin-top: 60px;
+}
+.extras div {
+    width: 160px;
+    padding: 7px 0;
+    font-family: 'OutfitB';
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    border-radius: 12px;
+    background-color: #504A40;
+    color: #FFFFFF;
+}
+.extras div:hover {
+    background-color: #3E4C59;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.delete {
+    display: block;
+    width: 160px;
+    height: 35px;
+    font-family: 'OutfitB';
+    font-size: 16px;
+    border: none;
+    border-radius: 12px;
+    background-color: #D53434;
+    color: #FFFFFF;
+}
+.delete:hover {
+    background-color: #981F1F;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+@media screen and (max-width: 1700px) {.summery {margin-left: 150px;}}
+@media screen and (max-width: 1400px) {.summery {margin-left: 100px;}}
+@media screen and (max-width: 1300px) {
+    .detail {width: 600px; height: 640px;}
+    .data {display: block;}
+    .save {margin-left: 360px;}
+    .extras {margin-left: 160px;}
+}

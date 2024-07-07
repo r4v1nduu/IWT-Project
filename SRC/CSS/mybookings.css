@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+/* Custom Fonts */
+@font-face {font-family: OutfitEB; src: url('Outfit/Outfit-ExtraBold.ttf');}
+@font-face {font-family: OutfitB; src: url('Outfit/Outfit-Bold.ttf');}
+@font-face {font-family: OutfitR; src: url('Outfit/Outfit-Regular.ttf');}
+@font-face {font-family: OutfitL; src: url('Outfit/Outfit-Light.ttf');}
+@font-face {font-family: OutfitEL; src: url('Outfit/Outfit-ExtraLight.ttf');}
+
+a {
+    color: #FFFFFF;
+}
+.back {
+    margin-bottom: 40px;
+    display: block;
+    width: 100px;
+    height: 20px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-family: 'OutfitB';
+    font-size: 14px;
+    background-color: #4F709C;
+}
+.back:hover {
+    background-color: #116A7B;
+    cursor: pointer;
+    transition: 0.3s;
+}
+table {
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 120px;
+    width: 800px;
+    min-width: 800px;
+    font-size: 16px;
+}
+th {
+    font-family: 'OutfitEB';
+    color: #C2B391;
+    background-color: #27241D;
+    height: 60px;
+}
+td {
+    font-family: 'OutfitR';
+    background-color: #515151;
+    width: 120px;
+    height: 50px;
+    text-align: center;
+}
+td:last-of-type {
+    width: 200px;
+}
+.buttons1, .buttons2 {
+    background-color: #CBD2D9;
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+    font-family: 'OutfitEB';
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 3px;
+}
+.buttons1:hover {
+    background-color: #00DFA2;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.buttons2:hover {
+    background-color: #F45050;
+    cursor: pointer;
+    transition: 0.3s;
+}
+form {
+    background-color: #323F4B;
+    border-radius: 20px;
+    padding: 10px 20px;
+    height: 600px;
+    min-width: 680px;
+}
+#submitbutton {
+    margin-top: 100px;
+}
+.info {
+    font-family: 'OutfitL';
+    margin-left: 20px;
+    font-size: 16px;
+}
+.info span {
+    color: #FF6D60;
+}
