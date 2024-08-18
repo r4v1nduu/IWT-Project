@@ -1,5 +1,5 @@
 <?php
-    include ('config.php');
+    include ('Backend/config.php');
     echo '<body style="background-color:#121212">';
 
     $id=$_POST['email'];
@@ -17,7 +17,7 @@
 
         echo "
             <p>Update Subscription Details</p>
-            <form method='POST' action='updateSub.php'>
+            <form method='POST' action='Backend/updateSub.php'>
                 <label for='name'>Change Name <input class='data' type='text' name='name' value='$name' required> </label> 
                 <label for='email'>Your Email <input class='data' type='text' name='email' value='$email' required></label>
                 
@@ -45,7 +45,7 @@
 <!DOCTYPE html>
 <head>
     <title>Newsletter</title>
-    <link rel="stylesheet" href="index.css?v=<?php echo time();?>">
+    <link rel="stylesheet" href="CSS/index.css?v=<?php echo time();?>">
     <style>
         body {
             margin: 0;

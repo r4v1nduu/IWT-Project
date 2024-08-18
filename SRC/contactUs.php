@@ -1,38 +1,38 @@
-<?php include 'SRC/check.php';?>
+<?php include 'Backend/check.php';?>
 <!DOCTYPE html>
 
 <html>
     <head>
         <title>Contact Us</title>
         <!--Fix for CSS and JS files not syncing with PHP properly (Source: StackOverflow)-->
-        <link rel="stylesheet" href="SRC/index.css?v=<?php echo time();?>">
-        <link rel="stylesheet" href="SRC/contactUs.css?v=<?php echo time();?>">
+        <link rel="stylesheet" href="CSS/index.css?v=<?php echo time();?>">
+        <link rel="stylesheet" href="CSS/contactUs.css?v=<?php echo time();?>">
     </head>
 
     <body>
         <div class="navbar">
-            <a href="index.php"><img class="mainlogo" src="SRC/Index/AquaSwiftLogo.png" alt="Business Logo">
+            <a href="../index.php"><img class="mainlogo" src="Images/Index/AquaSwiftLogo.png" alt="Business Logo">
             <div class="buttonset1">
-                <a href="index.php"><button>Home</button></a>
+                <a href="../index.php"><button>Home</button></a>
                 <a href="booking.php"><button>Book Ticket</button></a>
                 <a href="gallery.php"><button>Gallery</button></a>
                 <a href="review.php"><button>Reviews</button></a>
-                <img src="SRC/Index/dropdown.png" alt="dropdown" id="line3">
-                <a href="account.php" class="acclogo"><img src="SRC/Index/dp.png" alt="Profile"></a>
+                <img src="Images/Index/dropdown.png" alt="dropdown" id="line3">
+                <a href="account.php" class="acclogo"><img src="Images/Index/dp.png" alt="Profile"></a>
             </div>
         </div>
 
         <!--Fix for CSS and JS files not syncing with PHP properly (Source: StackOverflow)-->
-        <script src="navbar.js?v=<?php echo time();?>"></script>
+        <script src="Scripts/navbar.js?v=<?php echo time();?>"></script>
 
         <div id="mininavbar">
-            <a href="index.php"><button>Home</button></a>
+            <a href="../index.php"><button>Home</button></a>
             <a href="booking.php"><button>Book Ticket</button></a>
             <a href="gallery.php"><button>Gallery</button></a>
             <a href="review.php"><button>Reviews</button></a>
         </div>
 
-        <form method="post" action="SRC/contactUsdata.php" class="contactbox">
+        <form method="POST" action="Backend/contactUsdata.php" class="contactbox">
 
             <label><p>First Name <span style="color:red;">*</span></p> <input name="fname" type="text" required></label>
             <label><p>Last Name</p> <input name="lname" type="text"></label>

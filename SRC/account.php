@@ -1,10 +1,10 @@
 <?php
     //Can't go into account page if not logged in
-    include 'SRC/editacc.php';
+    include 'Backend/editacc.php';
 
     if (!isset($_SESSION["id"])) {
         //Redirect to home page using JavaScript
-        echo "<script>window.location.href='index.php';</script>";
+        echo "<script>window.location.href='../index.php';</script>";
     }
 ?>
 <!DOCTYPE html>
@@ -13,39 +13,39 @@
     <head>
         <title>User Account</title>
         <!--Fix for CSS and JS files not syncing with PHP properly (Source: StackOverflow)-->
-        <link rel="stylesheet" href="SRC/account.css?v=<?php echo time();?>">
-        <link rel="stylesheet" href="SRC/index.css?v=<?php echo time();?>">
+        <link rel="stylesheet" href="CSS/account.css?v=<?php echo time();?>">
+        <link rel="stylesheet" href="CSS/index.css?v=<?php echo time();?>">
     </head>
 
     <body>
         <div class="navbar">
-            <a href="index.php"><img class="mainlogo" src="SRC/Index/AquaSwiftLogo.png" alt="Business Logo">
+            <a href="../index.php"><img class="mainlogo" src="Images/Index/AquaSwiftLogo.png" alt="Business Logo">
             <div class="buttonset1">
-                <a href="index.php"><button>Home</button></a>
+                <a href="../index.php"><button>Home</button></a>
                 <a href="booking.php"><button>Book Ticket</button></a>
                 <a href="gallery.php"><button>Gallery</button></a>
                 <a href="review.php"><button>Reviews</button></a>
-                <img src="SRC/Index/dropdown.png" alt="dropdown" id="line3">
-                <a href="account.php" class="acclogo"><img src="SRC/Index/dp.png" alt="Profile"></a>
+                <img src="Images/Index/dropdown.png" alt="dropdown" id="line3">
+                <a href="account.php" class="acclogo"><img src="Images/Index/dp.png" alt="Profile"></a>
             </div>
         </div>
 
         <!--Fix for CSS and JS files not syncing with PHP properly (Source: StackOverflow)-->
-        <script src="navbar.js?v=<?php echo time();?>"></script>
+        <script src="Scripts/navbar.js?v=<?php echo time();?>"></script>
 
         <div id="mininavbar">
-            <a href="index.php"><button>Home</button></a>
+            <a href="../index.php"><button>Home</button></a>
             <a href="booking.php"><button>Book Ticket</button></a>
             <a href="gallery.php"><button>Gallery</button></a>
             <a href="review.php"><button>Reviews</button></a>
         </div>
 
-        <form method="post" action="SRC/logoff.php" class="logoff">
+        <form method="POST" action="Backend/logoff.php" class="logoff">
         <input name="logoff" type="submit" value="LOG OUT">
         </form>
         
         <div class="summery">
-            <img class="bigdp" src="SRC/Index/dp.png">
+            <img class="bigdp" src="Images/Index/dp.png">
             <div class="devider"></div>
             <p>
                 <span id="username"> <?php echo $fname ?> &nbsp <?php echo $lname ?> </span><br>
@@ -54,7 +54,7 @@
             </p>
         </div>
 
-        <form class="detail" id="myaccount" method="post" action="SRC/editacc.php">
+        <form class="detail" id="myaccount" method="post" action="Backend/editacc.php">
             <div class="data">
                 <label><p>First Name</p><input type="text" name="fname" value=<?php echo $fname ?> ></label>
                 <label><p>Last Name</p><input type="text" name="lname" value=<?php echo $lname ?> ></label>

@@ -1,42 +1,42 @@
-<?php include 'SRC/check.php';?>
+<?php include 'SRC/Backend/check.php';?>
 <!DOCTYPE html>
 
 <html>
     <head>
         <title>Aqua Swift</title>
         <!--Fix for CSS and JS files not syncing with PHP properly (Source: StackOverflow)-->
-        <link rel="stylesheet" href="SRC/index.css?v=<?php echo time();?>">
+        <link rel="stylesheet" href="SRC/CSS/index.css?v=<?php echo time();?>">
     </head>
 
     <body>
         <div class="navbar">
-            <a href="index.php"><img class="mainlogo" src="SRC/Index/AquaSwiftLogo.png" alt="Business Logo">
+            <a href="index.php"><img class="mainlogo" src="SRC/Images/Index/AquaSwiftLogo.png" alt="Business Logo">
             <div class="buttonset1">
                 <a href="index.php"><button>Home</button></a>
-                <a href="booking.php"><button>Book Ticket</button></a>
-                <a href="gallery.php"><button>Gallery</button></a>
-                <a href="review.php"><button>Reviews</button></a>
-                <img src="SRC/Index/dropdown.png" alt="dropdown" id="line3">
-                <a href="account.php" class="acclogo"><img src="SRC/Index/dp.png" alt="Profile"></a>
+                <a href="SRC/booking.php"><button>Book Ticket</button></a>
+                <a href="SRC/gallery.php"><button>Gallery</button></a>
+                <a href="SRC/review.php"><button>Reviews</button></a>
+                <img src="SRC/Images/Index/dropdown.png" alt="dropdown" id="line3">
+                <a href="SRC/account.php" class="acclogo"><img src="SRC/Images/Index/dp.png" alt="Profile"></a>
             </div>
         </div>
 
         <!--Fix for CSS and JS files not syncing with PHP properly (Source: StackOverflow)-->
-        <script src="navbar.js?v=<?php echo time();?>"></script>
+        <script src="SRC/Scripts/navbar.js?v=<?php echo time();?>"></script>
 
         <div id="mininavbar">
             <a href="index.php"><button>Home</button></a>
-            <a href="booking.php"><button>Book Ticket</button></a>
-            <a href="gallery.php"><button>Gallery</button></a>
-            <a href="review.php"><button>Reviews</button></a>
+            <a href="SRC/booking.php"><button>Book Ticket</button></a>
+            <a href="SRC/gallery.php"><button>Gallery</button></a>
+            <a href="SRC/review.php"><button>Reviews</button></a>
         </div>
 
         <div class="login">
-            <a href="login.html"><button>Login</button></a>
-            <a href="signup.html"><button>Sign Up</button></a>
+            <a href="SRC/login.html"><button>Login</button></a>
+            <a href="SRC/signup.html"><button>Sign Up</button></a>
         </div>
 
-        <img class="mainimage" src="SRC/Index/safari.jpg" alt="boat safari">
+        <img class="mainimage" src="SRC/Images/Index/safari.jpg" alt="boat safari">
 
         <p class="description">
             Experience the thrill of exploring unspoiled wilderness and encountering exotic wildlife on our <span> boat safari </span> tours. 
@@ -45,7 +45,7 @@
         </p>
 
         <div class="home1">
-            <img class src="SRC/Index/home1.png">
+            <img class src="SRC/Images/Index/home1.png">
             <p>
                 Booking your boat safari is now easier than ever!<br>
                 With adjustable time slots, flexible planning, and a user-friendly website, reserving your spot and making payments is a breeze.<br>
@@ -60,12 +60,12 @@
                 Embark on a mesmerizing journey with up to 20 seats per trip.<br>
                 Create lasting memories with loved ones - don't miss out on this incredible opportunity!
             </p>
-            <img class src="SRC/Index/home2.png">
+            <img class src="SRC/Images/Index/home2.png">
         </div>
 
         <div class="home3">
             <p>Ready to set sail? Book your boat safari today!</p>
-            <a href="booking.php">Book Now</a>
+            <a href="SRC/booking.php">Book Now</a>
         </div>
 
         <div class="home4">
@@ -82,12 +82,12 @@
 
     <div class="newsletter">
         <p>Subscribe to Our Newsletter</p>
-        <form method="POST" action="SRC/newsletter.php">
+        <form method="POST" action="SRC/Backend/newsletter.php">
             <label for="name">Your Name &nbsp<input type="text" name="name" required></label>
             <label for="email">Your Email &nbsp<input type="text" name="email" required></label>
             
             <button type="submit">Subscribe</button>
-            <a href="validateSub.html">Edit My Subscription</a>
+            <a href="SRC/validateSub.html">Edit My Subscription</a>
         </form>
     </div>
 
@@ -96,10 +96,10 @@
         <div class="topfooter">
 
             <div class="bottomnavbar">
-            <a href="index.php"><button>Home</button></a>
-                <a href="booking.php"><button>Book Ticket</button></a>
-                <a href="gallery.php"><button>Gallery</button></a>
-                <a href="review.php"><button>Reviews</button></a>
+                <a href="index.php"><button>Home</button></a>
+                <a href="SRC/booking.php"><button>Book Ticket</button></a>
+                <a href="SRC/gallery.php"><button>Gallery</button></a>
+                <a href="SRC/review.php"><button>Reviews</button></a>
             </div>
 
             <div class="devider" id="devider2"></div>
@@ -107,14 +107,14 @@
             <div class="payoptions">
                 <p>Pay securely with</p>
                 <div class="payments">
-                    <img src="SRC/Payment/amex.png" alt="Amex">
-                    <img src="SRC/Payment/visa.png" alt="Visa">
-                    <img src="SRC/Payment/master.png" alt="Master">
-                    <img src="SRC/Payment/maestro.png" alt="Maestro">
-                    <img src="SRC/Payment/generic.png" alt="Generic">
-                    <img src="SRC/Payment/google.png" alt="Google">
-                    <img src="SRC/Payment/apple.png" alt="Apple">
-                    <img src="SRC/Payment/paypal.png" alt="Paypal">
+                    <img src="SRC/Images/Payment/amex.png" alt="Amex">
+                    <img src="SRC/Images/Payment/visa.png" alt="Visa">
+                    <img src="SRC/Images/Payment/master.png" alt="Master">
+                    <img src="SRC/Images/Payment/maestro.png" alt="Maestro">
+                    <img src="SRC/Images/Payment/generic.png" alt="Generic">
+                    <img src="SRC/Images/Payment/google.png" alt="Google">
+                    <img src="SRC/Images/Payment/apple.png" alt="Apple">
+                    <img src="SRC/Images/Payment/paypal.png" alt="Paypal">
                 </div>
             </div>
 
@@ -139,17 +139,17 @@
             <div class="devider"></div>
 
             <div class="socialscontainer">
-                <a href="#"><img src="SRC/Index/Facebook.png" alt="Facebook"></a>
-                <a href="#"><img src="SRC/Index/Instagram.png" alt="Instagram"></a>
-                <a href="#"><img src="SRC/Index/Whatsapp.png" alt="Whatsapp"></a>
-                <a href="#"><img src="SRC/Index/Twitter.png" alt="Twitter"></a>
+                <a href="#"><img src="SRC/Images/Index/Facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="SRC/Images/Index/Instagram.png" alt="Instagram"></a>
+                <a href="#"><img src="SRC/Images/Index/Whatsapp.png" alt="Whatsapp"></a>
+                <a href="#"><img src="SRC/Images/Index/Twitter.png" alt="Twitter"></a>
             </div>
-            <img src="SRC/Index/qr.png" alt="QR Code" class="qr">
+            <img src="SRC/Images/Index/qr.png" alt="QR Code" class="qr">
             
         </div>
 
         <p class="copyright">Copyright 2023 © AquaSwift. All Rights Reserved.</p>
-        <a href="contactUs.php"><button class="contactus">
+        <a href="SRC/contactUs.php"><button class="contactus">
             Send Message
         </button></a>
     </footer>

@@ -4,15 +4,15 @@
     <head>
         <title>My Bookings</title>
         <!--Fix for CSS and JS files not syncing with PHP properly (Source: StackOverflow)-->
-        <link rel="stylesheet" href="SRC/index.css?v=<?php echo time();?>">
-        <link rel="stylesheet" href="SRC/mybookings.css?v=<?php echo time();?>">
+        <link rel="stylesheet" href="CSS/index.css?v=<?php echo time();?>">
+        <link rel="stylesheet" href="CSS/mybookings.css?v=<?php echo time();?>">
     </head>
 
     <body>
         
 
         <?php
-            include('SRC/config.php');
+            include('Backend/config.php');
             echo '<body style="background-color:#121212">';
             
             session_start();
@@ -42,8 +42,8 @@
                     ."<td>$boatID</td>"
                     ."<td>$timeSlot</td>"
                     ."<td>$seatCount</td>"
-                    ."<td><a href='SRC/editbooking.php?updateid=$safariID'><button class='buttons1'>Edit</button></a> 
-                        <a href='SRC/editbooking.php?deleteid=$safariID'><button class='buttons2'>Cancel</button></a></td>"
+                    ."<td><a href='editbooking.php?updateid=$safariID'><button class='buttons1'>Edit</button></a> 
+                        <a href='editbooking.php?deleteid=$safariID'><button class='buttons2'>Cancel</button></a></td>"
                     ."</tr>";
                 }
                 echo "</table>";

@@ -1,34 +1,34 @@
-<?php include 'SRC/check.php';?>
+<?php include 'Backend/check.php';?>
 <!DOCTYPE html>
 
 <html>
     <head>
         <title>Customer Reviews</title>
         <!--Fix for CSS and JS files not syncing with PHP properly (Source: StackOverflow)-->
-        <link rel="stylesheet" href="SRC/index.css?v=<?php echo time();?>">
-        <link rel="stylesheet" href="SRC/review.css?v=<?php echo time();?>">
+        <link rel="stylesheet" href="CSS/index.css?v=<?php echo time();?>">
+        <link rel="stylesheet" href="CSS/review.css?v=<?php echo time();?>">
     </head>
 
     <body>
     <div class="topshadow"></div>
 
         <div class="navbar">
-            <a href="index.php"><img class="mainlogo" src="SRC/Index/AquaSwiftLogo.png" alt="Business Logo">
+            <a href="../index.php"><img class="mainlogo" src="Images/Index/AquaSwiftLogo.png" alt="Business Logo">
             <div class="buttonset1">
-                <a href="index.php"><button>Home</button></a>
+                <a href="../index.php"><button>Home</button></a>
                 <a href="booking.php"><button>Book Ticket</button></a>
                 <a href="gallery.php"><button>Gallery</button></a>
                 <a href="review.php"><button>Reviews</button></a>
-                <img src="SRC/Index/dropdown.png" alt="dropdown" id="line3">
-                <a href="account.php" class="acclogo"><img src="SRC/Index/dp.png" alt="Profile"></a>
+                <img src="Images/Index/dropdown.png" alt="dropdown" id="line3">
+                <a href="account.php" class="acclogo"><img src="Images/Index/dp.png" alt="Profile"></a>
             </div>
         </div>
 
         <!--Fix for CSS and JS files not syncing with PHP properly (Source: StackOverflow)-->
-        <script src="navbar.js?v=<?php echo time();?>"></script>
+        <script src="Scripts/navbar.js?v=<?php echo time();?>"></script>
         
         <div id="mininavbar">
-            <a href="index.php"><button>Home</button></a>
+            <a href="../index.php"><button>Home</button></a>
             <a href="booking.php"><button>Book Ticket</button></a>
             <a href="gallery.php"><button>Gallery</button></a>
             <a href="review.php"><button>Reviews</button></a>
@@ -43,7 +43,7 @@
         <div class="reviewbox">
             <div class="review">
                 <div class="name">
-                    <img src="SRC/Profiles/pro5.jpg">
+                    <img src="Images/Profiles/pro5.jpg">
                     <p>Minsandha Pathirana<p>
                 </div>
                 <p class="text">
@@ -53,13 +53,13 @@
                     The guides were passionate about conservation and shared fascinating information about the ecosystem. 
                     I highly recommend this boat safari for anyone looking to have an unforgettable wildlife adventure.
                 </p>
-                <img src="SRC/Ratings/Rating2.png" alt="Rating" class="rating">
+                <img src="Images/Ratings/Rating2.png" alt="Rating" class="rating">
                 <p class="date">2022-07-12</p>
             </div>
 
             <div class="review">
                 <div class="name">
-                    <img src="SRC/Profiles/pro1.jpg">
+                    <img src="Images/Profiles/pro1.jpg">
                     <p>Pasindu Wanigaratne<p>
                 </div>
                 <p class="text">
@@ -69,13 +69,13 @@
                     The only reason I am not giving it a full 5 stars is that we did not see as many animals as we had hoped. 
                     Nonetheless, it was a great experience overall, and I would definitely consider booking with this website again in the future.
                 </p>
-                <img src="SRC/Ratings/Rating1.png" alt="Rating" class="rating">
+                <img src="Images/Ratings/Rating1.png" alt="Rating" class="rating">
                 <p class="date">2021-02-23</p>
             </div>
 
             <div class="review">
                 <div class="name">
-                    <img src="SRC/Profiles/pro4.jpg">
+                    <img src="Images/Profiles/pro4.jpg">
                     <p>Ravindu Kavishka<p>
                 </div>
                 <p class="text">
@@ -86,13 +86,13 @@
                     The booking process was straightforward, and the customer service was excellent. 
                     I highly recommend this safari for nature enthusiasts.
                </p>
-               <img src="SRC/Ratings/Rating1.png" alt="Rating" class="rating">
+               <img src="Images/Ratings/Rating1.png" alt="Rating" class="rating">
                 <p class="date">2020-05-11</p>
             </div>
 
             <div class="review">
                 <div class="name">
-                    <img src="SRC/Profiles/pro3.jpg">
+                    <img src="Images/Profiles/pro3.jpg">
                     <p>Senali Guruge<p>
                 </div>
                 <p class="text">
@@ -102,13 +102,13 @@
                     While we did not see as much wildlife during this time of the day, the stunning scenery and the relaxing ambiance more than made up for it. 
                     It was a memorable trip that we will cherish for a long time. 
                 </p>
-                <img src="SRC/Ratings/Rating4.png" alt="Rating" class="rating">
+                <img src="Images/Ratings/Rating4.png" alt="Rating" class="rating">
                 <p class="date">2022-12-01</p>
             </div>
 
             <div class="review">
                 <div class="name">
-                    <img src="SRC/Profiles/pro2.jpg">
+                    <img src="Images/Profiles/pro2.jpg">
                     <p>Aravinda Amartunge<p>
                 </div>
                 <p class="text">
@@ -118,13 +118,13 @@
                     It felt like we spent most of our time just cruising without any real wildlife encounters. 
                     I hope they improve their spotting techniques or provide more accurate information about the likelihood of animal sightings.
                 </p>
-                <img src="SRC/Ratings/Rating7.png" alt="Rating" class="rating">
+                <img src="Images/Ratings/Rating7.png" alt="Rating" class="rating">
                 <p class="date">2021-06-04</p>
             </div>
 
             <div class="review">
                 <div class="name">
-                    <img src="SRC/Profiles/pro1.jpg">
+                    <img src="Images/Profiles/pro1.jpg">
                     <p>Ashan Vimod<p>
                 </div>
                 <p class="text">
@@ -134,7 +134,7 @@
                 The safari itself was breathtaking, with a comfortable boat, friendly crew, and captivating wildlife encounters. 
                 The itinerary was well-planned, and the customer service was excellent. Highly recommended for an unforgettable adventure on the water!   
                 </p>
-                <img src="SRC/Ratings/Rating5.png" alt="Rating" class="rating">
+                <img src="Images/Ratings/Rating5.png" alt="Rating" class="rating">
                 <p class="date">2021-07-14</p>
             </div>
 
@@ -146,7 +146,7 @@
         <div class="topfooter">
 
             <div class="bottomnavbar">
-            <a href="index.php"><button>Home</button></a>
+                <a href="../index.php"><button>Home</button></a>
                 <a href="booking.php"><button>Book Ticket</button></a>
                 <a href="gallery.php"><button>Gallery</button></a>
                 <a href="review.php"><button>Reviews</button></a>
@@ -157,14 +157,14 @@
             <div class="payoptions">
                 <p>Pay securely with</p>
                 <div class="payments">
-                    <img src="SRC/Payment/amex.png" alt="Amex">
-                    <img src="SRC/Payment/visa.png" alt="Visa">
-                    <img src="SRC/Payment/master.png" alt="Master">
-                    <img src="SRC/Payment/maestro.png" alt="Maestro">
-                    <img src="SRC/Payment/generic.png" alt="Generic">
-                    <img src="SRC/Payment/google.png" alt="Google">
-                    <img src="SRC/Payment/apple.png" alt="Apple">
-                    <img src="SRC/Payment/paypal.png" alt="Paypal">
+                    <img src="Images/Payment/amex.png" alt="Amex">
+                    <img src="Images/Payment/visa.png" alt="Visa">
+                    <img src="Images/Payment/master.png" alt="Master">
+                    <img src="Images/Payment/maestro.png" alt="Maestro">
+                    <img src="Images/Payment/generic.png" alt="Generic">
+                    <img src="Images/Payment/google.png" alt="Google">
+                    <img src="Images/Payment/apple.png" alt="Apple">
+                    <img src="Images/Payment/paypal.png" alt="Paypal">
                 </div>
             </div>
 
@@ -189,12 +189,12 @@
             <div class="devider"></div>
 
             <div class="socialscontainer">
-                <a href="#"><img src="SRC/Index/Facebook.png" alt="Facebook"></a>
-                <a href="#"><img src="SRC/Index/Instagram.png" alt="Instagram"></a>
-                <a href="#"><img src="SRC/Index/Whatsapp.png" alt="Whatsapp"></a>
-                <a href="#"><img src="SRC/Index/Twitter.png" alt="Twitter"></a>
+                <a href="#"><img src="Images/Index/Facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="Images/Index/Instagram.png" alt="Instagram"></a>
+                <a href="#"><img src="Images/Index/Whatsapp.png" alt="Whatsapp"></a>
+                <a href="#"><img src="Images/Index/Twitter.png" alt="Twitter"></a>
             </div>
-            <img src="SRC/Index/qr.png" alt="QR Code" class="qr">
+            <img src="Images/Index/qr.png" alt="QR Code" class="qr">
             
         </div>
 

@@ -11,14 +11,14 @@
             //Fix for PHP header Location: skipping the alert box (Source: StackOverflow)
             echo "<script>
                     alert('Subscription Data Updated Successfuly');
-                    window.location.href='../index.php';
+                    window.location.href='../../index.php';
                 </script>";
         }
         else {
             //Fix for PHP header Location: skipping the alert box (Source: StackOverflow)
             echo "<script>
                     alert('Data Update Error');
-                    window.location.href='./index.php';
+                    window.location.href='../../index.php';
                 </script>";
         }
         $con->close();
@@ -33,14 +33,14 @@
             //Fix for PHP header Location: skipping the alert box (Source: StackOverflow)
             echo "<script>
                     alert('Unsubscribed Successfully');
-                    window.location.href='../index.php';
+                    window.location.href='../../index.php';
                 </script>";
         }
         else {
             //Fix for PHP header Location: skipping the alert box (Source: StackOverflow)
             echo "<script>
                     alert('Error Unsubscribing!');
-                    window.location.href='../index.php';
+                    window.location.href='../../index.php';
                 </script>";
         }
         $con->close();

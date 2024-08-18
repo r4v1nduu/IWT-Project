@@ -3,14 +3,14 @@
 <html>
 <head>
     <title>Edit Bookings</title>
-    <link rel="stylesheet" href="booking.css?v=<?php echo time();?>">
-    <link rel="stylesheet" href="index.css?v=<?php echo time();?>">
-    <link rel="stylesheet" href="mybookings.css?v=<?php echo time();?>">
+    <link rel="stylesheet" href="CSS/booking.css?v=<?php echo time();?>">
+    <link rel="stylesheet" href="CSS/index.css?v=<?php echo time();?>">
+    <link rel="stylesheet" href="CSS/mybookings.css?v=<?php echo time();?>">
 </head>
 
 <body>
 <?php
-    include('config.php');
+    include('Backend/config.php');
     echo '<body style="background-color:#121212">';
     
     session_start();
@@ -26,14 +26,14 @@
             echo "<script>
                     alert('Booking cancelled successfully');
                     alert('Your payment will be refunded shortly');
-                    window.location.href='../mybookings.php';
+                    window.location.href='mybookings.php';
                 </script>";
         }
         else{
             //Fix for PHP header Location: skipping the alert box (Source: StackOverflow)
             echo "<script>
                     alert('Error cancelling safari');
-                    window.location.href='../mybookings.php';
+                    window.location.href='mybookings.php';
                 </script>";
         }
         $con->close();
@@ -56,7 +56,7 @@
             $seatCount = $row["seat_count"];
             
             echo "
-                <form method='post' action='updatebooking.php?safariid=$updateID'>
+                <form method='POST' action='Backend/updatebooking.php?safariid=$updateID'>
 
                     <p class='info'>
                         Safari Booked Email : $id<br>
@@ -98,12 +98,13 @@
                     <p class='formmain'>Select a Date</p>
                     <div class='formitems'>
                         <label class='enterdate'>
-                            <input type='date' name='date' min='2023-05-13' max='2023-12-31'  required>
+                            <input type='date' name='date' required>
                         </label>
                         <a href='schedule.php'>View Reservations</a>
                     </div>
 
                     <button type='submit' id='submitbutton'>Update</button>
+
                 </form>
             ";
         }

@@ -1,33 +1,33 @@
-<?php include 'SRC/check.php';?>
+<?php include 'Backend/check.php';?>
 <!DOCTYPE html>
 
 <html>
     <head>
         <title>Safari Booking</title>
         <!--Fix for CSS and JS files not syncing with PHP properly (Source: StackOverflow)-->
-        <link rel="stylesheet" href="SRC/index.css?v=<?php echo time();?>">
-        <link rel="stylesheet" href="SRC/booking.css?v=<?php echo time();?>">
+        <link rel="stylesheet" href="CSS/index.css?v=<?php echo time();?>">
+        <link rel="stylesheet" href="CSS/booking.css?v=<?php echo time();?>">
     </head>
 
     <!--Calling JavaScript function to disable BOOK button when page loads-->
     <body onload="termsCheck()">
         <div class="navbar">
-            <a href="index.php"><img class="mainlogo" src="SRC/Index/AquaSwiftLogo.png" alt="Business Logo">
+            <a href="../index.php"><img class="mainlogo" src="Images/Index/AquaSwiftLogo.png" alt="Business Logo">
             <div class="buttonset1">
-                <a href="index.php"><button>Home</button></a>
+                <a href="../index.php"><button>Home</button></a>
                 <a href="booking.php"><button>Book Ticket</button></a>
                 <a href="gallery.php"><button>Gallery</button></a>
                 <a href="review.php"><button>Reviews</button></a>
-                <img src="SRC/Index/dropdown.png" alt="dropdown" id="line3">
-                <a href="account.php" class="acclogo"><img src="SRC/Index/dp.png" alt="Profile"></a>
+                <img src="Images/Index/dropdown.png" alt="dropdown" id="line3">
+                <a href="account.php" class="acclogo"><img src="Images/Index/dp.png" alt="Profile"></a>
             </div>
         </div>
 
         <!--Fix for CSS and JS files not syncing with PHP properly (Source: StackOverflow)-->
-        <script src="navbar.js?v=<?php echo time();?>"></script>
+        <script src="Scripts/navbar.js?v=<?php echo time();?>"></script>
 
         <div id="mininavbar">
-            <a href="index.php"><button>Home</button></a>
+            <a href="../index.php"><button>Home</button></a>
             <a href="booking.php"><button>Book Ticket</button></a>
             <a href="gallery.php"><button>Gallery</button></a>
             <a href="review.php"><button>Reviews</button></a>
@@ -38,14 +38,14 @@
             <a href="signup.html"><button>Sign Up</button></a>
         </div>
 
-        <form method="post" action="SRC/bookingdetails.php">
+        <form method="POST" action="Backend/bookingdetails.php">
 
             <p class="formmain">Select Safari Route</p>
             <div class="formitems">
 
                 <label class="routeitem">
                     <p class="routenum">Route 01</p>
-                    <img src="SRC/Maps/map1.png" alt="Map01">
+                    <img src="Images/Maps/map1.png" alt="Map01">
                     <p class="routedesc">
                         Travel Time : 30 Minutes<br>
                         Length : 2 KM
@@ -55,7 +55,7 @@
 
                 <label class="routeitem">
                     <p class="routenum">Route 02</p>
-                    <img src="SRC/Maps/map2.png" alt="Map02"><p class="routedesc">
+                    <img src="Images/Maps/map2.png" alt="Map02"><p class="routedesc">
                         Travel Time : 60 Minutes<br>
                         Length : 4 KM
                     </p>
@@ -65,7 +65,7 @@
 
                 <label class="routeitem">
                     <p class="routenum">Route 03</p>
-                    <img src="SRC/Maps/map3.png" alt="Map03">
+                    <img src="Images/Maps/map3.png" alt="Map03">
                     <p class="routedesc">
                         Travel Time : 90 Minutes<br>
                         Length : 6 KM
@@ -75,7 +75,7 @@
 
                 <label class="routeitem">
                     <p class="routenum">Route 04</p>
-                    <img src="SRC/Maps/map4.png" alt="Map04">
+                    <img src="Images/Maps/map4.png" alt="Map04">
                     <p class="routedesc">
                         Travel Time : 160 Minutes<br>
                         Length : 12 KM
@@ -89,31 +89,31 @@
             <div class="formitems">
 
                 <label class="boattypes">
-                    <img src="SRC/Boats/type1.png" alt="Boat01">
+                    <img src="Images/Boats/type1.png" alt="Boat01">
                     <p class="routenum">Boat 01</p>
                     <input type="radio" name="bnumber" value="BT01" required>
                 </label>
 
                 <label class="boattypes">
-                    <img src="SRC/Boats/type2.png" alt="Boat02">
+                    <img src="Images/Boats/type2.png" alt="Boat02">
                     <p class="routenum">Boat 02</p>
                     <input type="radio" name="bnumber" value="BT02" required>
                 </label>
 
                 <label class="boattypes">
-                    <img src="SRC/Boats/type3.png" alt="Boat03">
+                    <img src="Images/Boats/type3.png" alt="Boat03">
                     <p class="routenum">Boat 03</p>
                     <input type="radio" name="bnumber" value="BT03" required>
                 </label>
 
                 <label class="boattypes">
-                    <img src="SRC/Boats/type4.png" alt="Boat04">
+                    <img src="Images/Boats/type4.png" alt="Boat04">
                     <p class="routenum">Boat 04</p>
                     <input type="radio" name="bnumber" value="BT04" required>
                 </label>
 
                 <label class="boattypes">
-                    <img src="SRC/Boats/type5.png" alt="Boat05">
+                    <img src="Images/Boats/type5.png" alt="Boat05">
                     <p class="routenum">Boat 05</p>
                     <input type="radio" name="bnumber" value="BT05" required>
                 </label>
@@ -162,7 +162,7 @@
                 <label class="enterdate">
                     <input type="date" name="date" id="dateSelect" required>
                 </label>
-                <a href="SRC/schedule.php">View Reservations</a>
+                <a href="schedule.php">View Reservations</a>
             </div>
 
             <!--Calling JavaScript function to check whether terms and conditions are checked-->
@@ -172,7 +172,7 @@
                 <button type="button" id="calc">Calculate Price</button>
                 <button type="button" class="disc">Get Discounts</button>
             </div>
-            <script src="booking.js?v=<?php echo time();?>"></script>
+            <script src="Scripts/booking.js?v=<?php echo time();?>"></script>
 
             <p id="price"></p>
             
@@ -185,7 +185,7 @@
         <div class="topfooter">
 
             <div class="bottomnavbar">
-            <a href="index.php"><button>Home</button></a>
+                <a href="../index.php"><button>Home</button></a>
                 <a href="booking.php"><button>Book Ticket</button></a>
                 <a href="gallery.php"><button>Gallery</button></a>
                 <a href="review.php"><button>Reviews</button></a>
@@ -196,14 +196,14 @@
             <div class="payoptions">
                 <p>Pay securely with</p>
                 <div class="payments">
-                    <img src="SRC/Payment/amex.png" alt="Amex">
-                    <img src="SRC/Payment/visa.png" alt="Visa">
-                    <img src="SRC/Payment/master.png" alt="Master">
-                    <img src="SRC/Payment/maestro.png" alt="Maestro">
-                    <img src="SRC/Payment/generic.png" alt="Generic">
-                    <img src="SRC/Payment/google.png" alt="Google">
-                    <img src="SRC/Payment/apple.png" alt="Apple">
-                    <img src="SRC/Payment/paypal.png" alt="Paypal">
+                    <img src="Images/Payment/amex.png" alt="Amex">
+                    <img src="Images/Payment/visa.png" alt="Visa">
+                    <img src="Images/Payment/master.png" alt="Master">
+                    <img src="Images/Payment/maestro.png" alt="Maestro">
+                    <img src="Images/Payment/generic.png" alt="Generic">
+                    <img src="Images/Payment/google.png" alt="Google">
+                    <img src="Images/Payment/apple.png" alt="Apple">
+                    <img src="Images/Payment/paypal.png" alt="Paypal">
                 </div>
             </div>
 
@@ -228,12 +228,12 @@
             <div class="devider"></div>
 
             <div class="socialscontainer">
-                <a href="#"><img src="SRC/Index/Facebook.png" alt="Facebook"></a>
-                <a href="#"><img src="SRC/Index/Instagram.png" alt="Instagram"></a>
-                <a href="#"><img src="SRC/Index/Whatsapp.png" alt="Whatsapp"></a>
-                <a href="#"><img src="SRC/Index/Twitter.png" alt="Twitter"></a>
+                <a href="#"><img src="Images/Index/Facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="Images/Index/Instagram.png" alt="Instagram"></a>
+                <a href="#"><img src="Images/Index/Whatsapp.png" alt="Whatsapp"></a>
+                <a href="#"><img src="Images/Index/Twitter.png" alt="Twitter"></a>
             </div>
-            <img src="SRC/Index/qr.png" alt="QR Code" class="qr">
+            <img src="Images/Index/qr.png" alt="QR Code" class="qr">
             
         </div>
 

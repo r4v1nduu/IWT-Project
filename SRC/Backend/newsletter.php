@@ -18,14 +18,14 @@
             //Fix for PHP header Location: skipping the alert box (Source: StackOverflow)
             echo "<script>
                     alert('Successfully Subscribed');
-                    window.location.href='../index.php';
+                    window.location.href='../../index.php';
                 </script>";
         }
         else {
             //Fix for PHP header Location: skipping the alert box (Source: StackOverflow)
             echo "<script>
                     alert('Subscription UnSuccessfull');
-                    window.location.href='../index.php';
+                    window.location.href='../../index.php';
                 </script>";
         }
         mysqli_close($conn);
@@ -34,7 +34,7 @@
         //Fix for PHP header Location: skipping the alert box (Source: StackOverflow)
         echo "<script>
             alert('You have already subscribed to our Newsletter');
-            window.location.href='../index.php';
+            window.location.href='../../index.php';
         </script>";
     }
 ?>

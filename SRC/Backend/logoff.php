@@ -8,10 +8,10 @@
         //Fix for PHP header Location: skipping the alert box (Source: StackOverflow)
         echo "<script>
                 alert('Log Out Successful!');
-                window.location.href='../index.php';
+                window.location.href='../../index.php';
             </script>";
     }
     else {
-        header("Location:../index.php");
+        header("Location:../../index.php");
     }
 ?>

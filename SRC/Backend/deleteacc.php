@@ -12,14 +12,14 @@
         //Fix for PHP header Location: skipping the alert box (Source: StackOverflow)
         echo "<script>
                 alert('Account Deleted Successfully');
-                window.location.href='../index.php';
+                window.location.href='../../index.php';
             </script>";
     }
     else {
         //Fix for PHP header Location: skipping the alert box (Source: StackOverflow)
         echo "<script>
                 alert('Error Deleting Account');
-                window.location.href='../index.php';
+                window.location.href='../../index.php';
             </script>";
     }
     $con->close();
