@@ -1,7 +1,7 @@
 <?php
-    $servername = "aquaswift-db";
-    $username = "aquaswift";
-    $password = "aquaswift";
+    $servername = "db";
+    $username = "aquauser";
+    $password = "aquapassword";
     $database = "aquaswift";
     $port = 3308;
 

@@ -9,16 +9,16 @@ services:
     volumes:
       - .:/var/www/html
     depends_on:
-      - aquaswift-db
+      - db
 
-  aquaswift-db:
+  db:
     image: mysql:8.0
     container_name: mysql-db
     environment:
       MYSQL_ROOT_PASSWORD: NIs@0509
       MYSQL_DATABASE: aquaswift
-      MYSQL_USER: aquaswift
-      MYSQL_PASSWORD: aquaswift
+      MYSQL_USER: aquauser
+      MYSQL_PASSWORD: aquapassword
     ports:
       - "3308:3306"
     volumes:
