@@ -31,3 +31,8 @@ CREATE TABLE safari_booking (
 
     CONSTRAINT Booking_PK PRIMARY KEY (safari_id)
 );
+
+CREATE TABLE newsletter(
+	name VARCHAR(30),
+	email VARCHAR(80)
+);

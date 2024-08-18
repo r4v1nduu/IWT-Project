@@ -5,7 +5,7 @@
     <head>
         <title>Aqua Swift</title>
         <!--Fix for CSS and JS files not syncing with PHP properly (Source: StackOverflow)-->
-        <link rel="stylesheet" href="SRC/CSS/index.css?v=<?php echo time();?>">
+        <link rel="stylesheet" href="SRC/index.css?v=<?php echo time();?>">
     </head>
 
     <body>
@@ -14,6 +14,8 @@
             <div class="buttonset1">
                 <a href="index.php"><button>Home</button></a>
                 <a href="booking.php"><button>Book Ticket</button></a>
+                <a href="gallery.php"><button>Gallery</button></a>
+                <a href="review.php"><button>Reviews</button></a>
                 <img src="SRC/Index/dropdown.png" alt="dropdown" id="line3">
                 <a href="account.php" class="acclogo"><img src="SRC/Index/dp.png" alt="Profile"></a>
             </div>
@@ -78,13 +80,26 @@
                 
     </body>
 
+    <div class="newsletter">
+        <p>Subscribe to Our Newsletter</p>
+        <form method="POST" action="SRC/newsletter.php">
+            <label for="name">Your Name &nbsp<input type="text" name="name" required></label>
+            <label for="email">Your Email &nbsp<input type="text" name="email" required></label>
+            
+            <button type="submit">Subscribe</button>
+            <a href="validateSub.html">Edit My Subscription</a>
+        </form>
+    </div>
+
 
     <footer>
         <div class="topfooter">
 
             <div class="bottomnavbar">
-                <a href="index.php"><button>Home</button></a>
+            <a href="index.php"><button>Home</button></a>
                 <a href="booking.php"><button>Book Ticket</button></a>
+                <a href="gallery.php"><button>Gallery</button></a>
+                <a href="review.php"><button>Reviews</button></a>
             </div>
 
             <div class="devider" id="devider2"></div>
