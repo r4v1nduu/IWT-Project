@@ -1,7 +1,7 @@
 <?php
-    $servername = "localhost:3306";
-    $username = "root";
-    $password = "";
+    $servername = "aquaswift-db";
+    $username = "aquaswift";
+    $password = "aquaswift";
     $database = "aquaswift";
 
     $conn = new mysqli($servername, $username, $password, $database);
