@@ -1,6 +1,7 @@
 <?php      
+    session_start();  // Start the session at the very beginning
+
     include('config.php');
-    echo '<body style="background-color:#121212">';
 
     $email = $_POST['email'];  
     $pass = $_POST['password'];  
@@ -12,22 +13,25 @@
     $count = mysqli_num_rows($result);
           
     if($count == 1) {
-        session_start();
         $_SESSION["id"] = $email;
-            
+        
+        // Display a success message and redirect
         echo "<script>
                 alert('Login Successful!');
+                window.location.href='../../index.php';
             </script>";
-    }
-    else { 
-        //Fix for PHP header Location: skipping the alert box (Source: StackOverflow)
+    } else { 
+        // Display an error message and redirect
         echo "<script>
                 alert('Incorrect Login Details!');
                 window.location.href='../login.html';
             </script>";
     }
 
-    if(isset ($_SESSION["id"])) {
-        header ("Location:../../index.php");
+    // Any session-based redirect logic should happen after session handling
+    if(isset($_SESSION["id"])) {
+        header("Location: ../../index.php");
+        exit(); // Ensure no further processing occurs after the redirect
     }
-?>  
+?> 
+

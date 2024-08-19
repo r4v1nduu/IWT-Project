@@ -8,45 +8,48 @@
     $pass = $_POST["pass"];
     $cpass = $_POST["cpass"];
 
-    if ($pass == $cpass) {
+    // Check if passwords match
+    if ($pass === $cpass) {
 
+        // Check if the email is already registered
         $sql = "SELECT * FROM registered_user WHERE user_email = '$email'";
         $result = $conn->query($sql);
-        $row = $result->fetch_assoc();
-        $count = mysqli_num_rows($result);
 
-        if ($count == 0) {
+        if ($result && mysqli_num_rows($result) == 0) {
+            // Insert the new user into the database
             $sql = "INSERT INTO registered_user (user_type, first_name, last_name, user_email, user_password)
                     VALUES ('Normal User', '$fname', '$lname', '$email', '$pass')";
 
-            if(mysqli_query($conn,$sql)) {
-                //Fix for PHP header Location: skipping the alert box (Source: StackOverflow)
+            if (mysqli_query($conn, $sql)) {
+                // Account creation successful, redirect to login
                 echo "<script>
                         alert('Account created successfully');
                         window.location.href='../login.html';
-                    </script>";
-            }
-            else {
-                //Fix for PHP header Location: skipping the alert box (Source: StackOverflow)
+                      </script>";
+            } else {
+                // Error during account creation, redirect to signup
                 echo "<script>
-                        alert('Error !!');
+                        alert('Error occurred while creating your account. Please try again.');
                         window.location.href='../signup.html';
-                    </script>";
+                      </script>";
             }
-            mysqli_close($conn);
-        }
-        else {
-            //Fix for PHP header Location: skipping the alert box (Source: StackOverflow)
+
+        } else {
+            // Email already registered, redirect to signup
             echo "<script>
-                    alert('This Email has already been registered');
+                    alert('This email is already registered. Please try logging in.');
                     window.location.href='../signup.html';
-                </script>";
+                  </script>";
         }
-    }
-    else {
+
+        // Close the database connection
+        mysqli_close($conn);
+
+    } else {
+        // Password mismatch, redirect to signup
         echo "<script>
-                alert('Password MisMatch!');
+                alert('Passwords do not match!');
                 window.location.href='../signup.html';
-            </script>";
+              </script>";
     }
 ?>

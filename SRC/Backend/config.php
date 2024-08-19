@@ -1,11 +1,10 @@
 <?php
-    $servername = "db";
-    $username = "aquauser";
-    $password = "aquapassword";
+    $host = "db";
+    $username = "root";
+    $password = "password";
     $database = "aquaswift";
-    $port = 3308;
 
-    $conn = new mysqli($servername, $username, $password, $database, $port);
+    $conn = new mysqli($host, $username, $password, $database);
 
     if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);

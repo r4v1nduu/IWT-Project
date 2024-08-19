@@ -8,7 +8,7 @@ This is a Boat Safari Ticket Booking Web App developed using HTML, CSS, JavaScri
 
 ## Deployment
 
-//
+`docker compose up -d` or `docker-compose up -d`
 
 
 ## Screenshots

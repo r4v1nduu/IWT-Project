@@ -1,8 +1,8 @@
 <?php
-    include ('config.php');
-    echo '<body style="background-color:#121212">';
-    
     session_start();
+
+    include ('config.php');
+    
     $id = $_SESSION["id"];
 
     $sql = "SELECT * FROM registered_user WHERE user_email='$id'";
@@ -15,6 +15,8 @@
     $pass = $row["user_password"];
     $usertype = $row['user_type'];
     
+    echo '<body style="background-color:#121212">';
+
     //Run when clicking SAVE CHANGES button
     if (isset($_POST['update'])) {
         $fnameN = $_POST['fname'];

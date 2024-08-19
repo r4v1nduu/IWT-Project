@@ -1,3 +1,7 @@
+CREATE DATABASE IF NOT EXISTS `aquaswift`;
+
+USE `aquaswift`;
+
 CREATE TABLE contact_data (
     fname VARCHAR(30),
     lname VARCHAR(30),

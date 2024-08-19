@@ -1,9 +1,9 @@
 version: '3.8'
 
 services:
-  php:
+  app:
     build: .
-    container_name: aquaswift
+    container_name: php-app
     ports:
       - "8080:80"
     volumes:
@@ -15,10 +15,7 @@ services:
     image: mysql:8.0
     container_name: mysql-db
     environment:
-      MYSQL_ROOT_PASSWORD: NIs@0509
-      MYSQL_DATABASE: aquaswift
-      MYSQL_USER: aquauser
-      MYSQL_PASSWORD: aquapassword
+      MYSQL_ROOT_PASSWORD: password
     ports:
       - "3308:3306"
     volumes:

@@ -1,6 +1,7 @@
 <?php
-    echo '<body style="background-color:#121212">';
     session_start();
+
+    echo '<body style="background-color:#121212">';
     
     if(isset($_POST["logoff"]))
     {
